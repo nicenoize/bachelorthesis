@@ -1,0 +1,535 @@
+ %%
+%% Beuth Hochschule für Technik --  Abschlussarbeit
+%%
+%% Hauptdokument
+%%
+%% 23.01.09 Tschirley V.01
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt, a4paper]{book}
+%% Übersetzen als Entwurf
+%\usepackage[entwurf]{bhtThesis}
+%% Übersetzen für die Abgabe
+\usepackage[abgabe]{bhtThesis}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{mathtools}
+\usepackage{multirow,tabularx}
+\typeout{BHT-Abschlussarbeit V.02 15.02.12 S.Tschirley}
+
+\usepackage{lstbayes}
+\usepackage{algorithmic}
+\usepackage[ruled]{algorithm2e}
+\setlength\algotitleheightrule{0pt}
+\SetAlgoCaptionLayout{centerline}
+
+\makeatletter
+\newenvironment{Ualgorithm}[1][htpb]{\def\@algocf@post@ruled{\kern\interspacealgoruled\hrule  height\algoheightrule\kern3pt\relax}%
+\def\@algocf@capt@ruled{under}%
+\setlength\algotitleheightrule{0pt}%
+\SetAlgoCaptionLayout{centerline}%
+\begin{algorithm}[#1]}
+{\end{algorithm}}
+\makeatother
+
+
+
+
+\usepackage{subcaption}
+\usepackage{afterpage} 
+\usepackage{longtable} 
+\usepackage{makecell}
+\usepackage{caption}
+\captionsetup[algorithm]{singlelinecheck=false}
+\usepackage{pbox}
+\usepackage{booktabs}
+\usepackage{blindtext}   %für Blindtext in Kapitel 2
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ dsfont }
+\usepackage{ mathrsfs }
+
+\usepackage{url}
+
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+\usepackage[none]{hyphenat}
+%\hyphenchar\font=-1
+\sloppy
+
+\lstset{ %
+  language=R,                     % the language of the code
+  basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+  numbers=left,                   % where to put the line-numbers
+  numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line
+                                  % will be numbered
+  numbersep=5pt,                  % how far the line-numbers are from the code
+  backgroundcolor=\color{white},  % choose the background color. You must add \usepackage{color}
+  showspaces=false,               % show spaces adding particular underscores
+  showstringspaces=false,         % underline spaces within strings
+  showtabs=false,                 % show tabs within strings adding particular underscores
+  frame=single,                   % adds a frame around the code
+  rulecolor=\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+  tabsize=2,                      % sets default tabsize to 2 spaces
+  captionpos=t,                   % sets the caption-position to bottom
+  breaklines=true,                % sets automatic line breaking
+  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+  title=\lstname,                 % show the filename of files included with \lstinputlisting;
+                                  % also try caption instead of title
+  keywordstyle=\color{blue},      % keyword style
+  commentstyle=\color{dkgreen},   % comment style
+  stringstyle=\color{mauve},      % string literal style
+  morekeywords={*,...}            % if you want to add more keywords to the set
+} 
+
+
+
+
+%%\usepackage{hyperref}
+
+\usepackage[round]{natbib}
+
+%%
+%% Es folgen einige Zusätze, die in Kapitel 1 beschriben sind. 
+%% Alles was nicht notwendig ist, kann auskommentiert werden
+%%
+\usepackage{trsym}
+%\usepackage{showkeys}
+\usepackage{bytefield}
+
+\def\blankpage{%
+      \clearpage%
+      \thispagestyle{empty}%
+      \addtocounter{page}{-1}%
+      \null%
+      \clearpage}
+
+%%
+%% Pfad zu den Bildern
+%%
+\graphicspath{
+  {img/},
+}
+
+%%
+%% Einbinden persönlicher macros 
+%%
+\input{personalMacros.tex}
+
+%% Message
+\typeout{-----------------------------------------------------------}
+\typeout{----> main.tex ---- Zentrales Dokument---------------------}
+\typeout{-----------------------------------------------------------}
+
+\version{0.1$\alpha$}
+\datum{\today}
+%%
+%% Titel, Autor und Betreuer
+%%
+\fachbereich{VI} 
+\studiengang{Data Science}
+\autor{Arndt Allhorn}
+\edvnr{871865}
+\titel{Transfer Learning for Hate Speech Detection}
+%\untertitel{Evaluating the Accuracy of Variational Bayes Variational Inference in Survival Analysis}
+\betreuerFeld{
+  \begin{tabular}{lr}
+    \multicolumn{2}{l}{\textbf{Gutachter}}\\
+    Prof. Dr.-Ing. habil. Alexander Löser & Beuth Hochschule für Technik Berlin\\
+    Prof. Dr. Felix Bießmann & Beuth Hochschule für Technik Berlin
+  \end{tabular}
+}
+
+%%\renewcommand{\baselinestretch}{1.05} 
+\begin{document}
+\pagestyle{fancy}
+\thispagestyle{empty}
+\renewcommand{\bibname}{References}
+
+%makecell package formatting
+\renewcommand\theadfont{\normalsize}
+%\renewcommand\theadfont{\itshape}
+
+\thispagestyle{empty}
+\maketitle
+
+\blankpage
+
+\thispagestyle{empty}
+\section*{Abstract}
+XXX
+
+
+\blankpage
+
+\clearpage
+
+\thispagestyle{empty}
+\tableofcontents
+
+\blankpage
+
+
+\pagenumbering{arabic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+\chapter{Introduction (total approx. 5 pages)}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+
+In Chapter XXX, the XXX are presented, and Chapter \ref{chapter:results} encompasses the presentation of their results. Lastly, the results and findings are discussed in Chapter \ref{chapter:conclusion}.
+
+\section{Hate on the Internet}
+% the big problem
+
+%TODO: paraphrase
+
+For some time now, socially controversial topics in social media and online comments have increasingly been accompanied by so-called hate speech - insulting, hateful contributions by individual users. Without sufficient moderation, this hate speech can quickly escalate discussions or prevent them. The operators of the relevant platforms are therefore recommended to identify such contributions as quickly as possible and to moderate them appropriately, which proves to be very difficult due to the amount and velocity of the data. In particular, the discussion about the admission of refugees in Germany since summer 2015 has fuelled fears that hate speech in social media not only poses a real threat to individuals, but can also jeopardize the social context as a whole. Not least, hate speech can be associated with the political rise of right-wing extremist parties, political disenchantment and racist crimes.
+
+%Quelle: NOHATE Homepage (https://www.polsoz.fu-berlin.de/kommwiss/v/bmbf-nohate/index.html)
+
+\section{The NOHATE project}
+
+%TODO: paraphrase
+
+Since October 2017, the German Federal Ministry of Education and Research is funding a research project on hate speech on the Internet at the institute of journalism and communication studies at Freie Universität Berlin. The aim of the three-year project entitled "NOHATE - Overcoming crises in public communication in the field of refugees, migration and foreigners" is the automated analysis of hate speech in social media and online commentaries. The researchers investigate the causes and dynamics of hate speech on the Internet in more detail and develop an algorithm on this basis which gives the platform operators scientifically sound recommendations for a de-escalating moderation. A multidimensional case study provides data material and an experimental field of action.
+
+Besides the Freie Universität Berlin, the Beuth University of Applied Sciences Berlin and VICO Research \& Consulting GmbH are involved in the project. Furthermore, the project involves cooperation with a number of social actors, the media, and political organizations.
+
+%Quelle: Pressemitteilung der FU Berlin vom 18.10.2017 (https://www.fu-berlin.de/presse/informationen/fup/2017/fup_17_283-forschungsprojekt-gegen-hass-im-internet/index.html)
+
+\section{Hate speech detection with Transfer Learning}
+% the small, feasible problem
+
+In machine learning the usual approach is to train a model for a certain task using a task-specific dataset at hand. Then for a new task a new model is trained using another dataset. As opposed to that, "transfer learning is the improvement of learning in a new task through the transfer of knowledge from a related task that has already been learned." \citep{Torrey2010}
+
+With advances in big data and deep learning, models can become quite large nowadays and training them can be costly. Apart from that, the amount of labelled data for supervised training is often limited. In this case, it can be especially beneficial to leverage data from a similar task or domain with a lot more labeled samples.
+
+Another motivation for transfer learning is that in deep learning the parameters of the models used to be randomly initialized. Different initialization strategies exist to improve this process. Nonetheless, each newly trained model basically has to learn the relevant patterns in the data from scratch, with no prior knowledge. Intuetively, this seems inefficient.
+
+An early form of transfer learning in NLP, that became very successfull, are word embeddings. Some prominent examples of which are word2vec, GloVe or fastText. They are often used as the first layer in neural network architetures for NLP. They have been proven to succesfully capture information about the relations of words to each other in the vector space and to be useful to many downstream tasks. As a result they were widely adopted by researches as well as in the industry. 
+
+In computer vision it is pretty common, since the so-called ImageNet moment, to use pre-trained models which not only initialize the parameters in the first but in multiple layers of a neural network. The ImageNet moment was a milestone followed by significant improvements in many computer vision tasks. The resulting models learned features general enough to be useful for other computer vision tasks as well. 
+
+It is said that NLP also had it's image net moment in 2018 \citep{Ruder2018}. There were major SOTA improvements based on models which re-used the parameters in most of the layers and only added small task-specific heads on top. ULMFiT (Universal Language Model Fine-Tuning) was the first such architecture and it reached state-of-the-art results in multiple NLP tasks through extensive langue modelling but without much task-specific adjustments \citep{Howard2018}. The same applies to BERT (Bi-directional Encoder Representations from Transformers) \citep{Devlin2018}, which we choose to use in this thesis. Other prominent examples are ELMo \citep{Peters2018} and GPT. Overall, research in neural transfer learning for NLP became very active and significantly advanced the field.
+
+TODO: Hate speech detection with transfer learning
+
+\section{Methodology (1 page)}
+Andrew Ng, maybe Karpathy
+
+\section{Outline (0.5 pages)}
+XXX
+
+
+
+
+
+\chapter{Background and related work (max. 8-10 pages)}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+
+\section{German hate speech detection}
+GermEval18 and GermEval19 (Julian Risch German BERT)
+
+Risch: Delete or not Delete? Semi-Automatic Comment Moderation for the Newsroom
+
+\section{Text classification}
+XXX
+
+\section{Distributional Hypothesis -> Language Models}
+LM Idee ist uralt, seit 60igern
+TF-IDF, dann Kontextänderung (nicht mehr gleiches Dokument), LDA, word2vec, usw. 
+Representationen und Kontext hat sich verändert im Laufe der Zeit 
+siehe Standfort Slides ab S. 21 https://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf
+
+\section{Attention and Transformers (BERT)}
+anhand von BERT
+http://jalammar.github.io/illustrated-bert/
+
+<<<<<<< HEAD
+
+BERT:
+- self-supervised pre-training on very large corpus (-> language modeling)
+- word and sentence (sequence) masking
+- antention/transfomer better at taking context into account
+- no task specific architecture but works very well on a variety of downstream tasks
+- outputs a fixed length vector, that is useful for all theses tasks. 
+- the vectors can also be used as features in other types of model.
+- pre-trained models give a head-start for tasks with few training examples
+
+=======
+AL - https://arxiv.org/pdf/1904.05152.pdf untersucht auch den Einsatz von Self-Attentionmodellen. Die entscheidende Tabelle ist auf Seite 10. GPT schneidet für unseren Task (6a in SemEval2019) am besten mit Abstand (4\% Punkte) ab und scheint auch (Seite 5) am besten mit unbalanced data klar zu kommen. Transformer und ELMo bringt auch eine ganze Menge.
+>>>>>>> c06eb758ec0eed9ad0e812dd2cf30637db6ffdda
+
+\section{(Sequential) Transfer Learning}
+XXX
+
+\section{Summary}
+% approx. 0.5 pages
+XXX
+
+\chapter{Datasets and tasks}
+
+There are several hate speech datasets publicly available, most of which are in English language. Besides the NOHATE dataset we decided to use the GermEval 2018 dataset, as it has been studied by other researchers and the proceedings are available plus it has a leaderboard to compare to.
+
+\section{Datasets}
+
+The datasets described in table \ref{table:hatespeech_datasets} were used to carry out the experiments.
+
+\begin{table}[ht!]
+  \centering
+  \begin{tabular}{ccccccc}
+    \toprule 
+    \thead{Dataset}
+      & \thead{Classes} 
+        & \thead{Type} 
+          & \thead{Average\\length}  
+              & \thead{Exceeding\\ratio} 
+                & \thead{Train\\samples} 
+                  & \thead{Test\\samples} \\ 
+    \midrule
+    \makecell{NOHATE \\ (coarse)} & 2 & \makecell{Hate \\ speech} & 47.32 & 0.001\% & 1488 & 372 \\ 
+    \makecell{GermEval 2018 \\ (subtask 1)} & 2 & \makecell{Offensive \\ language} & 40.57 & 0.011\% & 5.009 & 3.532 \\ 
+    VICO API & - & \makecell{Online \\ comments} & 44.59 & 0.014\%* & 13.083 K & 1.447 K \\ 
+    \bottomrule
+  \end{tabular}
+  \caption{Statistics of two hate speech classification datasets and one dataset of online comments. The exceeding ratio means the percentage of the number of samples in the train set with a length exceeding 150 word piece tokens or 128 word piece tokens in case of the VICO dataset.}
+  \label{table:hatespeech_datasets}
+\end{table}
+
+\subsection{NOHATE data}
+
+The data for the NOHATE case study were akquired by project partner VICO Research \& Consulting GmbH. The data sources had been defined to be (1.) social media contributions (Facebook, YouTube, gutefrage.net) as well as (2.) news articles and blogs including their associated comments. On the one hand, this data was queried via APIs, which was possible in case of Facebook and YouTube. Data from forums and smaller sources, on the other hand, were downloaded via web scraping. In both cases,  starting from the main contribution all subsequent comments were stored. The selection of the main contribution was based on keyword rules that focused on the topics of refugees, migration and foreigners.
+
+On the basis of the two selection criteria "range" and "diversity of the
+contributions and comments", the following offers and platforms were included in the sample to be annotated:
+
+\begin{enumerate}
+  \item Comment columns: Focus Online, Welt.de, Merkur.de, ZEIT.de, Tagesspiegel.de, Telepolis (Heise), Epoch Times, Compact Online
+  \item Social Media
+  \begin{enumerate}
+    \item Facebook (social network): Focus Online, Welt, Merkur, ZEIT Online, Tagesspiegel, EpochTimes, Compact-Online
+    \item YouTube (user generated content platform): n=31 channels
+    \item Question answering platform: gutefrage.net
+    \item Blogs: Tichyseinblick.de, PI-news.net, Freiewelt.net
+  \end{enumerate}
+\end{enumerate}
+
+Communication scientists at Freie Universität Berlin wrote a coding manual that defines the variables and their possible characteristics (boolean or categorical values) to be collected in a quantitative content analysis. Each comment from the sample was annotated once, i.e. there was no multi-voting by several annotators. In addition, a hate speech classification scheme was created (see appendix), which was used to calculate the final hate speech variables, which are most relevant for our classification tasks (see below).
+
+On July 5, 2019 a file with annotated data was provided by the FU to the data science team at Beuth University. This file contained 9701 observations and 90 variables of whicho only 2135 observations actually were annotaded online comments. The rest were either news articles or comments that had not been annotaded, so they are irrelevant for the classification tasks. 1860 of the annotaded comments had a negative rating, only for these the hate speech variables had been derived from the other variables.
+
+The annotations are actually based on sub-strings, which the annotatars choose during the process, and not the whole comment. So there can be multiple 
+
+% maybe there are duplicates - the same comment labeled by multiple persons which chooes different (but partly overlapping) sub-strings.
+
+Second part: 1860 observations with negative rating
+Third part: 2607 observations with negative rating
+
+%Genau, die Anzahl der Variablen haben wir gekürzt, weil wir beim allerersten Mal ja sowohl Artikel als auch Kommentare mit jeweils eigenen Variablen codiert hatten und nun mindestens die Variablen für Artikel (alles mit "B" für Beitrag) rausgefallen ist. Und ich glaube, wir haben auch darüber hinaus noch ein wenig Variablen gekürzt, damit wir insgesamt mehr Material codieren können.
+% Wir haben insgesamt 2802 Bewertungen (mit einer ID_BEW), allerdings sind die unvollständigen, ambivalenten und positiven Bewertungen nicht in die HS-Berechnung eingegangen. Das heißt, dass die 2607 korrekt für die Anzahl negativer Bewertungen ist. So auch im ersten Datensatz, da waren 2135 Bewertungen und davon 1861 negative Bewertungen.
+% Also erstmal ist die Verteilung der Kommentare, die Hate enthalten nicht gleicht die Verteilung der Bewertungen, die Hate enthalten. Ein Kommentar kann mehrere Bewertungen enthalten und die können sowohl positiv als auch negativ oder ambivalent sein. Da wäre es also interessant, das Verhältnis zwischen ID_BEW (Bewertung) und ID_K (Kommentar) zu betrachten - du wirst auch viele Kommentare finden, die keinerlei Bewertungen enthalten.
+
+
+\subsection{GermEval 2018 data}
+
+\section{Tasks}
+
+\subsection{Fine-grained multi-class classification}
+
+The FU's hate speech classification scheme (see apendix) defines the following five variables for the classification of language aggressions and hate speech:
+
+\begin{itemize}
+  \item Sprachliche Aggressionen (SPA)
+  \item Hate Speech-Marker
+  \begin{itemize}
+    \item Entmenschlichung (HS1)
+    \item Gewalt (HS2)
+    \item Verallgemeinerung (HS3)
+    \item Objekt sprachlicher Aggression \& Hate Speech (Target) (T-ID)
+  \end{itemize}
+\end{itemize}
+
+
+
+\subsection{Coarse-grained binary classification}
+
+
+
+\chapter{Fine-tuning a German BERT for hate speech classification}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+% approx. 15-20 pages
+% core of the work
+
+\section{Problems and solutions}
+Problemdefinitionen sind wichtig. Lösungsansätze weglassen oder nur kurz anreißen
+
+Hatespeech Eigenschaften, nicht klar definierbar -> hoch anpassbares Modell für untersch. Kd -> Literatur Studium -> transfer learning -> pre-trained weil selber lernen zu teuer -> German BERT -> ...
+
+\section{Methodology}
+% detailed this time
+- Machine Learning Yearning (Ng)
+- A Recipe for Training Neural Networks (Karpathy)
+
+\section{Architecture}
+- Transformers
+- BERT
+- FARM
+
+\section{Data pre-processing}
+- not much needed, compared to classical NLP approaches
+- WordPiece tokenization (algorithm)
+
+\section{Classifier fine-tuning}
+- explain how it is done
+- hyperparameter grid-search
+
+\section{LM fine-tuning}
+- getting domain data
+- Sentence splitting and tokenization
+
+Pre-processing: The general trend in NLP is to apply less and less pre-processing, so that more and more information contained in the data is kept. The models nowadays are large enough to handle this complexity. For example, Penn Treebank has removed punctuation and numbers whereas WikiText-103 keeps them. (Source: Rachel Thomas - Intro to Language Modeling (NLP video 8) (https://youtu.be/PNNHaQUQqW8), also see fast.ai NLP lesson 1)
+
+
+\section{Within task pre-training}
+GermEval18
+
+\section{Further experiments}
+e.g. 3000 slots for domain vocabulary
+
+\section{Summary}
+% approx. 0.5 pages
+
+
+\chapter{Implementation} \label{chapter:implementation}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+% max. 5 pages
+Experimente, FARM, K8s (nur kurz erwähnen), etc.
+
+\section{Highlight 1 (!)}
+
+grid search + cross validation + plotting results
+
+\section{Highlight 2 (!)}
+
+LM pre-training + checkpointing + down-stream evaluation
+
+\section{Highlight (!) of the deployment}
+% If available. E.g. at the "customer".
+Model Deployment as API/Frontend on K8s
+
+\section{Summary}
+% approx. 0.5 pages
+
+
+
+
+
+\chapter{Evaluation/Results} \label{chapter:results}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+% if you build a system, about 10 pages
+Wichtig hierüber frühzeitig nachzudenken!
+
+Hypothesen (Fehlerklassen aus Q-Analyse)
+
+\section{Baseline}
+
+\section{Evaluation metric}
+According to \citep{Ng2018}, it is good practice to have a single-number evaluation metric as it allows us to sort all our models by their performance on this metric, and quickly decide which model is the best. This is meant as a practical advice for machine leraning projects in order to allow for faster iterations. Nevertheless, there will be machine learning problems that have to fulfill more than one metric, such as the consideration of running time. Ng suggests to define an "acceptable" runtime which allows to sort out the algorithms that are too slow. The remaining algorithms can then be compare using the single-number evaluation metric.
+
+Since the classes in the NOHATE dataset are ???strongly??? unbalanced we choose the macro-average F1 measure as evaluation metric, which is more indicative in this setting compared to the micro-average F1 measure \citep{Zhang2018}. Furthermore it allows us to compare the results of the coarse-grained binary classification with the fine-grained multi-class classification task using the same metric. This approach was also applied in the leaderboard scoring of the GermEval 2018 competition, using macro-averag F1 for subtask I (coarse-grained) as well as subtask II (fine-grained) \citep{Wiegand2018}.
+
+Considertaions regarding runtime are discussed in chapter XXX.
+
+\section{Cross validation}
+
+TODO (to be considered) - Interlude: Comparing and Computing Performance Metrics in Cross-Validation – Imbalanced Class Problems and 3 Different Ways to Compute the F1 Score (https://sebastianraschka.com/faq/docs/computing-the-f1-score.html)
+
+\section{Results and observations}
+% 3-4 pages
+Quantitative/qualitative Fehleranalyse, Laufzeiten, etc.
+
+The classifier has difficulties distinguishing between hate speech related to individuals versus generalizing hate speech related to groups. This is reminiscent of a ruling by a German court in which a suit by politician Renate Künast rejected. The suit concerned a series of hate comments on Facebook in which Künast was personally attacked. Künast wanted Facebook to provide information to identify the authors. However, the complaint was rejected on the reason that it was a matter of factual disputes and Künast therefore had to bear these comments \citep{Tagesschau2019}. In this respect, the reasoning differs from the FU's definition of hate speech. The court decision was widely criticized by the media and politicians \citep{Zeit2019}.
+
+% TODO: read Wu2019 - Errudite_ Scalable, Reproducible, and Testable Error Analysis
+
+
+\section{Discussion and evaluation}
+% 3-4 pages
+% sehr wichtig, im Zweifelsfall liest man nur hier!
+
+
+\section{Summary}
+% approx. 0.5 pages
+wichtigest Punkte aus Discussion nochmal auflisten
+
+
+
+
+
+
+\chapter{Summary and outlook} \label{chapter:conclusion}
+% Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
+% 5 pages
+
+\section{Summary}
+The qualitative error analysis revealed substantial inconsistencies in the labeling, which make it really hard to train a model that reaches a high F1 score. This can also be inferred from the evaluation on the training set. The reason for this is obviously that it is difficult for humans to decide what is hate speech and what is not, even with a handbook of thorough labeling rules.
+
+From a practical perspective, like an end-to-end business project, it seems more important to introduce a feedbackloop in order to increase the labeling quality as opposed to squeezing out a few more percent F1 score with a lot of technical tricks and computational power. 
+
+
+\section{Open questions and outlook}
+
+Labeling could be improved by having multiple votes per comment.
+
+\citep{Seganti2019}
+
+Alle spezifischen Ideen, die wir nicht mehr umsetzen konnten.
+
+https://thegradient.pub/frontiers-of-generalization-in-natural-language-processing/
+https://mohammadkhalifa.github.io/2019/09/06/Issues-With-Transfer-Learning-in-NLP/
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Literaturverzeichnis
+
+\clearpage\newpage
+\addcontentsline{toc}{chapter}{References}
+%\bibliographystyle{myapalike}
+\bibliographystyle{apa}
+\bibliography{library}
+
+\newpage
+
+\section*{Acknowledgements}
+I would like to thank Prof. Dr. Alexander Löser for the insightful discussions and valuable comments as well as his support and supervision of this thesis. I also would would like to express my gratitude to my advisor Betty van Aken for her continuous guidance and supervision. Without their help, this thesis would not have been possible. I also would like to thank the German Federal Ministry of Education and Research for funding the NOHATE project. 
+
+
+\appendix
+\renewcommand\chaptername{Appendix}
+
+\chapter{Datasets}
+XXX
+
+\chapter{Listings}
+XXX
+
+\chapter{Results} 
+XXX
+
+
+
+
+
+
+\end{document}

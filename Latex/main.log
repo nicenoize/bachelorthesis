@@ -1,0 +1,1648 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  20 JAN 2020 12:30
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./bhtThesis.sty
+Package: bhtThesis 2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style
+
+2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen105
+\ar@mcellbox=\box27
+\extrarowheight=\dimen106
+\NC@list=\toks15
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box28
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen107
+\TX@old@table=\dimen108
+\TX@old@col=\dimen109
+\TX@target=\dimen110
+\TX@delta=\dimen111
+\TX@cols=\count89
+\TX@ftn=\toks16
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box29
+\multicol@leftmargin=\dimen112
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen113
+\page@free=\dimen114
+\premulticols=\dimen115
+\postmulticols=\dimen116
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box30
+\last@line=\box31
+\maxbalancingoverflow=\dimen117
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen118
+\multicolovershoot=\dimen119
+\multicolundershoot=\dimen120
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+\mc@col@check@num=\count98
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/changebar/changebar.sty
+Package: changebar 2018/03/09 v3.6c Indicate changes with marginal bars
+\cb@nextpoint=\count99
+\cb@topleft=\count100
+\cb@topright=\count101
+\cb@botleft=\count102
+\cb@botright=\count103
+\cb@cnta=\count104
+\cb@cntb=\count105
+\cb@dima=\dimen121
+\cb@curbarwd=\dimen122
+\cb@page=\count106
+\cb@pagecount=\count107
+\cb@odd@left=\dimen123
+\cb@odd@right=\dimen124
+\cb@even@left=\dimen125
+\cb@even@right=\dimen126
+\cb@writexy=\write3
+\cb@readxy=\read1
+\openout3 = `main.cb2'.
+
+\changebarwidth=\skip47
+\deletebarwidth=\skip48
+\changebarsep=\skip49
+\c@changebargrey=\count108
+\cb@write=\write4
+\cb@read=\read2
+\openout4 = `main.cb'.
+
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/05/04 3.31 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count109
+\U@D=\dimen127
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count110
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks19
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen128
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen129
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count111
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count112
+\leftroot@=\count113
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count114
+\DOTSCASE@=\count115
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+\big@size=\dimen130
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count116
+\c@MaxMatrixCols=\count117
+\dotsspace@=\muskip10
+\c@parentequation=\count118
+\dspbrk@lvl=\count119
+\tag@help=\toks21
+\row@=\count120
+\column@=\count121
+\maxfields@=\count122
+\andhelp@=\toks22
+\eqnshift@=\dimen131
+\alignsep@=\dimen132
+\tagshift@=\dimen133
+\tagwidth@=\dimen134
+\totwidth@=\dimen135
+\lineht@=\dimen136
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+BHT style for pdfLaTeX is used
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen137
+\captionmargin@=\dimen138
+\captionwidth=\dimen139
+\caption@tempdima=\dimen140
+\caption@indent=\dimen141
+\caption@parindent=\dimen142
+\caption@hangindent=\dimen143
+)
+\c@caption@flags=\count123
+\c@ContinuedFloat=\count124
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen144
+\calc@Bdimen=\dimen145
+\calc@Askip=\skip62
+\calc@Bskip=\skip63
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count127
+\calc@Cskip=\skip64
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count128
+\l_MT_multwidth_dim=\dimen146
+\origjot=\skip65
+\l_MT_shortvdotswithinadjustabove_dim=\dimen147
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen148
+\l_MT_above_intertext_sep=\dimen149
+\l_MT_below_intertext_sep=\dimen150
+\l_MT_above_shortintertext_sep=\dimen151
+\l_MT_below_shortintertext_sep=\dimen152
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip66
+\multirow@cntb=\count129
+\multirow@dima=\skip67
+\bigstrutjot=\dimen153
+)
+BHT-Abschlussarbeit V.02 15.02.12 S.Tschirley
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count130
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count131
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count132
+\c@listtotal=\count133
+\c@listcount=\count134
+\c@liststart=\count135
+\c@liststop=\count136
+\c@citecount=\count137
+\c@citetotal=\count138
+\c@multicitecount=\count139
+\c@multicitetotal=\count140
+\c@instcount=\count141
+\c@maxnames=\count142
+\c@minnames=\count143
+\c@maxitems=\count144
+\c@minitems=\count145
+\c@citecounter=\count146
+\c@maxcitecounter=\count147
+\c@savedcitecounter=\count148
+\c@uniquelist=\count149
+\c@uniquename=\count150
+\c@refsection=\count151
+\c@refsegment=\count152
+\c@maxextratitle=\count153
+\c@maxextratitleyear=\count154
+\c@maxextraname=\count155
+\c@maxextradate=\count156
+\c@maxextraalpha=\count157
+\c@abbrvpenalty=\count158
+\c@highnamepenalty=\count159
+\c@lownamepenalty=\count160
+\c@maxparens=\count161
+\c@parenlevel=\count162
+\blx@tempcnta=\count163
+\blx@tempcntb=\count164
+\blx@tempcntc=\count165
+\blx@maxsection=\count166
+\blx@maxsegment@0=\count167
+\blx@notetype=\count168
+\blx@parenlevel@text=\count169
+\blx@parenlevel@foot=\count170
+\blx@sectionciteorder@0=\count171
+\blx@entrysetcounter=\count172
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\biblabelsep=\skip70
+\bibitemsep=\skip71
+\bibnamesep=\skip72
+\bibinitsep=\skip73
+\bibparsep=\skip74
+\bibhang=\skip75
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\c@mincomprange=\count173
+\c@maxcomprange=\count174
+\c@mincompwidth=\count175
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count176
+\c@savedafterword=\count177
+\c@annotator=\count178
+\c@savedannotator=\count179
+\c@author=\count180
+\c@savedauthor=\count181
+\c@bookauthor=\count182
+\c@savedbookauthor=\count183
+\c@commentator=\count184
+\c@savedcommentator=\count185
+\c@editor=\count186
+\c@savededitor=\count187
+\c@editora=\count188
+\c@savededitora=\count189
+\c@editorb=\count190
+\c@savededitorb=\count191
+\c@editorc=\count192
+\c@savededitorc=\count193
+\c@foreword=\count194
+\c@savedforeword=\count195
+\c@holder=\count196
+\c@savedholder=\count197
+\c@introduction=\count198
+\c@savedintroduction=\count199
+\c@namea=\count266
+\c@savednamea=\count267
+\c@nameb=\count268
+\c@savednameb=\count269
+\c@namec=\count270
+\c@savednamec=\count271
+\c@translator=\count272
+\c@savedtranslator=\count273
+\c@shortauthor=\count274
+\c@savedshortauthor=\count275
+\c@shorteditor=\count276
+\c@savedshorteditor=\count277
+\c@labelname=\count278
+\c@savedlabelname=\count279
+\c@institution=\count280
+\c@savedinstitution=\count281
+\c@lista=\count282
+\c@savedlista=\count283
+\c@listb=\count284
+\c@savedlistb=\count285
+\c@listc=\count286
+\c@savedlistc=\count287
+\c@listd=\count288
+\c@savedlistd=\count289
+\c@liste=\count290
+\c@savedliste=\count291
+\c@listf=\count292
+\c@savedlistf=\count293
+\c@location=\count294
+\c@savedlocation=\count295
+\c@organization=\count296
+\c@savedorganization=\count297
+\c@origlocation=\count298
+\c@savedoriglocation=\count299
+\c@origpublisher=\count300
+\c@savedorigpublisher=\count301
+\c@publisher=\count302
+\c@savedpublisher=\count303
+\c@language=\count304
+\c@savedlanguage=\count305
+\c@origlanguage=\count306
+\c@savedoriglanguage=\count307
+\c@pageref=\count308
+\c@savedpageref=\count309
+\shorthandwidth=\skip76
+\shortjournalwidth=\skip77
+\shortserieswidth=\skip78
+\shorttitlewidth=\skip79
+\shortauthorwidth=\skip80
+\shorteditorwidth=\skip81
+\locallabelnumberwidth=\skip82
+\locallabelalphawidth=\skip83
+\localshorthandwidth=\skip84
+\localshortjournalwidth=\skip85
+\localshortserieswidth=\skip86
+\localshorttitlewidth=\skip87
+\localshortauthorwidth=\skip88
+\localshorteditorwidth=\skip89
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count310
+\c@textcitetotal=\count311
+\c@textcitemaxnames=\count312
+\c@biburlnumpenalty=\count313
+\c@biburlucpenalty=\count314
+\c@biburllcpenalty=\count315
+\c@smartand=\count316
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count317
+\c@bbx:relatedtotal=\count318
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lstbayes/lstbayes.sty
+Package: lstbayes 2018/07/06 lstbayes listings language drivers for BUGS, JAGS,
+ and Stan
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count319
+\lst@gtempboxa=\box57
+\lst@token=\toks25
+\lst@length=\count320
+\lst@currlwidth=\dimen154
+\lst@column=\count321
+\lst@pos=\count322
+\lst@lostspace=\dimen155
+\lst@width=\dimen156
+\lst@newlines=\count323
+\lst@lineno=\count324
+\lst@maxwidth=\dimen157
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count325
+\lst@skipnumbers=\count326
+\lst@framebox=\box58
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count327
+\c@ALC@line=\count328
+\c@ALC@rem=\count329
+\c@ALC@depth=\count330
+\ALC@tlm=\skip90
+\algorithmicindent=\skip91
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count331
+\algocf@hangindent=\skip92
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count332
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip93
+\skiplinenumber=\skip94
+\skiprule=\skip95
+\skiphlne=\skip96
+\skiptext=\skip97
+\skiplength=\skip98
+\algomargin=\skip99
+\skipalgocfslide=\skip100
+\algowidth=\dimen158
+\inoutsize=\dimen159
+\inoutindent=\dimen160
+\interspacetitleruled=\dimen161
+\interspacealgoruled=\dimen162
+\interspacetitleboxruled=\dimen163
+\algocf@ruledwidth=\skip101
+\algocf@inoutbox=\box59
+\algocf@inputbox=\box60
+\AlCapSkip=\skip102
+\AlCapHSkip=\skip103
+\algoskipindent=\skip104
+\algocf@nlbox=\box61
+\algocf@hangingbox=\box62
+\algocf@untilbox=\box63
+\algocf@skipuntil=\skip105
+\algocf@capbox=\box64
+\algocf@lcaptionbox=\skip106
+\algoheightruledefault=\skip107
+\algoheightrule=\skip108
+\algotitleheightruledefault=\skip109
+\algotitleheightrule=\skip110
+\c@algocfline=\count333
+\c@algocfproc=\count334
+\c@algocf=\count335
+\algocf@algoframe=\box65
+\algocf@algobox=\box66
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count336
+\c@subtable=\count337
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks26
+\AP@partial=\box67
+\AP@footins=\box68
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip111
+\LTright=\skip112
+\LTpre=\skip113
+\LTpost=\skip114
+\LTchunksize=\count338
+\LTcapwidth=\dimen164
+\LT@head=\box69
+\LT@firsthead=\box70
+\LT@foot=\box71
+\LT@lastfoot=\box72
+\LT@cols=\count339
+\LT@rows=\count340
+\c@LT@tables=\count341
+\c@LT@chunks=\count342
+\LT@p@ftn=\toks27
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen165
+\c@nlinenum=\count343
+\TeXr@lab=\toks28
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pbox/pbox.sty
+Package: pbox 2011/12/07 v1.2 Dynamic parboxes
+\pb@xlen=\skip115
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen166
+\lightrulewidth=\dimen167
+\cmidrulewidth=\dimen168
+\belowrulesep=\dimen169
+\belowbottomsep=\dimen170
+\aboverulesep=\dimen171
+\abovetopsep=\dimen172
+\cmidrulesep=\dimen173
+\cmidrulekern=\dimen174
+\defaultaddspace=\dimen175
+\@cmidla=\count344
+\@cmidlb=\count345
+\@aboverulesep=\dimen176
+\@belowrulesep=\dimen177
+\@thisruleclass=\count346
+\@lastruleclass=\count347
+\@thisrulewidth=\dimen178
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+\c@blindtext=\count348
+\c@Blindtext=\count349
+\c@blind@countparstart=\count350
+\blind@countxx=\count351
+\blindtext@numBlindtext=\count352
+\blind@countyy=\count353
+\c@blindlist=\count354
+\c@blindlistlevel=\count355
+\c@blindlist@level=\count356
+\blind@listitem=\count357
+\c@blind@listcount=\count358
+\c@blind@levelcount=\count359
+\blind@mathformula=\count360
+\blind@Mathformula=\count361
+\c@blind@randomcount=\count362
+\c@blind@randommax=\count363
+\c@blind@pangramcount=\count364
+\c@blind@pangrammax=\count365
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language84
+LaTeX Info: Redefining \_ on input line 43.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2019/02/27 1.8b listings language file
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+! LaTeX Error: Command \bibhang already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 \newlength{\bibhang}
+                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\bibsep=\skip116
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citeauthor on input line 712.
+LaTeX Info: Redefining \Citeauthor on input line 731.
+LaTeX Info: Redefining \citeyear on input line 735.
+
+! LaTeX Error: Command \NAT@parse already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.773 }
+       %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \citename already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1028 \newcommand\citename{}
+                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@NAT@ctr=\count366
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/trsym.sty
+Package: trsym 2000/06/25v1.0transformation symbol font
+\symtransfsymbol=\mathgroup7
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/bytefield/bytefield.sty
+Package: bytefield 2017/09/15 v2.4 Network protocol diagrams
+\bytefield@height=\skip117
+\bytefield@height@increment=\skip118
+\entire@bytefield@picture=\box73
+\bf@bitwidth=\skip119
+\bf@bitheight=\skip120
+\units@wide=\skip121
+\units@tall=\skip122
+\units@high=\skip123
+\header@xpos=\skip124
+\c@header@val=\count367
+\c@max@header@val=\count368
+\curly@box=\box74
+\wordlabelr@start=\skip125
+\wordlabelr@end=\skip126
+\wordlabell@start=\skip127
+\wordlabell@end=\skip128
+\total@lbox@width=\skip129
+\label@box@width=\skip130
+\label@box@height=\skip131
+\word@label@box=\box75
+)
+(./personalMacros.tex)
+-----------------------------------------------------------
+----> main.tex ---- Zentrales Dokument---------------------
+-----------------------------------------------------------
+
+! Package biblatex Error: '\bibliographystyle' invalid.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \bibliographystyle{apa}
+                             
+Use the package option 'style' instead.
+I'm ignoring this command.
+
+
+! Package biblatex Error: Incompatible package 'natbib'.
+
+See the biblatex package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \begin{document}
+                      
+The 'natbib' package and biblatex are incompatible.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count369
+\@quotereset=\count370
+(./main.aux
+
+LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
+
+
+LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
+LaTeX Font Info:    ... okay on input line 162.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 162.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count371
+\scratchdimen=\dimen179
+\scratchbox=\box76
+\nofMPsegments=\count372
+\nofMParguments=\count373
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count374
+\MPscratchDim=\dimen180
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
+\everyMPtoPDFconversion=\toks30
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+
+(./main.bbl)
+Package biblatex Info: Reference section=0 on input line 162.
+Package biblatex Info: Reference segment=0 on input line 162.
+\c@lstlisting=\count377
+
+
+LaTeX Warning: File `BHT-Logo-Basis.pdf' not found on input line 172.
+
+
+! Package pdftex.def Error: File `BHT-Logo-Basis.pdf' not found: using draft se
+tting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 \maketitle
+                
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 172.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[][]
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
+LaTeX Font Info:    Try loading font information for U+msa on input line 172.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 172.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 172.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Try loading font information for U+trsy on input line 172.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/utrsy.fd
+File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
+)
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+[1
+
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
+ [2
+
+] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 186.
+ (./main.toc [3
+
+
+
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [4] [4
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 205.
+[1
+
+
+] [2
+
+]
+Chapter 2.
+
+Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
+ on input line 223.
+
+
+Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
+ on input line 226.
+
+Runaway argument?
+! Paragraph ended before \@citex was complete.
+<to be read again> 
+                   \par 
+l.233 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
+ on input line 235.
+
+
+Package natbib Warning: Citation `baggio2013gender' on page 3 undefined on inpu
+t line 241.
+
+
+Package natbib Warning: Citation `baggio2013gender' on page 3 undefined on inpu
+t line 242.
+
+
+Package natbib Warning: Citation `kautzky2010sex' on page 3 undefined on input 
+line 243.
+
+
+Package natbib Warning: Citation `kautzky2010sex' on page 3 undefined on input 
+line 243.
+
+
+Package natbib Warning: Citation `arain2009sex' on page 3 undefined on input li
+ne 246.
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 241--248
+\T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
+g that women are heav-ily
+ []
+
+[3]
+
+Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
+52.
+
+
+Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
+54.
+
+
+Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
+55.
+
+
+Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
+55.
+
+
+Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
+56.
+
+[4]
+Chapter 3.
+
+Package natbib Warning: Citation `arya2019exploratory' on page 5 undefined on i
+nput line 262.
+
+<img/icd_top_frequency.png, id=49, 379.4175pt x 358.33875pt>
+File: img/icd_top_frequency.png Graphic file (type png)
+<use img/icd_top_frequency.png>
+Package pdftex.def Info: img/icd_top_frequency.png  used on input line 271.
+(pdftex.def)             Requested size: 213.39566pt x 201.54318pt.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 272.
+
+Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
+272.
+
+
+Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
+272.
+
+<img/correlation-heatmap.png, id=51, 1370.11874pt x 429.605pt>
+File: img/correlation-heatmap.png Graphic file (type png)
+<use img/correlation-heatmap.png>
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 279.
+(pdftex.def)             Requested size: 213.39566pt x 66.90929pt.
+
+Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
+280.
+
+
+Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
+280.
+
+
+Package natbib Warning: Citation `arya2019exploratory' on page 5 undefined on i
+nput line 285.
+
+<img/male_female_heart_disease.png, id=52, 1025.8325pt x 500.87125pt>
+File: img/male_female_heart_disease.png Graphic file (type png)
+<use img/male_female_heart_disease.png>
+Package pdftex.def Info: img/male_female_heart_disease.png  used on input line 
+294.
+(pdftex.def)             Requested size: 213.39566pt x 104.18486pt.
+<img/comparison_diabetic.png, id=53, 994.71625pt x 501.875pt>
+File: img/comparison_diabetic.png Graphic file (type png)
+<use img/comparison_diabetic.png>
+Package pdftex.def Info: img/comparison_diabetic.png  used on input line 306.
+(pdftex.def)             Requested size: 213.39566pt x 107.66362pt.
+[5
+
+] [6 <./img/icd_top_frequency.png> <./img/correlation-heatmap.png> <./img/male_
+female_heart_disease.png> <./img/comparison_diabetic.png>]
+Chapter 4.
+
+! Package inputenc Error: Unicode character ∈ (U+2208)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 ...pproximate discrete patient records x ∈
+                                                   Z|C| with continuous valu...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
+19.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 318--320
+\T1/ptm/m/n/10.95 D and G are both im-ple-mented as feed-for-ward neu-ral net-w
+orks. As we learned in
+ []
+
+
+Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
+21.
+
+
+Underfull \hbox (badness 2735) in paragraph at lines 321--322
+[]\T1/ptm/m/n/10.95 To al-le-vi-ate this lim-i-ta-tion, they lever-aged an au-t
+oen-coder which is re-con-struct-ing an
+ []
+
+
+! Package inputenc Error: Unicode character ´ (U+00B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 \frac{1}{m}\big[\sum_{i=0}^m x_i \log x´
+                                               _i + (1-x_i) \log (1-x´_i)]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! Package inputenc Error: Unicode character ´ (U+00B4)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 ...0}^m x_i \log x´_i + (1-x_i) \log (1-x´
+                                                  _i)]
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.340 ...in G they use the scale parameter  \gamma
+                                                   and the shift parameter \...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \bfseries invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 ...i-batch of 1000 records. \citep{Choi2017}
+                                                  
+Please use the math alphabet \mathbf instead of the \bfseries command. 
+
+
+Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
+40.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.341 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (181.00891pt too wide) in paragraph at lines 337--341
+\OML/cmm/m/it/10.95 ^^Mandtheshiftparameter^^Landsetthemovingaveragedecayto\OT1
+/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 :
+ThediscriminatorDhasthesamestructure; butthefirsthidden \OMS/cmsy/m/n/10.95 ^^@
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--341
+\OML/cmm/m/it/10.95 layerconsistsof\OT1/cmr/m/n/10.95 256\OML/cmm/m/it/10.95 di
+mensions:medGANistrainedfor\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m
+/n/10.95 000\OML/cmm/m/it/10.95 epochswiththemini \OMS/cmsy/m/n/10.95 ^^@
+ []
+
+<img/medgan-architecture.png, id=65, 305.14pt x 255.95625pt>
+File: img/medgan-architecture.png Graphic file (type png)
+<use img/medgan-architecture.png>
+Package pdftex.def Info: img/medgan-architecture.png  used on input line 345.
+(pdftex.def)             Requested size: 213.39566pt x 179.0041pt.
+
+Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
+46.
+
+
+Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
+46.
+
+[7
+
+]
+
+Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
+e 356.
+
+
+Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
+e 359.
+
+
+Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
+e 361.
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 361--362
+[]\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
+reg-u-lar GAN as well, but this time with a
+ []
+
+
+Package natbib Warning: Citation `Choi2017' on page 8 undefined on input line 3
+67.
+
+
+Package natbib Warning: Citation `Choi2017' on page 8 undefined on input line 3
+68.
+
+[8 <./img/medgan-architecture.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.393 ...to a single fixed-size vector  x elem Z{^
+                                                  C} where C equals 906 for ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.393 ... a single fixed-size vector  x elem Z{^C}
+                                                   where C equals 906 for mi...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.394 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 393--394
+[]\T1/ptm/m/n/10.95 We ex-tracted the ICD9 codes for fe-male and male pa-tients
+ from the dataset sep-a-rately
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 393--394
+\T1/ptm/m/n/10.95 and ag-gre-gated a pa-tient's lon-gi-tu-di-nal record into a 
+sin-gle fixed-size vec-tor x elem
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 399--400
+[]\T1/ptm/m/n/10.95 To as-sess the ef-fec-tive-ness of my method, I trained the
+ net-work both, with mixed and
+ []
+
+
+Package natbib Warning: Citation `Choi2017' on page 9 undefined on input line 4
+01.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 401--402
+[]\T1/ptm/b/n/10.95 ? \T1/ptm/m/n/10.95 also com-pared medGAN with other pop-u-
+lar gen-er-a-tive meth-ods like Ran-dom Noise,
+ []
+
+[9]
+
+Package natbib Warning: Citation `Choi2017' on page 10 undefined on input line 
+411.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[]|\T1/ptm/m/n/10.95 V45.82 Per-cu-ta-neous trans-lu-mi-nal coro-nary
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 428--428
+[]|\T1/ptm/m/n/10.95 774.2 Neona-tal jaun-dice as-so-ci-ated with preterm
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 428--428
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 446--446
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--454
+
+ []
+
+[10] [11] [12
+
+]
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\T1/ptm/m/n/10.95 Male
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
+[]|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with ten-don
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--493
+
+ []
+
+
+Package natbib Warning: Citation `Choi2017' on page 13 undefined on input line 
+497.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--501
+
+ []
+
+
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 506--508
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--516
+
+ []
+
+
+! Package inputenc Error: Unicode character 􏰆 (U+10FC06)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.517 ...thesis with a low P-value (typically 􏰆
+                                                   0.05). More details of th...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in alignment at lines 543--543
+[][][][]
+ []
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.545 \end{table}\end{table}
+                            
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.545 \end{table}\end{table}
+                            
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.545 \end{table}\end{table}
+                            
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547 \begin
+            {table}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 4181) in paragraph at lines 561--561
+[]|\T1/ptm/m/n/10.95 553.21 In-ci-sional her-nia with-out ob-struc-tion or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+[]|\T1/ptm/m/n/10.95 E879.0 Other pro-ce-dures with-out men-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--561
+[]|\T1/ptm/m/n/10.95 996.04 Me-chan-i-cal com-pli-ca-tion of au-to-matic
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 561--561
+[]|\T1/ptm/m/n/10.95 482.41 Me-thi-cillin sus-cep-ti-ble pneu-mo-nia due to
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 561--561
+[][][][]
+ []
+
+[14] [15] [16]
+Chapter 6.
+[17
+
+] [18]
+Appendix A.
+[19
+
+] [20
+
+]
+Appendix B.
+[21] [22
+
+]
+Appendix C.
+[23]
+
+Package caption Warning: Unused \captionsetup[algorithm] on input line 46.
+See the caption package documentation for explanation.
+
+
+Package natbib Warning: There were undefined citations.
+
+(./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16047 strings out of 492616
+ 260828 string characters out of 6129480
+ 745513 words of memory out of 5000000
+ 19655 multiletter control sequences out of 15000+600000
+ 48705 words of font info for 69 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,12n,47p,1129b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2019/t
+exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2019/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb>
+Output written on main.pdf (30 pages, 3747704 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+
