@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  20 JAN 2020 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  21 JAN 2020 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,6 +790,37 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2018/11/12 v2.02b (include SVG pictures)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box73
+\c@svg@param@lastpage=\count366
+\c@svg@param@currpage=\count367
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language84
@@ -804,83 +835,32 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-
-
-! LaTeX Error: Command \bibhang already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.637 \newlength{\bibhang}
-                          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\bibsep=\skip116
-LaTeX Info: Redefining \cite on input line 694.
-LaTeX Info: Redefining \citeauthor on input line 712.
-LaTeX Info: Redefining \Citeauthor on input line 731.
-LaTeX Info: Redefining \citeyear on input line 735.
-
-! LaTeX Error: Command \NAT@parse already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.773 }
-       %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \citename already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1028 \newcommand\citename{}
-                             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-\c@NAT@ctr=\count366
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/trsym.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/trsym.sty
 Package: trsym 2000/06/25v1.0transformation symbol font
 \symtransfsymbol=\mathgroup7
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/bytefield/bytefield.sty
 Package: bytefield 2017/09/15 v2.4 Network protocol diagrams
-\bytefield@height=\skip117
-\bytefield@height@increment=\skip118
-\entire@bytefield@picture=\box73
-\bf@bitwidth=\skip119
-\bf@bitheight=\skip120
-\units@wide=\skip121
-\units@tall=\skip122
-\units@high=\skip123
-\header@xpos=\skip124
-\c@header@val=\count367
-\c@max@header@val=\count368
-\curly@box=\box74
-\wordlabelr@start=\skip125
-\wordlabelr@end=\skip126
-\wordlabell@start=\skip127
-\wordlabell@end=\skip128
-\total@lbox@width=\skip129
-\label@box@width=\skip130
-\label@box@height=\skip131
-\word@label@box=\box75
+\bytefield@height=\skip116
+\bytefield@height@increment=\skip117
+\entire@bytefield@picture=\box74
+\bf@bitwidth=\skip118
+\bf@bitheight=\skip119
+\units@wide=\skip120
+\units@tall=\skip121
+\units@high=\skip122
+\header@xpos=\skip123
+\c@header@val=\count368
+\c@max@header@val=\count369
+\curly@box=\box75
+\wordlabelr@start=\skip124
+\wordlabelr@end=\skip125
+\wordlabell@start=\skip126
+\wordlabell@end=\skip127
+\total@lbox@width=\skip128
+\label@box@width=\skip129
+\label@box@height=\skip130
+\word@label@box=\box76
 )
 (./personalMacros.tex)
 -----------------------------------------------------------
@@ -893,21 +873,22 @@ See the biblatex package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \bibliographystyle{apa}
+l.159 \bibliographystyle{apa}
                              
 Use the package option 'style' instead.
 I'm ignoring this command.
 
 
-! Package biblatex Error: Incompatible package 'natbib'.
+! LaTeX Error: Missing \begin{document}.
 
-See the biblatex package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \begin{document}
-                      
-The 'natbib' package and biblatex are incompatible.
+l.161 \
+       
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -922,8 +903,8 @@ Package biblatex Warning: Patching footnotes failed.
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count369
-\@quotereset=\count370
+\@quotelevel=\count370
+\@quotereset=\count371
 (./main.aux
 
 LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
@@ -931,37 +912,40 @@ LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
 
 LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
 
+
+LaTeX Warning: Label `fig:figure3' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 162.
-LaTeX Font Info:    ... okay on input line 162.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 162.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 164.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count371
+\scratchcounter=\count372
 \scratchdimen=\dimen179
-\scratchbox=\box76
-\nofMPsegments=\count372
-\nofMParguments=\count373
+\scratchbox=\box77
+\nofMPsegments=\count373
+\nofMParguments=\count374
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count374
+\MPscratchCnt=\count375
 \MPscratchDim=\dimen180
-\MPnumerator=\count375
-\makeMPintoPDFobject=\count376
+\MPnumerator=\count376
+\makeMPintoPDFobject=\count377
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1000,12 +984,12 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 162.
-Package biblatex Info: Reference segment=0 on input line 162.
-\c@lstlisting=\count377
+Package biblatex Info: Reference section=0 on input line 164.
+Package biblatex Info: Reference segment=0 on input line 164.
+\c@lstlisting=\count378
 
 
-LaTeX Warning: File `BHT-Logo-Basis.pdf' not found on input line 172.
+LaTeX Warning: File `BHT-Logo-Basis.pdf' not found on input line 174.
 
 
 ! Package pdftex.def Error: File `BHT-Logo-Basis.pdf' not found: using draft se
@@ -1015,43 +999,43 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \maketitle
+l.174 \maketitle
                 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 172.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 174.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 174--174
 [][]
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
-LaTeX Font Info:    Try loading font information for U+msa on input line 172.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 174.
+LaTeX Font Info:    Try loading font information for U+msa on input line 174.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 172.
+LaTeX Font Info:    Try loading font information for U+msb on input line 174.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 172.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 174.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+trsy on input line 172.
+LaTeX Font Info:    Try loading font information for U+trsy on input line 174.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/utrsy.fd
 File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
@@ -1063,14 +1047,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 179.
  [2
 
 ] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 186.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 188.
  (./main.toc [3
 
 
@@ -1084,7 +1068,10 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 ]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 205.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 207.
+
+LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 214.
+
 [1
 
 
@@ -1093,127 +1080,162 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 ]
 Chapter 2.
 
-Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
- on input line 223.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
+ line 225.
 
 
-Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
- on input line 226.
-
-Runaway argument?
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.233 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
+ line 228.
 
 
-Package natbib Warning: Citation `goodfellow2014generative' on page 3 undefined
- on input line 235.
+Underfull \hbox (badness 2689) in paragraph at lines 228--233
+[]\T1/ptm/m/n/10.95 In this game, G has the goal to max-i-mize the prob-a-bil-i
+ty of D mak-ing a mis-take.
+ []
 
 
-Package natbib Warning: Citation `baggio2013gender' on page 3 undefined on inpu
-t line 241.
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
+
+ []
 
 
-Package natbib Warning: Citation `baggio2013gender' on page 3 undefined on inpu
-t line 242.
+Underfull \hbox (badness 10000) in paragraph at lines 228--233
+
+ []
 
 
-Package natbib Warning: Citation `kautzky2010sex' on page 3 undefined on input 
-line 243.
+LaTeX Warning: Citation '\\' on page 3 undefined on input line 237.
 
 
-Package natbib Warning: Citation `kautzky2010sex' on page 3 undefined on input 
-line 243.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
+ line 240.
 
 
-Package natbib Warning: Citation `arain2009sex' on page 3 undefined on input li
-ne 246.
+LaTeX Warning: Citation 'HIMMS' on page 3 undefined on input line 244.
+
+[3]
+
+LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 24
+8.
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 241--248
+LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 24
+9.
+
+
+LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 250.
+
+
+
+LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 250.
+
+
+
+LaTeX Warning: Citation 'arain2009sex' on page 4 undefined on input line 253.
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 248--255
 \T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
 g that women are heav-ily
  []
 
-[3]
-
-Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
-52.
-
-
-Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
-54.
-
-
-Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
-55.
+! Undefined control sequence.
+l.259 ...uch data is regulated by the HCOs. \citep
+                                                  {Choi2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
-55.
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 261.
 
 
-Package natbib Warning: Citation `Choi2017' on page 4 undefined on input line 2
-56.
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 262.
 
-[4]
+
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 262.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 263.
+
+[4] [5] [6
+
+]
 Chapter 3.
 
-Package natbib Warning: Citation `arya2019exploratory' on page 5 undefined on i
-nput line 262.
+LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
+ 269.
 
-<img/icd_top_frequency.png, id=49, 379.4175pt x 358.33875pt>
+<img/icd_top_frequency.png, id=56, 379.4175pt x 358.33875pt>
 File: img/icd_top_frequency.png Graphic file (type png)
 <use img/icd_top_frequency.png>
-Package pdftex.def Info: img/icd_top_frequency.png  used on input line 271.
+Package pdftex.def Info: img/icd_top_frequency.png  used on input line 278.
 (pdftex.def)             Requested size: 213.39566pt x 201.54318pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 272.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 279.
 
-Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
-272.
+LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 279.
 
 
-Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
-272.
+LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 279.
 
-<img/correlation-heatmap.png, id=51, 1370.11874pt x 429.605pt>
+<img/correlation-heatmap.png, id=58, 1370.11874pt x 429.605pt>
 File: img/correlation-heatmap.png Graphic file (type png)
 <use img/correlation-heatmap.png>
-Package pdftex.def Info: img/correlation-heatmap.png  used on input line 279.
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 286.
 (pdftex.def)             Requested size: 213.39566pt x 66.90929pt.
+! Undefined control sequence.
+<argument> ...g setup in machine learning. \citep 
+                                                  {Ruder2019}\relax }}{\thep...
+l.287 ...p in machine learning. \citep{Ruder2019}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
-280.
+! Undefined control sequence.
+<argument> ...g setup in machine learning. \citep 
+                                                  {Ruder2019}
+l.287 ...p in machine learning. \citep{Ruder2019}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...g setup in machine learning. \citep 
+                                                  {Ruder2019}
+l.287 ...p in machine learning. \citep{Ruder2019}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `Ruder2019' on page 5 undefined on input line 
-280.
+LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
+ 292.
 
-
-Package natbib Warning: Citation `arya2019exploratory' on page 5 undefined on i
-nput line 285.
-
-<img/male_female_heart_disease.png, id=52, 1025.8325pt x 500.87125pt>
+<img/male_female_heart_disease.png, id=59, 1025.8325pt x 500.87125pt>
 File: img/male_female_heart_disease.png Graphic file (type png)
 <use img/male_female_heart_disease.png>
 Package pdftex.def Info: img/male_female_heart_disease.png  used on input line 
-294.
+301.
 (pdftex.def)             Requested size: 213.39566pt x 104.18486pt.
-<img/comparison_diabetic.png, id=53, 994.71625pt x 501.875pt>
+<img/comparison_diabetic.png, id=60, 994.71625pt x 501.875pt>
 File: img/comparison_diabetic.png Graphic file (type png)
 <use img/comparison_diabetic.png>
-Package pdftex.def Info: img/comparison_diabetic.png  used on input line 306.
+Package pdftex.def Info: img/comparison_diabetic.png  used on input line 313.
 (pdftex.def)             Requested size: 213.39566pt x 107.66362pt.
-[5
-
-] [6 <./img/icd_top_frequency.png> <./img/correlation-heatmap.png> <./img/male_
-female_heart_disease.png> <./img/comparison_diabetic.png>]
+[7] [8 <./img/icd_top_frequency.png> <./img/correlation-heatmap.png> <./img/mal
+e_female_heart_disease.png> <./img/comparison_diabetic.png>]
 Chapter 4.
 
 ! Package inputenc Error: Unicode character ∈ (U+2208)
@@ -1223,28 +1245,32 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 ...pproximate discrete patient records x ∈
+l.326 ...pproximate discrete patient records x ∈
                                                    Z|C| with continuous valu...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+! Undefined control sequence.
+l.326 ...� Z|C| with continuous values. ” \citep
+                                                  {Choi2017}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
-19.
 
-
-Underfull \hbox (badness 2343) in paragraph at lines 318--320
+Underfull \hbox (badness 2343) in paragraph at lines 325--327
 \T1/ptm/m/n/10.95 D and G are both im-ple-mented as feed-for-ward neu-ral net-w
 orks. As we learned in
  []
 
 
-Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
-21.
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 328.
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 321--322
+Underfull \hbox (badness 2735) in paragraph at lines 328--329
 []\T1/ptm/m/n/10.95 To al-le-vi-ate this lim-i-ta-tion, they lever-aged an au-t
 oen-coder which is re-con-struct-ing an
  []
@@ -1257,7 +1283,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.330 \frac{1}{m}\big[\sum_{i=0}^m x_i \log x´
+l.337 \frac{1}{m}\big[\sum_{i=0}^m x_i \log x´
                                                _i + (1-x_i) \log (1-x´_i)]
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1270,7 +1296,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.330 ...0}^m x_i \log x´_i + (1-x_i) \log (1-x´
+l.337 ...0}^m x_i \log x´_i + (1-x_i) \log (1-x´
                                                   _i)]
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1278,36 +1304,46 @@ You may provide a definition with
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.340 ...in G they use the scale parameter  \gamma
+l.347 ...in G they use the scale parameter  \gamma
                                                    and the shift parameter \...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-
-! LaTeX Error: Command \bfseries invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+! You can't use `\spacefactor' in math mode.
+\blx@leavevmode ...\else \leavevmode \spacefactor 
+                                                  \blx@sf@par \fi 
+l.347 ...ni-batch of 1000 records. \cite{Choi2017}
                                                   
-l.340 ...i-batch of 1000 records. \citep{Choi2017}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 347.
+
+! You can't use `\spacefactor' in math mode.
+\reserved@b ->\spacefactor 
+                           \@m 
+l.347 ...ni-batch of 1000 records. \cite{Choi2017}
                                                   
-Please use the math alphabet \mathbf instead of the \bfseries command. 
-
-
-Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
-40.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.341 
+l.348 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
 
-Overfull \hbox (181.00891pt too wide) in paragraph at lines 337--341
+Overfull \hbox (181.00891pt too wide) in paragraph at lines 344--348
 \OML/cmm/m/it/10.95 ^^Mandtheshiftparameter^^Landsetthemovingaveragedecayto\OT1
 /cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 99\OML/cmm/m/it/10.95 :
 ThediscriminatorDhasthesamestructure; butthefirsthidden \OMS/cmsy/m/n/10.95 ^^@
@@ -1315,186 +1351,180 @@ ThediscriminatorDhasthesamestructure; butthefirsthidden \OMS/cmsy/m/n/10.95 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--341
+Underfull \hbox (badness 10000) in paragraph at lines 344--348
 \OML/cmm/m/it/10.95 layerconsistsof\OT1/cmr/m/n/10.95 256\OML/cmm/m/it/10.95 di
 mensions:medGANistrainedfor\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 ; \OT1/cmr/m
 /n/10.95 000\OML/cmm/m/it/10.95 epochswiththemini \OMS/cmsy/m/n/10.95 ^^@
  []
 
-<img/medgan-architecture.png, id=65, 305.14pt x 255.95625pt>
+<img/medgan-architecture.png, id=71, 305.14pt x 255.95625pt>
 File: img/medgan-architecture.png Graphic file (type png)
 <use img/medgan-architecture.png>
-Package pdftex.def Info: img/medgan-architecture.png  used on input line 345.
+Package pdftex.def Info: img/medgan-architecture.png  used on input line 352.
 (pdftex.def)             Requested size: 213.39566pt x 179.0041pt.
+! Undefined control sequence.
+<argument> ... synthetic output Dec(G(z)). \citep 
+                                                  {Choi2017}\relax }}{\thepa...
+l.353 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
-46.
+! Undefined control sequence.
+<argument> ... synthetic output Dec(G(z)). \citep 
+                                                  {Choi2017}
+l.353 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+! Undefined control sequence.
+<argument> ... synthetic output Dec(G(z)). \citep 
+                                                  {Choi2017}
+l.353 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Choi2017' on page 7 undefined on input line 3
-46.
-
-[7
+[9
 
 ]
+! Undefined control sequence.
+l.363 In \citep
+               {Baowaly2018} proposed two altered versions of medGAN that ou...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
-e 356.
+! Undefined control sequence.
+l.366 ...critic) with respect to its input" \citep
+                                                  {Baowaly2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.368 ...as the discriminator is optimized" \citep
+                                                  {Baowaly2018}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
-e 359.
-
-
-Package natbib Warning: Citation `Baowaly2018' on page 8 undefined on input lin
-e 361.
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 361--362
+Underfull \hbox (badness 2865) in paragraph at lines 368--369
 []\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
 reg-u-lar GAN as well, but this time with a
  []
 
+! Undefined control sequence.
+l.374 ...alled medGAN, that was proposed in \citep
+                                                  {Choi2017}. As input data ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Citation `Choi2017' on page 8 undefined on input line 3
-67.
+! Undefined control sequence.
+l.375 ...a mini-batch size of 100 patients. \citep
+                                                  {Choi2017} We trained the ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-
-Package natbib Warning: Citation `Choi2017' on page 8 undefined on input line 3
-68.
-
-[8 <./img/medgan-architecture.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.393 ...to a single fixed-size vector  x elem Z{^
-                                                  C} where C equals 906 for ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.393 ... a single fixed-size vector  x elem Z{^C}
-                                                   where C equals 906 for mi...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.394 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 1365) in paragraph at lines 393--394
-[]\T1/ptm/m/n/10.95 We ex-tracted the ICD9 codes for fe-male and male pa-tients
- from the dataset sep-a-rately
- []
-
-
-Underfull \hbox (badness 3260) in paragraph at lines 393--394
-\T1/ptm/m/n/10.95 and ag-gre-gated a pa-tient's lon-gi-tu-di-nal record into a 
-sin-gle fixed-size vec-tor x elem
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 399--400
+[10 <./img/medgan-architecture.png>]
+Underfull \hbox (badness 1163) in paragraph at lines 406--407
 []\T1/ptm/m/n/10.95 To as-sess the ef-fec-tive-ness of my method, I trained the
  net-work both, with mixed and
  []
 
+[11]
 
-Package natbib Warning: Citation `Choi2017' on page 9 undefined on input line 4
-01.
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 401--402
-[]\T1/ptm/b/n/10.95 ? \T1/ptm/m/n/10.95 also com-pared medGAN with other pop-u-
-lar gen-er-a-tive meth-ods like Ran-dom Noise,
- []
-
-[9]
-
-Package natbib Warning: Citation `Choi2017' on page 10 undefined on input line 
-411.
+LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 408.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
-[]|\T1/ptm/m/n/10.95 V45.82 Per-cu-ta-neous trans-lu-mi-nal coro-nary
- []
+LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 411.
+
+! Undefined control sequence.
+l.418 First, like in \citep
+                           {Choi2017} we generated EMR data, without dividin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 1728) in paragraph at lines 428--428
-[]|\T1/ptm/m/n/10.95 774.2 Neona-tal jaun-dice as-so-ci-ated with preterm
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 428--428
-[][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--431
+Underfull \hbox (badness 10000) in paragraph at lines 418--421
 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 446--446
-[][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--454
+Underfull \hbox (badness 10000) in paragraph at lines 418--421
 
  []
 
-[10] [11] [12
-
-]
+[12]
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/ptm/m/n/10.95 Male
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
 []|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with ten-don
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--493
+Underfull \hbox (badness 10000) in paragraph at lines 444--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--493
-
- []
-
-
-Package natbib Warning: Citation `Choi2017' on page 13 undefined on input line 
-497.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 497--501
+Underfull \hbox (badness 10000) in paragraph at lines 444--466
 
  []
 
 
 Underfull \vbox (badness 2426) has occurred while \output is active []
 
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 506--508
+ [13
+
+]
+! Undefined control sequence.
+l.473 ...atistical methods, as presented in \citep
+                                                  {Choi2017}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 473--477
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--516
+Underfull \hbox (badness 10000) in paragraph at lines 482--484
 
  []
 
@@ -1506,21 +1536,213 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.517 ...thesis with a low P-value (typically 􏰆
+l.494 ...thesis with a low P-value (typically 􏰆
                                                    0.05). More details of th...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+<img/plots/binary_3digit_mixed.pdf, id=92, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_mixed.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
+498.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_3digit_female.pdf, id=93, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_female.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
+ 499.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_3digit_male.pdf, id=94, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_male.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 5
+00.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_mixed.pdf, id=95, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_mixed.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
+502.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_female.pdf, id=96, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_female.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
+ 503.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_male.pdf, id=97, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_male.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 5
+04.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
-Underfull \hbox (badness 10000) in alignment at lines 543--543
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.511 \begin
+            {figure}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/plots/count_3digit_mixed.pdf, id=98, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_mixed.pdf>
+Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 5
+13.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_3digit_female.pdf, id=99, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_female.pdf>
+Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
+514.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_3digit_male.pdf, id=100, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_male.pdf>
+Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 51
+5.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_mixed.pdf, id=101, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_mixed.pdf>
+Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 5
+17.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_female.pdf, id=102, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_female.pdf>
+Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
+518.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_male.pdf, id=103, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_male.pdf>
+Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 51
+9.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+[14] [15 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_femal
+e.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_3digit_fe
+male.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./img/plots/binary_3digit_male.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_3digit_ma
+le.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./img/plots/binary_5digit_mixed.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_5digit_mi
+xed.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./img/plots/binary_5digit_female.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_5digit_fe
+male.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+> <./img/plots/binary_5digit_male.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_5digit_ma
+le.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./img/plots/count_3digit_mixed.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_3digit_mix
+ed.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./img/plots/count_3digit_female.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_3digit_fem
+ale.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./img/plots/count_3digit_male.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_3digit_mal
+e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/plots/count_5digit_mixed.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mix
+ed.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+> <./img/plots/count_5digit_female.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_fem
+ale.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
+e
+> <./img/plots/count_5digit_male.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
+e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 1546) in paragraph at lines 556--556
+[]|\T1/ptm/m/n/10.95 427.31 244.9 305.1 424.1 414.01 V58.61 V05.3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]|\T1/ptm/m/n/10.95 V45.82 Per-cu-ta-neous trans-lu-mi-nal coro-nary
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 556--556
+[]|\T1/ptm/m/n/10.95 774.2 Neona-tal jaun-dice as-so-ci-ated with preterm
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 556--556
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 574--574
+[][][][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 595--595
 [][][][]
  []
 
 ! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.597 \end{table}\end{table}
+                            
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.597 \end{table}\end{table}
+                            
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
 \color@endbox ->\color@endgroup \egroup 
                                         
-l.545 \end{table}\end{table}
+l.597 \end{table}\end{table}
                             
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1532,7 +1754,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 \end{table}\end{table}
+l.597 \end{table}\end{table}
                             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1541,7 +1763,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.545 \end{table}\end{table}
+l.597 \end{table}\end{table}
                             
 Things are pretty mixed up, but I think the worst is over.
 
@@ -1552,77 +1774,62 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547 \begin
+l.599 \begin
             {table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 4181) in paragraph at lines 561--561
-[]|\T1/ptm/m/n/10.95 553.21 In-ci-sional her-nia with-out ob-struc-tion or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\T1/ptm/m/n/10.95 E879.0 Other pro-ce-dures with-out men-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--561
-[]|\T1/ptm/m/n/10.95 996.04 Me-chan-i-cal com-pli-ca-tion of au-to-matic
- []
-
-
-Underfull \hbox (badness 1577) in paragraph at lines 561--561
-[]|\T1/ptm/m/n/10.95 482.41 Me-thi-cillin sus-cep-ti-ble pneu-mo-nia due to
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 561--561
+Underfull \hbox (badness 10000) in alignment at lines 613--613
 [][][][]
  []
 
-[14] [15] [16]
+[16] [17] [18]
 Chapter 6.
-[17
-
-] [18]
-Appendix A.
 [19
 
-] [20
+] [20]
+Appendix A.
+[21
+
+] [22
 
 ]
 Appendix B.
-[21] [22
+[23] [24
 
 ]
 Appendix C.
-[23]
+[25]
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 46.
 See the caption package documentation for explanation.
 
-
-Package natbib Warning: There were undefined citations.
-
 (./main.aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16047 strings out of 492616
- 260828 string characters out of 6129480
- 745513 words of memory out of 5000000
- 19655 multiletter control sequences out of 15000+600000
+ 16714 strings out of 492616
+ 277953 string characters out of 6129480
+ 778032 words of memory out of 5000000
+ 20285 multiletter control sequences out of 15000+600000
  48705 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,12n,47p,1129b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,61p,1129b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1639,10 +1846,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on main.pdf (30 pages, 3747704 bytes).
+Output written on main.pdf (32 pages, 7309559 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 277 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

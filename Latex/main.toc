@@ -30,45 +30,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Electronic Medical Records}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Gender Medicine}{3}% 
+\contentsline {subsection}{\numberline {2.2.3}Gender Medicine}{4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.4}medGAN}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Summary}{4}% 
+\contentsline {section}{\numberline {2.3}Summary}{5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Data Analysis}{5}% 
+\contentsline {chapter}{\numberline {3}Data Analysis}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Electronic Medical Record Generation (approx. 15 pages}{7}% 
+\contentsline {chapter}{\numberline {4}Electronic Medical Record Generation (approx. 15 pages}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Abstract}{7}% 
+\contentsline {section}{\numberline {4.1}Abstract}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}medGAN}{7}% 
+\contentsline {section}{\numberline {4.2}medGAN}{9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}SynthEHR (medBGAN, medWGAN)}{8}% 
+\contentsline {subsection}{\numberline {4.2.1}SynthEHR (medBGAN, medWGAN)}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Differentiation}{8}% 
+\contentsline {subsection}{\numberline {4.2.2}Differentiation}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Why left out?}{8}% 
+\contentsline {subsection}{\numberline {4.2.3}Why left out?}{10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Process and Architecture}{9}% 
+\contentsline {section}{\numberline {4.3}Process and Architecture}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experimental Setup}{9}% 
+\contentsline {section}{\numberline {4.4}Experimental Setup}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Hypothesis}{9}% 
+\contentsline {section}{\numberline {4.5}Hypothesis}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Data}{9}% 
+\contentsline {section}{\numberline {4.6}Data}{11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Models for Comparison}{10}% 
+\contentsline {section}{\numberline {4.7}Models for Comparison}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Measurements}{10}% 
+\contentsline {section}{\numberline {4.8}Measurements}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}Summary}{10}% 
+\contentsline {section}{\numberline {4.9}Summary}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Non-Gender-specific EMR Generation}{10}% 
+\contentsline {section}{\numberline {4.10}Non-Gender-specific EMR Generation}{12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}Gender-specific EMR Generation}{10}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.12}Orphan diseases}{10}% 
+\contentsline {section}{\numberline {4.11}Gender-specific EMR Generation}{12}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Experimental Evaluation}{13}% 
 \defcounter {refsection}{0}\relax 
@@ -88,26 +86,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Qualitative Evaluation}{14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gender-specific}{14}% 
+\contentsline {subsubsection}{Data analysis}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Discussion}{16}% 
+\contentsline {subsubsection}{Gender-specific}{16}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.5}Summary}{16}% 
+\contentsline {subsection}{\numberline {5.4.4}Discussion}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion and Outlook (5 pages)}{17}% 
+\contentsline {subsection}{\numberline {5.4.5}Summary}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Goal}{17}% 
+\contentsline {chapter}{\numberline {6}Conclusion and Outlook (5 pages)}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Hypothesis proofed?}{17}% 
+\contentsline {section}{\numberline {6.1}Goal}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Outlook}{17}% 
+\contentsline {section}{\numberline {6.2}Hypothesis proofed?}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Future work}{17}% 
+\contentsline {section}{\numberline {6.3}Outlook}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Summary}{17}% 
+\contentsline {section}{\numberline {6.4}Future work}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Datasets}{19}% 
+\contentsline {section}{\numberline {6.5}Summary}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Listings}{21}% 
+\contentsline {chapter}{\numberline {A}Datasets}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Results}{23}% 
+\contentsline {chapter}{\numberline {B}Listings}{23}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Results}{25}% 

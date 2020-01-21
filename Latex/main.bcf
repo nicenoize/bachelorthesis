@@ -1995,6 +1995,29 @@
     <bcf:datasource type="file" datatype="bibtex">library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Choi2017</bcf:citekey>
+    <bcf:citekey order="2">goodfellow2014generative</bcf:citekey>
+    <bcf:citekey order="3">goodfellow2014generative</bcf:citekey>
+    <bcf:citekey order="4">\\</bcf:citekey>
+    <bcf:citekey order="5">goodfellow2014generative</bcf:citekey>
+    <bcf:citekey order="6">HIMMS</bcf:citekey>
+    <bcf:citekey order="7">baggio2013gender</bcf:citekey>
+    <bcf:citekey order="8">baggio2013gender</bcf:citekey>
+    <bcf:citekey order="9">kautzky2010sex</bcf:citekey>
+    <bcf:citekey order="10">kautzky2010sex</bcf:citekey>
+    <bcf:citekey order="11">arain2009sex</bcf:citekey>
+    <bcf:citekey order="12">Choi2017</bcf:citekey>
+    <bcf:citekey order="13">Choi2017</bcf:citekey>
+    <bcf:citekey order="14">Choi2017</bcf:citekey>
+    <bcf:citekey order="15">Choi2017</bcf:citekey>
+    <bcf:citekey order="16">arya2019exploratory</bcf:citekey>
+    <bcf:citekey order="17">Ruder2019</bcf:citekey>
+    <bcf:citekey order="18">Ruder2019</bcf:citekey>
+    <bcf:citekey order="19">arya2019exploratory</bcf:citekey>
+    <bcf:citekey order="20">Choi2017</bcf:citekey>
+    <bcf:citekey order="21">Choi2017</bcf:citekey>
+    <bcf:citekey order="22">Choi2017</bcf:citekey>
+    <bcf:citekey order="23">Choi2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
