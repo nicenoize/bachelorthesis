@@ -140,7 +140,7 @@
 \studiengang{Medieninformatik}
 \autor{Sebastian Herrmann}
 \edvnr{852049}
-\titel{Generating Electronic Medical Records}
+\titel{Generating Electronic Health Records: an Investigation on Gender-Medicine and Rare Diseases}
 %\untertitel{Evaluating the Accuracy of Variational Bayes Variational Inference in Survival Analysis}
 \betreuerFeld{
   \begin{tabular}{lr}
@@ -156,9 +156,9 @@
 \clearpage\newpage
 \addcontentsline{toc}{chapter}{References}
 %\bibliographystyle{myapalike}
-\bibliographystyle{apa}
+%\bibliographystyle{apa}
 \bibliography{library}
-\
+
 
 %%\renewcommand{\baselinestretch}{1.05} 
 \begin{document}
@@ -211,9 +211,17 @@ TODO
 \subsection{binary/count variables}
 For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD code occured or not, while records with count data will show how many times each ICD code occurred for each patient.
 \subsection{privacy risk}
-As the synthetic data is artificially created, there is no direct connection between the real and the synthetic samples. Therefore identifying patients from the original dataset should, intuitively, not be possible with the help of the artificially created samples.  To assess the privacy risk, \cite{Choi2017}
-\section{Overview}
+The risk of hurting a patient's privacy is one of the main reasons, why Electronic Health Data is not publicly available. A commonly used method for providing access to patient data for researchers is de-identification, used for example on the MIMIC-III dataset. In this process, data gets cleansed and shifted, meaning that names, telephone numbers etc. get removed and dates are altered. \cite{johnson2016mimic}
+However, \cite{Choi2017} explains that de-identification does not eliminate the risk of harming a patient's privacy, because "in certain circumstances, re-identification of patients can be accomplished through residual distinguishable patterns in various features (e.g., demographics (Sweeney, 1997; El Emam et al., 2011a), diagnoses (Loukides et al., 2010), lab tests (Atreya et al., 2013), visits across healthcare providers (Malin and Sweeney, 2004), and genomic variants (Erlich and Narayanan, 2014)) \cite{Choi2017}
 
+On the contrary, as the synthetic data from medGAN is artificially created, there is no direct connection between the real and the synthetic samples. Therefore identifying patients from the original dataset should, intuitively, not be possible if the artificially created samples get compromised. In \cite{Choi2017} assesses the privacy risk for the case that the synthetic samples get compromised and comes to the conclusion that a potential attacker poses no risk of breaching privacy, except for when he already has significant knowledge about various features of the target patient.
+\section{Overview}
+This work is divided into 6 chapters, starting with 'Introduction.'
+'Related Work'
+'Data Analysis'
+'Electronic Medical Record Generation'
+'Experimental Evaluation'
+'Conclusion and Outlook'
 \chapter{Related Work (approx. 5-8 pages)}
 \section{Abstract}
 The following section will elaborate the basic concepts that are needed to  generate synthetic electronic health record data.
@@ -223,7 +231,7 @@ First, we explain the concept of a Generative Adversarial Network. Further we wi
 \subsection{Generative Adversarial Networks}
 This section will explain the concept of Generative Adversarial Networks and their role for this work.
 In \cite{goodfellow2014generative} proposed a new framework for generative models, that learns the patterns in the data and generates new data that plausibly could originate from the original dataset.
- The model corresponds to a two-player minimax game in which two independent neural networks train simultaneously: a generator \textbf{G} which is learning the distribution of the given data and a discriminator \textbf{D} which aims to distinguish between the data from the training set and from \textbf{G}.
+ The model Goodfellow proposes corresponds to a two-player minimax game in which two independent neural networks train simultaneously: a generator \textbf{G} which is learning the distribution of the given data and a discriminator \textbf{D} which aims to distinguish between the data from the training set and from \textbf{G}.
 
 In this game, G has the goal to maximize the probability of D making a mistake.  \cite{goodfellow2014generative}
 \\
@@ -233,7 +241,7 @@ The two-player minimax game can be described by the following value function:
 \begin{equation}
 	\min_G\max_DV(D,G) = \mathbb{E}_{x\sim{P_{data(x)}}}[log D(x)] + \mathbb{E}_{z\sim_{P_z(z)}}[log(1 - D(G(z)))]
 \end{equation}
-\cite
+\cite{Goodfellow2014}
 \\
 
 For better understanding of the process of the model, the analogy can be helpful:
@@ -254,8 +262,10 @@ Originally MedGAN was trained with male and female patients simultaneously, maki
 
 The previously mentioned gender-differences lead us to one of our hypotheses, that will be formulated in Chapter 4.
 
+\subsection{Rare diseases}
+
 \subsection{medGAN}
-The wide adoption of the electronic health record system by healthcare organizations (HCOs) promises advances in analyzing patient data and computational health. The records however are not easily accessible for researchers. Due to the fact that EHR data consists of personal and sensitive information, access is restricted in order to not induce a privacy risk. Further, to minimize the risk of data misuse, access to such data is regulated by the HCOs. \citep{Choi2017}
+The wide adoption of the electronic health record system by healthcare organizations (HCOs) promises advances in analyzing patient data and computational health. The records however are not easily accessible for researchers. Due to the fact that EHR data consists of personal and sensitive information, access is restricted in order to not induce a privacy risk. Further, to minimize the risk of data misuse, access to such data is regulated by the HCOs. \cite{Choi2017}
 (Even researches that are in a direct cooperation with a hospital, do not get access to patient data.)
  As \cite{Choi2017} states, "[t]he review process by legal departments and institutional review boards can take months, with no guarantee of access (Hodge Jr et al., 1999). This process limits timely opportunities to use data and may slow advances in biomedical knowledge and patient care (Gostin et al., 2009)."
  \cite{Choi2017} describes, that "HCOs often aim to mitigate privacy risks through the practice of de-identification (for Civil Rights, 2013), typically through the perturbation of potentially identifiable attributes (e.g., dates of birth) via generalization, suppression or randomization. (El Emam et al., 2015) However, this approach is not impregnable to attacks, such as linkage via residual information to re-identify the individuals to whom the data corresponds (El Emam et al., 2011b). An alternative approach to de-identification is to generate synthetic data (McLachlan et al., 2016; Buczak et al., 2010; Lombardo and Moniz, 2008). However, realizing this goal in practice has been challenging because the resulting synthetic data are often not sufficiently realistic for machine learning tasks."  \cite{Choi2017}
@@ -274,7 +284,7 @@ The total number of unique patients found in the dataset is 46260, consisting of
 
 \begin{figure}
   \begin{center}
-  \includegraphics[width=0.5\textwidth]{icd_top_frequency}
+  \includegraphics[width=1\textwidth]{icd_top_frequency}
   \caption{The traditional supervised learning setup in machine learning. \cite{Ruder2019}}
   \label{fig:transfer_learning_no}
   \end{center}
@@ -282,8 +292,8 @@ The total number of unique patients found in the dataset is 46260, consisting of
 
 \begin{figure}
   \begin{center}
-  \includegraphics[width=0.5\textwidth]{img/correlation-heatmap.png}
-  \caption{The traditional supervised learning setup in machine learning. \citep{Ruder2019}}
+  \includegraphics[width=1\textwidth]{img/correlation-heatmap.png}
+  \caption{The traditional supervised learning setup in machine learning. \cite{Ruder2019}}
   \label{fig:transfer_learning_no}
   \end{center}
 \end{figure}
@@ -297,7 +307,7 @@ First, we compare the top 12 occcurences of male and female diagnoses of heart d
 
 \begin{figure}
   \begin{center}
-  \includegraphics[width=0.5\textwidth]{img/male_female_heart_disease.png}
+  \includegraphics[width=1\textwidth]{img/male_female_heart_disease.png}
   \caption{Comparison male/female heart disease. The X axis describes the ICD9 code, the Y axis the percentage of affected patients.}
   \label{fig:heart_disease_comparison}
   \end{center}
@@ -309,7 +319,7 @@ Second, we compare males and females diagnosed with diabetic diseases: (ICD9 250
 
 \begin{figure}
   \begin{center}
-  \includegraphics[width=0.5\textwidth]{img/comparison_diabetic.png}
+  \includegraphics[width=1\textwidth]{img/comparison_diabetic.png}
   \caption{Comparison male/female diabetic disease. The X axis describes the ICD9 code, the Y axis the percentage of affected patients.}
   \label{fig:diabetic_comparison}
   \end{center}
@@ -322,18 +332,17 @@ As explained in [Basic concepts - Gender medicine] correlations between diabetes
 In this chapter, we will elaborate medGAN, discuss the process and architecture, our experimental setup and the process of training and generating synthetic Electronic Medical Record data. Further, we will introduce our hypotheses and describe the dataset.
 \section{medGAN}
 D and G are both implemented as feedforward neural networks.
-As we learned in (SECTION GAN), the generator G "is trained by the error signal from the discriminator D via backpropagation, the original GAN can only learn to approximate discrete patient records x ∈ Z|C| with continuous values. ” \citep{Choi2017}
-
+As we learned in (SECTION GAN), the generator G "is trained by the error signal from the discriminator D via backpropagation, the original GAN can only learn to approximate discrete patient records $x \in Z|C|$ with continuous values. ” \cite{Choi2017}
 To alleviate this limitation, they leveraged an autoencoder which is reconstructing an dimensionality reduced approximate of the input. As \cite{Choi2017} stated, “[s]uch a mechanism leads the autoencoder to learn salient features of the samples and has been successfully used in certain applications, such as image processing (Goodfellow et al., 2016; Vincent et al., 2008).” 
 
 The objective of the autoencoder is, to minimize the reconstruction error:
 
 FORMEL AUTOENCODE
 \begin{equation}
-\frac{1}{m}\big[\sum_{i=0}^m \mid\mid x_i - x_i`\mid\mid_2^2]
+\frac{1}{m}\big[\sum_{i=0}^m \mid\mid x_i - x_i'\mid\mid_2^2]
 \end{equation}
 \begin{equation}
-\frac{1}{m}\big[\sum_{i=0}^m x_i \log x´_i + (1-x_i) \log (1-x´_i)]
+\frac{1}{m}\big[\sum_{i=0}^m x_i \log x'_i + (1-x_i) \log (1-x'_i)]
 \end{equation}
 
 FORMELN STIMMEN NOCH NICHT
@@ -343,13 +352,11 @@ where m is the size of the mini-batch.
 An autoenconder consists of of two elements: The Encoder (Enc) which compresses the input and the Decoder (Dec) that is used to construct the output.
 For count variables they used the cross entropy loss and rectified linear units  as activation function for the Enc and Dec.
 For binary variables they used the mean squared loss and the tanh activation function for Enc and the sigmoid activation for Dec.
-Both, the Enc and the Dec are implemented as single layer feedforward networks. The original input x it receives, is compressed into a 128 dimensional vector. The generator G consists of two hidden-layers with each 128 dimensions and is implemented as a feedforward network. For the batch normalization in G they use the scale parameter  \gamma and the shift parameter \beta and set the moving average decay to 0.99. The discriminator D has the same structure, but the first hidden-layer consists of 256 dimensions. medGAN is trained for 1,000 epochs with the mini-batch of 1000 records. \cite{Choi2017}
-
-
+Both, the Enc and the Dec are implemented as single layer feedforward networks. The original input x it receives, is compressed into a 128 dimensional vector. The generator G consists of two hidden-layers with each 128 dimensions and is implemented as a feedforward network. For the batch normalization in G they use the scale parameter  $\gamma$ and the shift parameter $\beta$ and set the moving average decay to 0.99. The discriminator D has the same structure, but the first hidden-layer consists of 256 dimensions. medGAN is trained for 1,000 epochs with the mini-batch of 1000 records. \cite{Choi2017}
 \begin{figure}
   \begin{center}
   \includegraphics[width=0.5\textwidth]{img/medgan-architecture.png}
-  \caption{Architecture of medGAN: The discrete x comes from the source EHR data, z is the random prior for the generator G; G is a feedforward network with shortcut connections (right-hand side figure); An autoencoder (i.e, the encoder Enc and decoder Dec) is learned from x; The same decoder Dec is used after the generator G to construct the discrete output. The discriminator D tries to differentiate real input x and discrete synthetic output Dec(G(z)).  \citep{Choi2017}}
+  \caption{Architecture of medGAN: The discrete x comes from the source EHR data, z is the random prior for the generator G; G is a feedforward network with shortcut connections (right-hand side figure); An autoencoder (i.e, the encoder Enc and decoder Dec) is learned from x; The same decoder Dec is used after the generator G to construct the discrete output. The discriminator D tries to differentiate real input x and discrete synthetic output Dec(G(z)).  \cite{Choi2017}}
   \label{fig:transfer_learning_no}
   \end{center}
 \end{figure}
@@ -359,19 +366,19 @@ Both, the Enc and the Dec are implemented as single layer feedforward networks. 
 UMFORMULIEREN (zitiert)
 
 \subsection{SynthEHR (medBGAN, medWGAN)}
-In \citep{Baowaly2018} proposed two altered versions of medGAN that outperform their predecessor, however just slightly.
+In \cite{Baowaly2018} proposed two altered versions of medGAN that outperform their predecessor, however just slightly.
 Those two versions are:
 
-\textbf{medWGAN}: This version substitutes the regular GAN with an improved \textit{Wasserstein GAN (WGAN)}, that utilizes "an alternative method of weight clipping called gradient penalty, which entails penalizing the norm of the gradient of the discriminator (critic) with respect to its input" \citep{Baowaly2018}
+\textbf{medWGAN}: This version substitutes the regular GAN with an improved \textit{Wasserstein GAN (WGAN)}, that utilizes "an alternative method of weight clipping called gradient penalty, which entails penalizing the norm of the gradient of the discriminator (critic) with respect to its input" \cite{Baowaly2018}
 
-\textbf{medBGAN}: This version substitutes the regular GAN as well, but this time with a \textit{boundary-seeking GAN (BGAN)}. This approach trains the generator to match the target distribution that converges toward the true distribution as the discriminator is optimized" \citep{Baowaly2018}
+\textbf{medBGAN}: This version substitutes the regular GAN as well, but this time with a \textit{boundary-seeking GAN (BGAN)}. This approach trains the generator to match the target distribution that converges toward the true distribution as the discriminator is optimized" \cite{Baowaly2018}
 \subsection{Differentiation}
 Bereits erklärt?
 \subsection{Why left out?}
 If our hypotheses proof to be true and bring an improvement to medGAN, these improvements will also translate to altered versions of medGAN, because not the network itself is being changed but the input. In our tests we separated the dataset and did not alter it. Henceforth we performed our tests only on the 'original' medGAN. 
 \section{Process and Architecture}
-For generating the Electronic Medical Records (EMR), we used a Generative Adversarial Network (GAN) called medGAN, that was proposed in \citep{Choi2017}. As input data we use v1.4 of the MIMIC-III (Medical Information Mart for Intensive Care) dataset. For our experiments, we divided the dataset by gender and generated EMR data with binary and count variables for both mixed and separated patients. The code for medGAN is publicly accessible under https://github.com/mp2893/medgan. It is implemented using TensorFlow
-For training models, they chose the Adam-optimizer with a mini-batch size of 100 patients. \citep{Choi2017} We trained the model using Colaboratory by Google, which is a Jupyter notebook environment, providing free Cloud computing for education and research.
+For generating the Electronic Medical Records (EMR), we used a Generative Adversarial Network (GAN) called medGAN, that was proposed in \cite{Choi2017}. As input data we use v1.4 of the MIMIC-III (Medical Information Mart for Intensive Care) dataset. For our experiments, we divided the dataset by gender and generated EMR data with binary and count variables for both mixed and separated patients. The code for medGAN is publicly accessible under https://github.com/mp2893/medgan. It is implemented using TensorFlow
+For training models, they chose the Adam-optimizer with a mini-batch size of 100 patients. \cite{Choi2017} We trained the model using Colaboratory by Google, which is a Jupyter notebook environment, providing free Cloud computing for education and research.
 The machines are equipped with K80 GPUs from NVIDIA.
 With the K80 GPU, it took 29 minutes and 3 seconds to train the model with only female patients, 35 minutes and 26 seconds to train the model with only male patients and 60 minutes and 1 second to train the model with the full dataset.
 \section{Experimental Setup}
@@ -414,7 +421,7 @@ For comparison we generated samples of sizes, equal to the dataset.
 \section{Summary}
 
 \section{Non-Gender-specific EMR Generation}
-First, like in \citep{Choi2017} we generated EMR data, without dividing the dataset. The results serve as baseline for the performance and will be compared with the separately generated patients.
+First, like in \cite{Choi2017} we generated EMR data, without dividing the dataset. The results serve as baseline for the performance and will be compared with the separately generated patients.
 \\
 \\
 
@@ -440,36 +447,14 @@ Second, by training the network with female and male patients separately, it is 
 
 
 \section{Measurements}
-\textbf{Orphan diseases}:
-\\
-\\
-\begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
-ICD9-Code & Female Binary & Male Binary & Mixed\\
-\hline
-042 Human immunodeficiency virus [HIV] disease	& 739 & 144	& 121\\
-515 Postinflammatory pulmonary fibrosis & 0 & 168 & 907\\
-570 Acute and subacute necrosis of liver & 255	& 0	& 33\\
-\end{tabularx}
-\\
-\\
-\begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
-ICD9-Code & Dataset Female & Dataset Male\\
-\hline
-075 Infectious mononucleosis & 7 & 4\\
-138 Late effects of acute poliomyelitis & 36 & 37 \\
-193 Malignant neoplasm of thyroid gland & 21 & 28 \\
-220 Benign neoplasm of ovary & 25	& 0\\
-317 Mild intellectual disabilities & 43 & 39\\
-8832 Open wound of finger(s), with tendon involvement & 2 & 15\\ 
-\end{tabularx}
-	
+
 \section{Evaluation}
 \subsection{Abstract}
 In this section we will evaluate our measurements in a quantitative and qualitative manner. We evaluate the measurements for 3 digit (shortened) and 5 digit (original) ICD9-codes for both, binary and count variables.
 First comes the quantitative evaluation of our generated records. For this we choose two statistical methods: dimension-wise probability for binary variables and dimension-wise average for count variables.
 Second we perform the qualitative evaluation. We begin with investigating the data, like we did with the real dataset, looking for correlations of diabetic-disease and heart-disease. Subsequently, we evaluate our measurements with the help of a medical doctor.
 \subsection{Quantitative Evaluation UMFORMULIEREN}
-For the quantitative evaluation of our measurements we choose the following statistical methods, as presented in \citep{Choi2017}.
+In this section we evaluate the model's performance. For the quantitative evaluation of our measurements we choose the following statistical methods, as presented in \cite{Choi2017}.
 \\
 \\
 \textbf{Dimension-wise probability}: This refers to the Bernoulli success probability of each dimension (disease or procedure code) in the binary dataset. The dimension-wise probability is computed using the following formula: 
@@ -488,8 +473,14 @@ Dimension-wise\,average = \frac{Column \,sum}{Total \,number \,of \,records}
 
 We calculate it for the count data.
 \\
-For both, dimension-wise probability and dimension-wise average, we present the outcomes in a scatterplot. Each dot represents a diagnoses code. The x-axis represents the codes from the real data, the y-axis the one's from the synthetic data.
 
+\textbf{Dimension-wise prediction}: As stated in \cite{Choi2017}, to indirectly measure the extent of the model learning interdimensional relationships, \textbf{Logistic Regression} can be used. Therefore, we choose one dimension k of each dataset, synthetic and real, to be the label and the remaining  ones as features to train two logistic regression classifiers to predict $\gamma_R_k$ and $\gamma_S_k$
+For both, dimension-wise probability and dimension-wise average, we present the outcomes in a scatterplot. Each dot represents a diagnoses code. The x-axis represents the codes from the real data, the y-axis the one's from the synthetic data.
+\\
+\\
+For both, dimension-wise probability and dimension-wise average, we present the outcomes in a scatterplot. Each dot represents a diagnoses code. The x-axis represents the codes from the real data, the y-axis the one's from the synthetic data.
+\\
+\\
 \textbf{Dimension-wise K–S test}: We performed the K–S test on 2 data samples (synthetic data and real data) to examine whether the 2 data samples originate from the same distribution. In the K–S test, the statistic is calculated by finding the maximum absolute value of the differences between 2 samples’ cumulative distribution functions. The null hypothesis is that both samples originate from a population with the same distribution. In our experiment, we rejected the null hypothesis with a low P-value (typically 􏰆 0.05). More details of the K–S test is discussed in the Results section. 
 
 \begin{figure}
@@ -502,8 +493,16 @@ For both, dimension-wise probability and dimension-wise average, we present the 
 \includegraphics[width=.3\textwidth]{img/plots/binary_5digit_female}\hfill
 \includegraphics[width=.3\textwidth]{img/plots/binary_5digit_male}\hfill
 \caption{dimension-wise probability}
+\begin{flushleft}
+\small
+Scatterplots of dimension-wise probability. For the 3 digit codes, each dot represents one of 1071 codes for mixed samples, 987 for female samples and 966 for male samples. For the 5 digit codes, each dot represents one of 6985 codes for mixed samples, 5650 for female samples and 5853 for male samples. The x-axis represents the probability for codes from the real dataset, while the y-axis represents these from the synthetic dataset.
+\end{flushleft}
 \label{fig:figure3}
 \end{figure}
+
+After splitting up the dataset by gender, the performance decreased for generating both, male and female samples, while male samples are not affected as heavily. However, we can see that the performance loss is more significant, if we use the 5 digit ICD-codes. 
+
+
 
 \\
 \\
@@ -517,10 +516,49 @@ For both, dimension-wise probability and dimension-wise average, we present the 
 \includegraphics[width=.3\textwidth]{img/plots/count_5digit_female}\hfill
 \includegraphics[width=.3\textwidth]{img/plots/count_5digit_male}\hfill
 \caption{dimension-wise average}
+\small
+\begin{flushleft}
+Scatterplots of dimension-wise average. For the 3 digit codes, each dot represents one of 1071 codes for mixed samples, 987 for female samples and 966 for male samples. For the 5 digit codes, each dot represents one of 6985 codes for mixed samples, 5650 for female samples and 5853 for male samples. The x-axis represents the probability for codes from the real dataset, while the y-axis represents these from the synthetic dataset.
+\end{flushleft}
 \label{fig:figure3}
 \end{figure}
 
 \subsubsection{Evaluation Orphan diseases}
+For evaluating our measurements for generated patients with rare diseases, we depict our results in a table with numbers of total occurrences, since we want to find out whether the model learns to generate them at all. 
+Therefore we choose the binary data for evaluation.
+For this case, the qualitative evaluation is of higher importance, since we have to find out, whether the generated samples seem realistic to a medical doctor.
+
+
+\textbf{Orphan diseases}:
+\\
+\\
+\begin{table}
+\begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
+ICD9-Code & Female Binary & Male Binary & Mixed\\
+\hline
+042 Human immunodeficiency virus [HIV] disease	& 17 & 440 & 373\\
+515 Postinflammatory pulmonary fibrosis & 124 & 44 & 117\\
+570 Acute and subacute necrosis of liver & 538	& 359 & 870\\
+\end{tabularx}
+\caption{\label{tab:rare-generataed}successfully generated samples with rare diseases}
+\end{table}
+\\
+\\
+\begin{table}
+\begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
+ICD9-Code & Dataset Female & Dataset Male\\
+\hline
+075 Infectious mononucleosis & 7 & 4\\
+138 Late effects of acute poliomyelitis & 36 & 37 \\
+193 Malignant neoplasm of thyroid gland & 21 & 28 \\
+220 Benign neoplasm of ovary & 25	& 0\\
+317 Mild intellectual disabilities & 43 & 39\\
+8832 Open wound of finger(s), with tendon involvement & 2 & 15\\ 
+\end{tabularx}
+\caption{\label{tab:rare-not-generated}rare diseases with no generated samples}
+\end{table}
+	
+
 
 
 \subsection{Qualitative Evaluation}
@@ -593,7 +631,7 @@ First, we compare the top 10 occurring ICD9 codes of our generated samples with 
 458.29     4.89\\
 \end{tabularx}
 \caption{\label{tab:top10-icd-female}Top 10 diagnoses for generated female samples.}
-\end{table}\end{table}
+\end{table}
 \\
 \begin{table}
 \begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
