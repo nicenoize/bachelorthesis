@@ -205,11 +205,13 @@ XXX
 
 \section{Method}
 \subsection{Preliminary: GAN}
-TODO
+TODO: SHORT DESCRIPTION OF GAN
 \subsection{medGAN}
-TODO
+TODO: SHORT DESCRIPTION OF MEDGAN
 \subsection{binary/count variables}
 For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD code occured or not, while records with count data will show how many times each ICD code occurred for each patient.
+
+TODO: EXAMPLE FIGURES
 \subsection{privacy risk}
 The risk of hurting a patient's privacy is one of the main reasons, why Electronic Health Data is not publicly available. A commonly used method for providing access to patient data for researchers is de-identification, used for example on the MIMIC-III dataset. In this process, data gets cleansed and shifted, meaning that names, telephone numbers etc. get removed and dates are altered. \cite{johnson2016mimic}
 However, \cite{Choi2017} explains that de-identification does not eliminate the risk of harming a patient's privacy, because "in certain circumstances, re-identification of patients can be accomplished through residual distinguishable patterns in various features (e.g., demographics (Sweeney, 1997; El Emam et al., 2011a), diagnoses (Loukides et al., 2010), lab tests (Atreya et al., 2013), visits across healthcare providers (Malin and Sweeney, 2004), and genomic variants (Erlich and Narayanan, 2014)) \cite{Choi2017}
@@ -557,12 +559,12 @@ ICD9-Code & Dataset Female & Dataset Male\\
 \end{tabularx}
 \caption{\label{tab:rare-not-generated}rare diseases with no generated samples}
 \end{table}
-	
 
-
+In Table 5.1 we see, that our model only successfully generates samples with 3 out of the 10 rare disease codes that exist in the original dataset.
+Table 5.2 depicts the number of occurrences of each code in the original dataset. Here we can see, that the diseases that have been generated have over 500 occurrences and that the model  does not generate samples with codes, that have less than 100 occurrences in the input dataset.
 
 \subsection{Qualitative Evaluation}
-Our qualitative evaluation consists of three parts. First, we repeat the steps of our data analysis and compare our synthetic samples with it. Second, we investigate the synthetic dataset on gender-specific correlations and rare diseases. Third, we rate our measurements with the help of a medical doctor. Therefore we take 25 samples from the original dataset and 25 samples from our generated patients. Then, we present them in random order to a medical doctor and let him rate them on realisticness on a scale from 1 to 10, where 10 is the highest score and therefore a sample, that can not be distinguished from a real record.
+Our qualitative evaluation consists of three parts. First, we repeat the steps of our data analysis and compare our synthetic samples with it. Second, we investigate on synthetic dataset whether the model learned gender-specific correlations of diseases and whether it learned to generated sample patients with rare diseases. Third, we rate our measurements with the help of a medical doctor. Therefore we take 25 samples from the original dataset and 25 samples from our generated patients. Then, we present them in random order to a medical doctor and let him rate them on realisticness on a scale from 1 to 10, where 10 is the highest score and therefore a sample, that can not be distinguished from a real record.
 The samples are selected randomly, except for the rare diseases. Here we choose 5 samples each from the dataset and from our generated patients because of their scarcity.
 
 \subsubsection{Data analysis}
@@ -613,7 +615,9 @@ V45.82 Percutaneous transluminal coronary angioplasty status & 30.89\%\\
 \end{table}
 
 \subsubsection{Gender-specific}
-First, we compare the top 10 occurring ICD9 codes of our generated samples with those of the original dataset.
+MedGAN as provided in its original form, already is able to generate patient EHR data, that can not be distinguished from real data by a medical doctor. The only exception is, when a patient's longitudinal record shows ICD codes of both, female and male related diseases.  \cite{Choi2017}
+By splitting up the input dataset into female and male patients, we eliminate this exception. Therefore we evaluate whether the data still seems real after dividing input data into two groups.
+First, as a basic check-up, we compare the top 10 occurring ICD9 codes of our generated samples with those of the original dataset and look for any outliers.
 
 \begin{table}
 \begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
@@ -652,7 +656,7 @@ First, we compare the top 10 occurring ICD9 codes of our generated samples with 
 \end{table}
 Further, we put the focus of our examination on diabetic and ischemic diseases. 
 From our generated samples, 1965 females are affected by both types, while 1689 males are affected by both. When generating patients, without separation 1501 are affected.
-One of the known correlations is CAD (Cardiovascular Artery Disease) with Diabetes Mellitus. Women have an 3 to 6 fold increased risk if they have DM, while men have a 2 to 4 fold increased risk. In our generated data, 728 female patients are affected, 907 male patients and 569 mixed patients.
+One of the known correlations is CAD (Cardiovascular Artery Disease) with Diabetes Mellitus. Women have an 3 to 6 fold increased risk if they have DM, while men have a 2 to 4 fold increased risk. \cite{juutilainen2004gender} In our generated data, 728 female patients are affected, 907 male patients and 569 mixed patients.
 
 
 - Men have a higher risk for  Coronary atherosclerosis of native coronary artery (ICD 41401)
@@ -670,6 +674,7 @@ One of the known correlations is CAD (Cardiovascular Artery Disease) with Diabet
 % Qualitative: Doctor (note: A discussion with the doctor taught us that count data are easier to assess its realisticness than binary data. )
 
 \subsection{Summary}
+In this section we evaluated our measurements
 
 \chapter{Conclusion and Outlook (5 pages)}
 \section{Goal}
@@ -679,7 +684,10 @@ Also we wanted to find out whether the model is able to generate patients affect
 
 \section{Hypothesis proofed?}
 \section{Outlook}
+Application to other MedGAN versions
 \section{Future work}
+https://www.aclweb.org/anthology/W19-5026/
+Problem: Utility of the data -> making it useful
 
 \section{Summary}
 % approx. 0.5 pages
