@@ -2034,10 +2034,10 @@
     <bcf:citekey order="37">Choi2017</bcf:citekey>
     <bcf:citekey order="38">Choi2017</bcf:citekey>
     <bcf:citekey order="39">Choi2017</bcf:citekey>
-    <bcf:citekey order="40">Baowaly2018</bcf:citekey>
+    <bcf:citekey order="40">Choi2017</bcf:citekey>
     <bcf:citekey order="41">Baowaly2018</bcf:citekey>
     <bcf:citekey order="42">Baowaly2018</bcf:citekey>
-    <bcf:citekey order="43">Choi2017</bcf:citekey>
+    <bcf:citekey order="43">Baowaly2018</bcf:citekey>
     <bcf:citekey order="44">Choi2017</bcf:citekey>
     <bcf:citekey order="45">Choi2017</bcf:citekey>
     <bcf:citekey order="46">Choi2017</bcf:citekey>
@@ -2045,7 +2045,8 @@
     <bcf:citekey order="48">Choi2017</bcf:citekey>
     <bcf:citekey order="49">Choi2017</bcf:citekey>
     <bcf:citekey order="50">Choi2017</bcf:citekey>
-    <bcf:citekey order="51">juutilainen2004gender</bcf:citekey>
+    <bcf:citekey order="51">Choi2017</bcf:citekey>
+    <bcf:citekey order="52">juutilainen2004gender</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
