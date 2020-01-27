@@ -2,7 +2,7 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction (total approx. 5 pages)}{1}% 
+\contentsline {chapter}{\numberline {1}Introduction}{1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Problem}{1}% 
 \defcounter {refsection}{0}\relax 
@@ -16,9 +16,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3.3}binary/count variables}{1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}privacy risk}{1}% 
+\contentsline {subsection}{\numberline {1.3.4}privacy risk}{2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Overview}{2}% 
+\contentsline {section}{\numberline {1.4}Outline}{2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Related Work (approx. 5-8 pages)}{3}% 
 \defcounter {refsection}{0}\relax 
@@ -28,7 +28,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.1}Generative Adversarial Networks}{3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Electronic Health Records}{3}% 
+\contentsline {subsection}{\numberline {2.2.2}Electronic Health Records}{4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.3}Gender Medicine}{4}% 
 \defcounter {refsection}{0}\relax 
@@ -40,7 +40,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Data Analysis}{7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Electronic Medical Record Generation (approx. 15 pages}{11}% 
+\contentsline {section}{\numberline {3.1}Summary}{8}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Electronic Health Record Generation}{11}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Abstract}{11}% 
 \defcounter {refsection}{0}\relax 
@@ -82,21 +84,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Abstract}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Quantitative Evaluation UMFORMULIEREN}{15}% 
+\contentsline {subsection}{\numberline {5.4.2}Quantitative Evaluation}{15}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{binary data}{16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Evaluation Orphan diseases}{16}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Qualitative Evaluation}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data analysis}{19}% 
+\contentsline {subsubsection}{Data analysis}{18}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gender-specific}{19}% 
+\contentsline {subsubsection}{Gender-specific}{18}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.4}Discussion}{20}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.5}Summary}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion and Outlook (5 pages)}{21}% 
+\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{21}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Goal}{21}% 
 \defcounter {refsection}{0}\relax 

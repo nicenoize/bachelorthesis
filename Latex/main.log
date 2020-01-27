@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  26 JAN 2020 13:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  27 JAN 2020 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,12 +883,6 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotereset=\count371
 (./main.aux
 
-LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
-
-
-LaTeX Warning: Label `fig:transfer_learning_no' multiply defined.
-
-
 LaTeX Warning: Label `fig:figure3' multiply defined.
 
 )
@@ -1046,441 +1040,177 @@ Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 207.
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--215
+LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 210.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 211.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--215
+Underfull \hbox (badness 10000) in paragraph at lines 214--217
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 226.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 228.
 
 LaTeX Warning: Citation 'johnson2016mimic' on page 1 undefined on input line 24
-6.
+8.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 247.
+LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 249.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 247.
+LaTeX Warning: Citation 'Choi2017' on page 1 undefined on input line 249.
 
 [1
 
 
 ]
 
-LaTeX Warning: Citation 'Choi2017' on page 2 undefined on input line 249.
+LaTeX Warning: Citation 'Choi2017' on page 2 undefined on input line 251.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 2 undefined on input line 254.
 
 [2]
 Chapter 2.
 
 LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
- line 265.
-
-
-LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
  line 268.
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 268--273
+LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
+ line 271.
+
+
+LaTeX Warning: Citation 'Goodfellow2014' on page 3 undefined on input line 274.
+
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 271--276
 []\T1/ptm/m/n/10.95 In this game, G has the goal to max-i-mize the prob-a-bil-i
 ty of D mak-ing a mis-take.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--273
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--273
+Underfull \hbox (badness 10000) in paragraph at lines 271--276
 
  []
 
 
-LaTeX Warning: Citation 'Goodfellow2014' on page 3 undefined on input line 276.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
 
  []
 
 
 LaTeX Warning: Citation 'goodfellow2014generative' on page 3 undefined on input
- line 280.
+ line 282.
 
 
-LaTeX Warning: Citation 'HIMMS' on page 3 undefined on input line 284.
+LaTeX Warning: Citation 'HIMMS' on page 3 undefined on input line 289.
 
 
-LaTeX Warning: Citation 'ONC' on page 3 undefined on input line 286.
+LaTeX Warning: Citation 'ONC' on page 3 undefined on input line 291.
 
 
-LaTeX Warning: Citation 'ONC' on page 3 undefined on input line 287.
+LaTeX Warning: Citation 'ONC' on page 3 undefined on input line 292.
 
 [3
 
 ]
 
-LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 29
-8.
+LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 30
+3.
 
 
-LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 29
-9.
+LaTeX Warning: Citation 'baggio2013gender' on page 4 undefined on input line 30
+4.
 
 
-LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 300.
-
-
-
-LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 300.
+LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 305.
 
 
 
-LaTeX Warning: Citation 'arain2009sex' on page 4 undefined on input line 303.
+LaTeX Warning: Citation 'kautzky2010sex' on page 4 undefined on input line 305.
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 298--305
+
+LaTeX Warning: Citation 'arain2009sex' on page 4 undefined on input line 308.
+
+
+Underfull \hbox (badness 2478) in paragraph at lines 303--310
 \T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
 g that women are heav-ily
  []
 
 
-LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 309.
+LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 314.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 309.
+LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 314.
 
 
 LaTeX Warning: Citation 'rath2012representation' on page 4 undefined on input l
-ine 309.
+ine 314.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 309.
+LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 314.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 310.
+LaTeX Warning: Citation 'Orphanet' on page 4 undefined on input line 315.
+
+[4]
+
+LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 321.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 316.
+LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 323.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 318.
+LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 324.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 319.
+LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 324.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 319.
+LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 325.
 
-
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 320.
-
-[4] [5] [6
+[5] [6
 
 ]
 Chapter 3.
 
 LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
- 326.
-
-<img/icd_top_frequency.png, id=56, 379.4175pt x 358.33875pt>
-File: img/icd_top_frequency.png Graphic file (type png)
-<use img/icd_top_frequency.png>
-Package pdftex.def Info: img/icd_top_frequency.png  used on input line 333.
-(pdftex.def)             Requested size: 426.79134pt x 403.08636pt.
-
-LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 334.
+ 334.
 
 
-LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 334.
+Overfull \hbox (79.26382pt too wide) in paragraph at lines 340--354
+[][] 
+ []
 
-<img/correlation-heatmap.png, id=58, 1370.11874pt x 429.605pt>
+<img/correlation-heatmap.png, id=56, 1370.11874pt x 429.605pt>
 File: img/correlation-heatmap.png Graphic file (type png)
 <use img/correlation-heatmap.png>
-Package pdftex.def Info: img/correlation-heatmap.png  used on input line 341.
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 362.
 (pdftex.def)             Requested size: 426.79134pt x 133.81857pt.
 
-LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 342.
-
-
-LaTeX Warning: Citation 'Ruder2019' on page 7 undefined on input line 342.
+LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
+ 363.
 
 
 LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
- 347.
+ 363.
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.363 \end{tabularx}
-                    
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-<img/male_female_heart_disease.png, id=59, 1025.8325pt x 500.87125pt>
-File: img/male_female_heart_disease.png Graphic file (type png)
-<use img/male_female_heart_disease.png>
-Package pdftex.def Info: img/male_female_heart_disease.png  used on input line 
-371.
-(pdftex.def)             Requested size: 426.79134pt x 208.38503pt.
-<img/comparison_diabetic.png, id=60, 994.71625pt x 501.875pt>
-File: img/comparison_diabetic.png Graphic file (type png)
-<use img/comparison_diabetic.png>
-Package pdftex.def Info: img/comparison_diabetic.png  used on input line 383.
-(pdftex.def)             Requested size: 426.79134pt x 215.3349pt.
-[7] [8 <./img/icd_top_frequency.png> <./img/correlation-heatmap.png>] [9 <./img
-/male_female_heart_disease.png> <./img/comparison_diabetic.png>] [10]
-Chapter 4.
-
-LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 396.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 397.
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 395--398
-\T1/ptm/m/n/10.95 D and G are both im-ple-mented as feed-for-ward neu-ral net-w
-orks. As we learned in
- []
-
-
-LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 416.
-
-<img/medgan-architecture.png, id=77, 305.14pt x 255.95625pt>
-File: img/medgan-architecture.png Graphic file (type png)
-<use img/medgan-architecture.png>
-Package pdftex.def Info: img/medgan-architecture.png  used on input line 419.
-(pdftex.def)             Requested size: 213.39566pt x 179.0041pt.
-
-LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 420.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 420.
-
-[11
-
-]
-
-LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 430.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 433.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 435.
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 435--436
-[]\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
-reg-u-lar GAN as well, but this time with a
- []
-
-
-LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 441.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 442.
-
-[12 <./img/medgan-architecture.png>]
-Underfull \hbox (badness 1163) in paragraph at lines 473--474
-[]\T1/ptm/m/n/10.95 To as-sess the ef-fec-tive-ness of my method, I trained the
- net-work both, with mixed and
- []
-
-[13]
-
-LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 475.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 478.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 486.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--489
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--489
-
- []
-
-[14]
-Chapter 5.
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 516.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 516--520
-
- []
-
-[15
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 525--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--535
-
- []
-
-
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 536.
-
-! Double subscript.
-l.536 ...ression classifiers to predict $\gamma_R_
-                                                  k$ and $\gamma_S_k$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.536 ...rs to predict $\gamma_R_k$ and $\gamma_S_
-                                                  k$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-! Package inputenc Error: Unicode character 􏰆 (U+10FC06)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.543 ...thesis with a low P-value (typically 􏰆
-                                                   0.05). More details of th...
-
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--544
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 536--544
-
- []
-
-<img/plots/binary_3digit_mixed.pdf, id=98, 433.62pt x 289.08pt>
-File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
-<use img/plots/binary_3digit_mixed.pdf>
-Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
-547.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_female.pdf, id=99, 433.62pt x 289.08pt>
-File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
-<use img/plots/binary_3digit_female.pdf>
-Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
- 548.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_male.pdf, id=100, 433.62pt x 289.08pt>
-File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
-<use img/plots/binary_3digit_male.pdf>
-Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 5
-49.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_mixed.pdf, id=101, 433.62pt x 289.08pt>
-File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
-<use img/plots/binary_5digit_mixed.pdf>
-Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
-551.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_female.pdf, id=102, 433.62pt x 289.08pt>
-File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
-<use img/plots/binary_5digit_female.pdf>
-Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
- 552.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_male.pdf, id=103, 433.62pt x 289.08pt>
-File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
-<use img/plots/binary_5digit_male.pdf>
-Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 5
-53.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1488,7 +1218,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 \\
+l.370 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1501,65 +1231,296 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.568 \begin
+l.371 N
+       ext, we have a look at the correlation heatmap (\textbf{Figure 3.1}) ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Citation 'arya2019exploratory' on page 7 undefined on input line
+ 371.
+
+
+Underfull \hbox (badness 2726) in paragraph at lines 371--378
+[]\T1/ptm/m/n/10.95 Next, we have a look at the cor-re-la-tion heatmap (\T1/ptm
+/b/n/10.95 Figure 3.1\T1/ptm/m/n/10.95 ) that is in-tro-duced in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--378
+
+ []
+
+[7]
+<img/male_female_heart_disease.png, id=62, 1025.8325pt x 500.87125pt>
+File: img/male_female_heart_disease.png Graphic file (type png)
+<use img/male_female_heart_disease.png>
+Package pdftex.def Info: img/male_female_heart_disease.png  used on input line 
+400.
+(pdftex.def)             Requested size: 426.79134pt x 208.38503pt.
+<img/comparison_diabetic.png, id=63, 994.71625pt x 501.875pt>
+File: img/comparison_diabetic.png Graphic file (type png)
+<use img/comparison_diabetic.png>
+Package pdftex.def Info: img/comparison_diabetic.png  used on input line 412.
+(pdftex.def)             Requested size: 426.79134pt x 215.3349pt.
+ [8 <./img/correlation-heatmap.png>] [9 <./img/male_female_heart_disease.png> <
+./img/comparison_diabetic.png>] [10
+
+]
+Chapter 4.
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 428.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 429.
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 427--430
+\T1/ptm/m/n/10.95 D and G are both im-ple-mented as feed-for-ward neu-ral net-w
+orks. As we learned in
+ []
+
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 445.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 451.
+
+<img/medgan-architecture.png, id=76, 305.14pt x 255.95625pt>
+File: img/medgan-architecture.png Graphic file (type png)
+<use img/medgan-architecture.png>
+Package pdftex.def Info: img/medgan-architecture.png  used on input line 454.
+(pdftex.def)             Requested size: 213.39566pt x 179.0041pt.
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 455.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 11 undefined on input line 455.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--459
+
+ []
+
+[11]
+
+LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 465.
+
+
+LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 468.
+
+
+LaTeX Warning: Citation 'Baowaly2018' on page 12 undefined on input line 470.
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 470--471
+[]\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
+reg-u-lar GAN as well, but this time with a
+ []
+
+
+LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 476.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 12 undefined on input line 477.
+
+[12 <./img/medgan-architecture.png>]
+Underfull \hbox (badness 1163) in paragraph at lines 508--509
+[]\T1/ptm/m/n/10.95 To as-sess the ef-fec-tive-ness of my method, I trained the
+ net-work both, with mixed and
+ []
+
+[13]
+
+LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 510.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 513.
+
+
+LaTeX Warning: Citation 'Choi2017' on page 14 undefined on input line 521.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--524
+
+ []
+
+[14]
+Chapter 5.
+
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 551.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 551--555
+
+ []
+
+[15
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 560--562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 568--570
+
+ []
+
+
+LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 571.
+
+! Double subscript.
+l.571 ...ression classifiers to predict $\gamma_R_
+                                                  k$ and $\gamma_S_k$
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Double subscript.
+l.571 ...rs to predict $\gamma_R_k$ and $\gamma_S_
+                                                  k$
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! Package inputenc Error: Unicode character 􏰆 (U+10FC06)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.578 ...thesis with a low P-value (typically 􏰆
+                                                   0.05). More details of th...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--579
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--579
+
+ []
+
+<img/plots/binary_3digit_mixed.pdf, id=96, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_mixed.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
+582.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_3digit_female.pdf, id=97, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_female.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
+ 583.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_3digit_male.pdf, id=98, 433.62pt x 289.08pt>
+File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
+<use img/plots/binary_3digit_male.pdf>
+Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 5
+84.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_mixed.pdf, id=99, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_mixed.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
+586.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_female.pdf, id=100, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_female.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
+ 587.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/binary_5digit_male.pdf, id=101, 433.62pt x 289.08pt>
+File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
+<use img/plots/binary_5digit_male.pdf>
+Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 5
+88.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.603 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 \begin
             {figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/plots/count_3digit_mixed.pdf, id=104, 433.62pt x 289.08pt>
+<img/plots/count_3digit_mixed.pdf, id=102, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 5
-70.
+Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 6
+06.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_female.pdf, id=105, 433.62pt x 289.08pt>
+<img/plots/count_3digit_female.pdf, id=103, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_female.pdf>
 Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
-571.
+607.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_male.pdf, id=106, 433.62pt x 289.08pt>
+<img/plots/count_3digit_male.pdf, id=104, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_male.pdf>
-Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 57
-2.
+Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 60
+8.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_mixed.pdf, id=107, 433.62pt x 289.08pt>
+<img/plots/count_5digit_mixed.pdf, id=105, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 5
-74.
+Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 6
+10.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_female.pdf, id=108, 433.62pt x 289.08pt>
+<img/plots/count_5digit_female.pdf, id=106, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_female.pdf>
 Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
-575.
+611.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_male.pdf, id=109, 433.62pt x 289.08pt>
+<img/plots/count_5digit_male.pdf, id=107, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_male.pdf>
-Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 57
-6.
+Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 61
+2.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
-[]|\T1/ptm/m/n/10.95 Male
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 616--616
-[]|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with ten-don
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 591--619
+Underfull \hbox (badness 10000) in paragraph at lines 627--655
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 591--619
+Underfull \hbox (badness 10000) in paragraph at lines 627--655
 
  []
 
@@ -1618,38 +1579,15 @@ e
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 1546) in paragraph at lines 652--652
-[]|\T1/ptm/m/n/10.95 427.31 244.9 305.1 424.1 414.01 V58.61 V05.3
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 652--652
-[]|\T1/ptm/m/n/10.95 V45.82 Per-cu-ta-neous trans-lu-mi-nal coro-nary
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 652--652
-[]|\T1/ptm/m/n/10.95 774.2 Neona-tal jaun-dice as-so-ci-ated with preterm
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 652--652
+Underfull \hbox (badness 10000) in alignment at lines 697--697
 [][][][]
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 670--670
-[][][][]
- []
+LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 702.
 
-
-LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 675.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-Underfull \hbox (badness 10000) in alignment at lines 693--693
+[18]
+Underfull \hbox (badness 10000) in alignment at lines 720--720
 [][][][]
  []
 
@@ -1660,25 +1598,25 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.697 \begin
+l.724 \begin
             {table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in alignment at lines 711--711
+Underfull \hbox (badness 10000) in alignment at lines 738--738
 [][][][]
  []
 
 
 LaTeX Warning: Citation 'juutilainen2004gender' on page 19 undefined on input l
-ine 716.
+ine 743.
 
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1687,7 +1625,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1696,7 +1634,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1705,7 +1643,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1714,7 +1652,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1723,7 +1661,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1732,7 +1670,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1741,7 +1679,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1750,13 +1688,17 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.725 \end{tabularx}
+l.752 \end{tabularx}
                     
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[19] [20]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+[20]
 Chapter 6.
 [21
 
@@ -1794,10 +1736,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16715 strings out of 492616
- 278024 string characters out of 6129480
- 780498 words of memory out of 5000000
- 20286 multiletter control sequences out of 15000+600000
+ 16711 strings out of 492616
+ 277916 string characters out of 6129480
+ 778556 words of memory out of 5000000
+ 20284 multiletter control sequences out of 15000+600000
  48705 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,12n,61p,1129b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1817,10 +1759,10 @@ t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on main.pdf (34 pages, 7317814 bytes).
+Output written on main.pdf (34 pages, 7209923 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
