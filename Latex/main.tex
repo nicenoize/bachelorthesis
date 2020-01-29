@@ -185,7 +185,33 @@ XXX
 \clearpage
 
 \thispagestyle{empty}
-\tableofcontents
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+
+\textbf{GAN} & \textbf{G}enerative \textbf{A}dversarial \textbf{N}etwork\\
+\textbf{medGAN} & \textbf{med}ical \textbf{G}enerative \textbf{A}dversarial \textbf{N}etwork\\
+\textbf{G} & \textbf{G}enerator}\\
+\textbf{D} & \textbf{D}iscriminator\\
+\textbf{CAD} & \textbf{C}oronary & \textbf{A}rtery & \textbf{D}isease\\
+\textbf{CVD} & \textbf{C}ardio\textbf{v}ascular & \textbf{D}isease\\
+\textbf{DM} & \textbf{D}iabetes & \textbf{M}ellitus
+\end{abbreviations}
+
+
 
 \blankpage
 
@@ -201,17 +227,23 @@ XXX
 % Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
 
 \section{Problem}
+Neural networks used everywhere. Usage in medical domain not so easy, because of limited data access for research due to privacy reasons.
+Different methods to generate data, but not useful enough for training.
+Especially patients with rare diseases -> nearly no data. 
+Generating it with GAN leads to realistic data.
 \section{Goal}
-The goal of our research is to address the issue of medGAN not taking gender into account and to further improve its generated samples' quality.
+The aim of this work is to generate electronic health records (EHRs). We want to investigate, whether the samples the medical Generative Adversarial Network (medGAN) generates will be more realistic, if we separate the input data by gender. Further, we want to investigate whether medGAN is able to generate realistic samples with rare diseases.
 \section{Method}
+
 \subsection{Preliminary: GAN}
-TODO: SHORT DESCRIPTION OF GAN
+
+
 \subsection{medGAN}
 A central aspect of this work will be the application of the medical Generative Adversarial Network (medGAN), that is proposed in \cite{Choi2017}.
-It is a GAN, able to generate realistic synthetic patient records. \cite{Choi2017} proofs in his work, that medGAN outperforms classical machine learning algorithms like Linear Regression, Random Forests and Support Vector Machine. 
+It is a GAN, able to generate realistic synthetic patient records, that achieve comparable results to real data when used for predictive modeling tasks. \cite{Choi2017} proofs in his work, that medGAN outperforms classical machine learning algorithms like Linear Regression, Random Forests and Support Vector Machine. 
 In Chapter 2, the motivation of creating medGAN will be explained. In Chapter 4, we will provide detailed information on the architecture of medGAN and give info on recent improvements on medGAN.
 \subsection{binary/count variables}
-For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD code occured or not, while records with count data will show how many times each ICD code occurred for each patient.
+For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD code occured or not, \textbf{Table 1.1} shows exemplary data. Records with count data will show how many times each ICD code occurred for each patient, as depicted in \textbf{Tablee 1.2}
 \\
 \\
 
@@ -311,7 +343,7 @@ Originally MedGAN was trained with male and female patients simultaneously, maki
 The previously mentioned gender-differences lead us to one of our hypotheses, which will be formulated in Chapter 4.
 
 \subsection{Rare diseases}
-In Europe, a rare disease, also know as orphan disease, is defined as such when there are no more than 5 occurrences in 10.000 people. As defined by Orphanet, there are roughly 6,000 to 7,000 rare disorders, which include diseases, syndromes and anomalies. The characteristic of a disease is an altered state of health, presented "as a unique pattern of symptoms with a single treatment". \cite{Orphanet}. The majority of rare diseases have a genetic origin, but can also originate from an infection or due to unknown reasons. \cite{Orphanet} Specific codes for orphan diseases are only scarce in international classification systems like ICD-10 or ICD-9, which is used in this work \cite{rath2012representation}, resulting in a deficit of information  for researchers regarding orphan diseases. This problem finds its cause in the lack of research and a lack of awareness for rare diseases until recently, also resulting in patients without a diagnosis and unidentified illnesses. \cite{Orphanet}
+In Europe, a rare disease, also know as orphan disease, is defined as such when there are no more than 5 occurrences in 10.000 people. As defined by Orphanet, there are roughly 6,000 to 7,000 rare disorders, which include diseases, syndromes and anomalies. The characteristic of a disease is an altered state of health, presented "as a unique pattern of symptoms with a single treatment". \cite{Orphanet}. The majority of rare diseases have a genetic origin, but can also originate from an infection or due to unknown reasons. \cite{Orphanet} Specific codes for orphan diseases are only scarce in international classification systems like ICD-9 or ICD-10, which is used in this work, resulting in a deficit of information  for researchers regarding orphan diseases. This problem finds its cause in the lack of research and a lack of awareness for rare diseases until recently, also resulting in patients without a diagnosis and unidentified illnesses. \cite{Orphanet}
 Therefore Orphanet developed a nomenclature, in which each rare disease receives a unique ORPHAnumber. This system increases visibility of rare diseases and interoperability among health and research information systems. \cite{Orphanet}
 
 
@@ -399,7 +431,7 @@ In our qualitative evaluation in Chapter 5, we will verify whether our model is 
 
 \chapter{Electronic Health Record Generation}
 \section{Abstract}
-In this chapter, we will elaborate medGAN, discuss the process and architecture, our experimental setup and the process of training and generating synthetic Electronic Medical Record data. Further, we will introduce our hypotheses and describe the dataset.
+In this chapter, we will elaborate medGAN, discuss the process of training and generating synthetic Electronic Health Record data and architecture of medGAN, and our experimental setup. Further, we will introduce our hypotheses and describe the MIMIC-III dataset.
 \section{medGAN}
 \textbf{D} and \textbf{G} are both implemented as feedforward neural networks.
 As we learned in 2.2.1, the generator \textbf{G} "is trained by the error signal from the discriminator D via backpropagation, the original GAN can only learn to approximate discrete patient records $x \in Z|C|$ with continuous values. ” \cite{Choi2017}
@@ -421,9 +453,9 @@ where m is the size of the mini-batch." \cite{Choi2017}
 \\
 \\
 An autoencoder consists of of two elements: The Encoder (\textit{Enc}) which compresses the input and the Decoder (\textit{Dec}) that is used to construct the output.
-For count variables they used the cross entropy loss and rectified linear units  as activation function for the \textit{Enc} and \textit{Dec}.
-For binary variables they used the mean squared loss and the tanh activation function for \textit{Enc} and the sigmoid activation for \textit{Dec}.
-Both, the \textit{Enc} and the \textit{Dec} are implemented as single layer feedforward networks. The original input x it receives, is compressed into a 128 dimensional vector. The generator \textit{G} consists of two hidden-layers with each 128 dimensions and is implemented as a feedforward network. For the batch normalization in \textit{G} they use the scale parameter  $\gamma$ and the shift parameter $\beta$ and set the moving average decay to 0.99. The discriminator \textit{D} inherits the same structure, but the first hidden-layer consists of 256 dimensions. MedGAN is trained for 1,000 epochs with the mini-batch of 1000 records. \cite{Choi2017}
+For count variables they used the \textit{cross entropy loss} and \textit{rectified linear units (ReLU}  as activation function for the \textit{Enc} and \textit{Dec}.
+For binary variables they used the \textit{mean squared loss} and the \textit{tanh} activation function for \textit{Enc} and the \textit{sigmoid} activation for \textit{Dec}.
+Both, the \textit{Enc} and the \textit{Dec} are implemented as single-layer feedforward networks. The original input x it receives, is compressed into a 128 dimensional vector. The generator \textit{G} consists of two hidden-layers with each 128 dimensions and is implemented as a feedforward network. For the batch normalization in \textit{G} they use the scale parameter  $\gamma$ and the shift parameter $\beta$ and set the moving average decay to 0.99. The discriminator \textit{D} inherits the same structure, but the first hidden-layer consists of 256 dimensions. MedGAN is trained for 1,000 epochs with the mini-batch of 1000 records. \cite{Choi2017}
 \begin{figure}
   \begin{center}
   \includegraphics[width=0.5\textwidth]{img/medgan-architecture.png}
@@ -432,16 +464,17 @@ Both, the \textit{Enc} and the \textit{Dec} are implemented as single layer feed
   \end{center}
 \end{figure}
 
-One of the key underlying problems of GANs is mode collapse. Mode collapse happens, when the generator learns a single or a few samples that the discriminator accepts and \textit{G} keeps generating the same sample(s).
-\citep{Choi2017} tackles the problem of mode collapse, by introducing \textit{minibatch averaging}, which functions similarly to \textit{minibatch discrimination}. The general idea is that during training, \textit{D} sees the minibatch of real samples during classifying fake samples and vice-versa.
+One of the key underlying problems of GANs is \textit{mode collapse}. \textit{Mode collapse} happens, when the generator learns a single or a few samples that the discriminator accepts and keeps generating the same sample(s).
+\cite{Choi2017} approaches the problem of mode collapse, by introducing \textit{minibatch averaging}, which functions similarly to \textit{minibatch discrimination}. The general idea is that during training, \textit{D} sees the minibatch of real samples during classifying fake samples and vice-versa.
 While minibatch discrimination compares the calculated distance of each given sample and the samples of the minibatch, minibatch averaging calculates the average of the samples in the minibatch. In contrast to minibatch discrimination, minibatch averaging does not require any additional parameters and therefore its impact on the training time is neglectable. \cite{Choi2017}
+Additionally, batch normalization and shortcut connection need to be applied, to increase the learning efficiency of G. Otherwise D will overpower G. \cite{Choi2017}
 
-"medGAN generates synthetic EHR datasets that achieve comparable performance to real data on many experiments including distribution statistics, predictive modeling tasks and medical expert review."
+
 
 \subsection{SynthEHR (medBGAN, medWGAN)}
-In \cite{Baowaly2018} proposed two altered versions of medGAN that outperform their predecessor, however just slightly.
+Recently, \cite{Baowaly2018} proposed two altered versions of medGAN that outperform their predecessor, however just slightly.
+\\
 Those two versions are:
-
 \textbf{medWGAN}: This version substitutes the regular GAN with an improved \textit{Wasserstein GAN (WGAN)}, that utilizes "an alternative method of weight clipping called gradient penalty, which entails penalizing the norm of the gradient of the discriminator (critic) with respect to its input" \cite{Baowaly2018}
 
 \textbf{medBGAN}: This version substitutes the regular GAN as well, but this time with a \textit{boundary-seeking GAN (BGAN)}. This approach trains the generator to match the target distribution that converges toward the true distribution as the discriminator is optimized" \cite{Baowaly2018}
@@ -451,7 +484,7 @@ Bereits erklärt?
 MedWGAN and medBGAN both learn interdimensional relationships better than medGAN. We are trying to proof, that medGAN will improve on this point, if trained with female and male patients separately.
 If our hypotheses proof to be true and bring an improvement to medGAN, these improvements will also translate to altered versions of medGAN, because not the network itself is being changed but the input. In our tests we separated the dataset and did not alter it. Henceforth we performed our tests only on the 'original' medGAN. 
 \section{Process and Architecture}
-For generating the Electronic Medical Records (EMR), we used a Generative Adversarial Network (GAN) called medGAN, that was proposed in \cite{Choi2017}. As input data we use v1.4 of the MIMIC-III (Medical Information Mart for Intensive Care) dataset. For our experiments, we divided the dataset by gender and generated EMR data with binary and count variables for both mixed and separated patients. The code for medGAN is publicly accessible under https://github.com/mp2893/medgan. It is implemented using TensorFlow
+For generating the Electronic Medical Records (EMR), we used a Generative Adversarial Network (GAN) called medGAN, that was proposed in \cite{Choi2017}. As input data we use v1.4 of the MIMIC-III (Medical Information Mart for Intensive Care) dataset. For our experiments, we divided the dataset by gender and generated EMR data with binary and count variables for both mixed and separated patients. The code for medGAN is publicly accessible under https://github.com/mp2893/medgan. It is implemented using TensorFlow.
 For training models, they chose the Adam-optimizer with a mini-batch size of 100 patients. \cite{Choi2017} We trained the model using Colaboratory by Google, which is a Jupyter notebook environment, providing free Cloud computing for education and research.
 The machine is equipped with a Tesla T4 GPU from NVIDIA.
 
@@ -706,8 +739,8 @@ V05.3 Need for prophylactic vaccination against viral hepatitis & 12.54\%\\
 
 \subsubsection{Gender-specific}
 MedGAN as provided in its original form, already is able to generate patient EHR data, that can not be distinguished from real data by a medical doctor. The only exception is, when a patient's longitudinal record shows ICD codes of both, female and male related diseases.  \cite{Choi2017}
-By splitting up the input dataset into female and male patients, we eliminate this exception. Therefore we evaluate whether the data still seems real after dividing input data into two groups.
-First, as a basic check-up, we compare the top 10 occurring ICD9 codes of our generated samples with those of the original dataset and look for any outliers. Subsequently, we check whether the model learned that female patients have an increased risk for coronary artery disease and cardiovascular disease, if they also have diabetic disease. As the code for CAD (414.01) can not be identified by using only 3 digits, we choose the binary dataset that has been generated by training with 5 digit long codes for our evaluation.
+By splitting up the input dataset into female and male patients, we eliminate this exception. Therefore we evaluate whether the data still seems real after dividing input data into two groups. For our Evaluation, we choose the binary dataset that has been generated by training with 5 digit long codes. The reason is, that we want to compare it with the results from Chapter 3, and for example the code for CAD (414.01) can not be identified by using only 3 digits,
+First, as a basic check-up, we compare the top 10 occurring ICD9 codes of our generated samples with those of the original dataset and look for any outliers. Subsequently, we check whether the model learned that female patients have an increased risk for coronary artery disease and cardiovascular disease, if they also have diabetic disease. 
 
 \begin{table}
 \begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
@@ -750,8 +783,8 @@ One of the known correlations is CAD (Cardiovascular Artery Disease) with Diabet
 In our generated data 728 female patients, 907 male patients and 569 mixed patients are affected by DM.
 
 \begin{table}
-\begin{tabularx}{\textwidth}{p{0.55\textwidth}|r|X|r}
-Gender & d & ndi & Total & Percentage\\
+\begin{tabularx}{\textwidth}{X|r|r|r|r}
+Gender & Affected by DM & Not affected by DM & Total & Percentage\\
 \hline
 Male 	& 2508 & 4973 & 7481 & 33.52/66.48\\
 Female & 1143 & 1868 & 3011 & 37.96/62.04\\
@@ -761,12 +794,16 @@ Female & 1143 & 1868 & 3011 & 37.96/62.04\\
 
 Looking at Table 5.7 and 3.1 in comparison, we can see that the distribution for male and female samples with CAD and diabetes and these with no diabetes are similar. Therefore we conclude that the interdimensional relationship of cardiovascular disease with diabetic disease has not been learned by our proposed model.
 
+\subsection{Qualitative evaluation with a medical doctor}
+Last, we evaluate our measurements with the help of a medical doctor. Therefore we choose 40 samples, 20 from the original dataset and 20 from our generated count datasets. For Evaluation, we choose samples from the count dataset that we trained with 3 digit codes as input, as these are they best performing models according to our quantitative evaluation. From the samples with rare diseases, we choose 5 samples from the original dataset and 5 samples from the generated mixed dataset, again because of its superior performance . For the rest of the samples we choose 5 samples each, male, female, and mixed from the count datasets.
+We ask the medical doctor to rate the samples on realisticness on a scale from 1 to 10, as already shown in \citec{Choi2017}.
+
 
 
 \subsection{Discussion}
 % Risk Factors: do we see any changes in correlated illnesses from gender-specific to non gender-specific data?
 % Qualitative: Doctor (note: A discussion with the doctor taught us that count data are easier to assess its realisticness than binary data. )
-
+% Fragen, Ideen, Anregungen von Sait
 \subsection{Summary}
 In this section we evaluated our measurements
 
@@ -796,8 +833,7 @@ I would like to thank Prof. Dr. Alexander Löser for the insightful discussions 
 \appendix
 \renewcommand\chaptername{Appendix}
 
-\chapter{Datasets}
-XXX
+\chapter{Bibliography}
 
 \chapter{Listings}
 XXX
