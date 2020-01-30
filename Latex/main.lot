@@ -3,39 +3,33 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.1}{\ignorespaces Example binary data entries\relax }}{2}% 
+\contentsline {table}{\numberline {1.1}{\ignorespaces Example binary data entries\relax }}{4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {1.2}{\ignorespaces Example count data entries\relax }}{2}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.2}{\ignorespaces Example count data entries\relax }}{4}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Top 10 of most occurring ICD9 codes in the dataset\relax }}{7}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces Patients that have CAD and diabetes and patients, that have CAD and no diabetes\relax }}{8}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Top 10 of most occurring ICD9 codes in the dataset\relax }}{9}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Patients that have CAD and diabetes and patients, that have CAD and no diabetes\relax }}{11}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Training durations with 3 digit codes\relax }}{11}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Training durations with 3 digit codes\relax }}{15}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Training durations with 5 digit codes\relax }}{11}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Training durations with 5 digit codes\relax }}{15}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces successfully generated samples with rare diseases\relax }}{18}% 
+\contentsline {table}{\numberline {5.1}{\ignorespaces rare disease diagnoses in MIMICIII\relax }}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces rare diseases with no generated samples\relax }}{18}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces successfully generated samples with rare diseases\relax }}{20}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Top 10 diagnoses for generated samples (both sexes).\relax }}{19}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Top 10 diagnoses for generated samples (both sexes).\relax }}{21}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.4}{\ignorespaces Top 10 diagnoses MIMIC-III.\relax }}{19}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.5}{\ignorespaces Top 10 diagnoses for generated female samples.\relax }}{20}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.6}{\ignorespaces Top 10 diagnoses for generated male samples.\relax }}{20}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.7}{\ignorespaces Samples CAD diabetes / CAD no diabetes\relax }}{20}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Samples CAD diabetes / CAD no diabetes\relax }}{21}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

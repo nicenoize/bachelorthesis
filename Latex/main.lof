@@ -7,17 +7,19 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Correlation heatmap of ICD code groups \cite {arya2019exploratory}\relax }}{8}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic overview over MIMIC-III \cite {NAT}\relax }}{10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Correlation heatmap of ICD code groups \cite {arya2019exploratory}\relax }}{10}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture of medGAN: The discrete x comes from the source EHR data, z is the random prior for the generator G; G is a feedforward network with shortcut connections (right-hand side figure); An autoencoder (i.e, the encoder Enc and decoder Dec) is learned from x; The same decoder Dec is used after the generator G to construct the discrete output. The discriminator D tries to differentiate real input x and discrete synthetic output Dec(G(z)). \cite {Choi2017}\relax }}{10}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Architecture of traditional GAN \textbf {(a)} and medGAN \textbf {(b)}: The discrete x comes from the source EHR data, z is the random prior for the generator G; G is a feedforward network with shortcut connections (right-hand side figure); An autoencoder (i.e, the encoder Enc and decoder Dec) is learned from x; The same decoder Dec is used after the generator G to construct the discrete output. The discriminator D tries to differentiate real input x and discrete synthetic output Dec(G(z)). \cite {Choi2017}\relax }}{14}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Scatterplots of dimension-wise probability\relax }}{17}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Scatterplots of dimension-wise probability\relax }}{19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Scatterplots of dimension-wise average\relax }}{17}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Scatterplots of dimension-wise average\relax }}{19}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
