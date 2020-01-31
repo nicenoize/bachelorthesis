@@ -1,0 +1,845 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{arain2009sex}{article}{}
+    \name{author}{4}{}{%
+      {{hash=AFA}{%
+         family={Arain},
+         familyi={A\bibinitperiod},
+         given={Faisal\bibnamedelima A},
+         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KFH}{%
+         family={Kuniyoshi},
+         familyi={K\bibinitperiod},
+         given={Fatima\bibnamedelima H},
+         giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=AAD}{%
+         family={Abdalrhim},
+         familyi={A\bibinitperiod},
+         given={Ahmed\bibnamedelima D},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MVM}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Virginia\bibnamedelima M},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The Japanese Circulation Society}%
+    }
+    \strng{namehash}{AFA+1}
+    \strng{fullhash}{AFAKFHAADMVM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{pages}{0908260469\bibrangedash 0908260469}
+    \field{title}{Sex/Gender Medicine}
+    \field{journaltitle}{Circulation Journal}
+    \field{year}{2009}
+  \endentry
+
+  \entry{arya2019exploratory}{article}{}
+    \name{author}{1}{}{%
+      {{hash=AA}{%
+         family={Arya},
+         familyi={A\bibinitperiod},
+         given={Abhishek},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AA1}
+    \strng{fullhash}{AA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Exploratory Data Analysis of Intensive Care Unit Patients
+  using MIMIC-III Database}
+    \field{year}{2019}
+  \endentry
+
+  \entry{baggio2013gender}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BG}{%
+         family={Baggio},
+         familyi={B\bibinitperiod},
+         given={Giovannella},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Corsini},
+         familyi={C\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Floreani},
+         familyi={F\bibinitperiod},
+         given={Annarosa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Giannini},
+         familyi={G\bibinitperiod},
+         given={Sandro},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZV}{%
+         family={Zagonel},
+         familyi={Z\bibinitperiod},
+         given={Vittorina},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {De Gruyter}%
+    }
+    \strng{namehash}{BG+1}
+    \strng{fullhash}{BGCAFAGSZV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{4}
+    \field{pages}{713\bibrangedash 727}
+    \field{title}{Gender medicine: a task for the third millennium}
+    \field{volume}{51}
+    \field{journaltitle}{Clinical chemistry and laboratory medicine}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Baowaly2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=BMK}{%
+         family={Baowaly},
+         familyi={B\bibinitperiod},
+         given={Mrinal\bibnamedelima Kanti},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LCC}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Chia-Ching},
+         giveni={C\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=LCL}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Chao-Lin},
+         giveni={C\bibinithyphendelim L\bibinitperiod},
+      }}%
+      {{hash=CKT}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Kuan-Ta},
+         giveni={K\bibinithyphendelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press}%
+    }
+    \strng{namehash}{BMK+1}
+    \strng{fullhash}{BMKLCCLCLCKT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{3}
+    \field{pages}{228\bibrangedash 241}
+    \field{title}{Synthesizing electronic health records using improved
+  generative adversarial networks}
+    \field{volume}{26}
+    \field{journaltitle}{Journal of the American Medical Informatics
+  Association}
+    \field{year}{2018}
+  \endentry
+
+  \entry{bremond2015contribution}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BGD}{%
+         family={Bremond-Gignac},
+         familyi={B\bibinithyphendelim G\bibinitperiod},
+         given={Dominique},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Lewandowski},
+         familyi={L\bibinitperiod},
+         given={Elisabeth},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Copin},
+         familyi={C\bibinitperiod},
+         given={Henri},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi}%
+    }
+    \strng{namehash}{BGDLECH1}
+    \strng{fullhash}{BGDLECH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Contribution of electronic medical records to the management
+  of rare diseases}
+    \field{volume}{2015}
+    \field{journaltitle}{BioMed research international}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Choi2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CE}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Edward},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Biswal},
+         familyi={B\bibinitperiod},
+         given={Siddharth},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Malin},
+         familyi={M\bibinitperiod},
+         given={Bradley},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Duke},
+         familyi={D\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SWF}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Walter\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jimeng},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{cs.LG, cs.NE}
+    \strng{namehash}{CE+1}
+    \strng{fullhash}{CEBSMBDJSWFSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Access to electronic health record (EHR) data has motivated computational
+  advances in medical research. However, various concerns, particularly over
+  privacy, can limit access to and collaborative use of EHR data. Sharing
+  synthetic EHR data could mitigate risk. In this paper, we propose a new
+  approach, medical Generative Adversarial Network (medGAN), to generate
+  realistic synthetic patient records. Based on input real patient records,
+  medGAN can generate high-dimensional discrete variables (e.g., binary and
+  count features) via a combination of an autoencoder and generative
+  adversarial networks. We also propose minibatch averaging to efficiently
+  avoid mode collapse, and increase the learning efficiency with batch
+  normalization and shortcut connections. To demonstrate feasibility, we showed
+  that medGAN generates synthetic patient records that achieve comparable
+  performance to real data on many experiments including distribution
+  statistics, predictive modeling tasks and a medical expert review. We also
+  empirically observe a limited privacy risk in both identity and attribute
+  disclosure using medGAN.%
+    }
+    \verb{eprint}
+    \verb http://arxiv.org/abs/1703.06490v3
+    \endverb
+    \field{title}{Generating Multi-label Discrete Patient Records using
+  Generative Adversarial Networks}
+    \verb{file}
+    \verb :http\://arxiv.org/pdf/1703.06490v3:PDF
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{day}{19}
+    \field{month}{03}
+    \field{year}{2017}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{frid2018gan}{article}{}
+    \name{author}{6}{}{%
+      {{hash=FAM}{%
+         family={Frid-Adar},
+         familyi={F\bibinithyphendelim A\bibinitperiod},
+         given={Maayan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Diamant},
+         familyi={D\bibinitperiod},
+         given={Idit},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Klang},
+         familyi={K\bibinitperiod},
+         given={Eyal},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Amitai},
+         familyi={A\bibinitperiod},
+         given={Michal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Goldberger},
+         familyi={G\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Greenspan},
+         familyi={G\bibinitperiod},
+         given={Hayit},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{FAM+1}
+    \strng{fullhash}{FAMDIKEAMGJGH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{pages}{321\bibrangedash 331}
+    \field{title}{GAN-based synthetic medical image augmentation for increased
+  CNN performance in liver lesion classification}
+    \field{volume}{321}
+    \field{journaltitle}{Neurocomputing}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Goodfellow2014}{article}{}
+    \name{author}{8}{}{%
+      {{hash=GIJ}{%
+         family={Goodfellow},
+         familyi={G\bibinitperiod},
+         given={Ian\bibnamedelima J.},
+         giveni={I\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PAJ}{%
+         family={Pouget-Abadie},
+         familyi={P\bibinithyphendelim A\bibinitperiod},
+         given={Jean},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mirza},
+         familyi={M\bibinitperiod},
+         given={Mehdi},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=XB}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Bing},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WFD}{%
+         family={Warde-Farley},
+         familyi={W\bibinithyphendelim F\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=OS}{%
+         family={Ozair},
+         familyi={O\bibinitperiod},
+         given={Sherjil},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Courville},
+         familyi={C\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BY}{%
+         family={Bengio},
+         familyi={B\bibinitperiod},
+         given={Yoshua},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{stat.ML, cs.LG}
+    \strng{namehash}{GIJ+1}
+    \strng{fullhash}{GIJPAJMMXBWFDOSCABY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    We propose a new framework for estimating generative models via an
+  adversarial process, in which we simultaneously train two models: a
+  generative model G that captures the data distribution, and a discriminative
+  model D that estimates the probability that a sample came from the training
+  data rather than G. The training procedure for G is to maximize the
+  probability of D making a mistake. This framework corresponds to a minimax
+  two-player game. In the space of arbitrary functions G and D, a unique
+  solution exists, with G recovering the training data distribution and D equal
+  to 1/2 everywhere. In the case where G and D are defined by multilayer
+  perceptrons, the entire system can be trained with backpropagation. There is
+  no need for any Markov chains or unrolled approximate inference networks
+  during either training or generation of samples. Experiments demonstrate the
+  potential of the framework through qualitative and quantitative evaluation of
+  the generated samples.%
+    }
+    \verb{eprint}
+    \verb http://arxiv.org/abs/1406.2661v1
+    \endverb
+    \field{title}{Generative Adversarial Networks}
+    \verb{file}
+    \verb :http\://arxiv.org/pdf/1406.2661v1:PDF
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{stat.ML}
+    \field{day}{10}
+    \field{month}{06}
+    \field{year}{2014}
+    \warn{\item Can't use 'date' + 'year'}
+  \endentry
+
+  \entry{jiang2017artificial}{article}{}
+    \name{author}{10}{}{%
+      {{hash=JF}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JY}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZH}{%
+         family={Zhi},
+         familyi={Z\bibinitperiod},
+         given={Hui},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=DY}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Hao},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Sufeng},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yilong},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=DQ}{%
+         family={Dong},
+         familyi={D\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Haipeng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WY}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Yongjun},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BMJ Specialist Journals}%
+    }
+    \strng{namehash}{JF+1}
+    \strng{fullhash}{JFJYZHDYLHMSWYDQSHWY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{4}
+    \field{pages}{230\bibrangedash 243}
+    \field{title}{Artificial intelligence in healthcare: past, present and
+  future}
+    \field{volume}{2}
+    \field{journaltitle}{Stroke and vascular neurology}
+    \field{year}{2017}
+  \endentry
+
+  \entry{johnson2016mimic}{article}{}
+    \name{author}{10}{}{%
+      {{hash=JAE}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Alistair\bibnamedelima EW},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=PTJ}{%
+         family={Pollard},
+         familyi={P\bibinitperiod},
+         given={Tom\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Lu},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LwHL}{%
+         family={Li-wei},
+         familyi={L\bibinithyphendelim w\bibinitperiod},
+         given={H\bibnamedelima Lehman},
+         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=FM}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={Mengling},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Ghassemi},
+         familyi={G\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MB}{%
+         family={Moody},
+         familyi={M\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Szolovits},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CLA}{%
+         family={Celi},
+         familyi={C\bibinitperiod},
+         given={Leo\bibnamedelima Anthony},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MRG}{%
+         family={Mark},
+         familyi={M\bibinitperiod},
+         given={Roger\bibnamedelima G},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{JAE+1}
+    \strng{fullhash}{JAEPTJSLLwHLFMGMMBSPCLAMRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{pages}{160035}
+    \field{title}{MIMIC-III, a freely accessible critical care database}
+    \field{volume}{3}
+    \field{journaltitle}{Scientific data}
+    \field{year}{2016}
+  \endentry
+
+  \entry{juutilainen2004gender}{article}{}
+    \name{author}{6}{}{%
+      {{hash=JA}{%
+         family={Juutilainen},
+         familyi={J\bibinitperiod},
+         given={Auni},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kortelainen},
+         familyi={K\bibinitperiod},
+         given={Saara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lehto},
+         familyi={L\bibinitperiod},
+         given={Seppo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={R{\"o}nnemaa},
+         familyi={R\bibinitperiod},
+         given={Tapani},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Py{\"o}r{\"a}l{\"a}},
+         familyi={P\bibinitperiod},
+         given={Kalevi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Laakso},
+         familyi={L\bibinitperiod},
+         given={Markku},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Am Diabetes Assoc}%
+    }
+    \strng{namehash}{JA+1}
+    \strng{fullhash}{JAKSLSRTPKLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{12}
+    \field{pages}{2898\bibrangedash 2904}
+    \field{title}{Gender difference in the impact of type 2 diabetes on
+  coronary heart disease risk}
+    \field{volume}{27}
+    \field{journaltitle}{Diabetes care}
+    \field{year}{2004}
+  \endentry
+
+  \entry{kautzky2010sex}{article}{}
+    \name{author}{8}{}{%
+      {{hash=KWA}{%
+         family={Kautzky-Willer},
+         familyi={K\bibinithyphendelim W\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KMR}{%
+         family={Kamyar},
+         familyi={K\bibinitperiod},
+         given={Majid\bibnamedelima Reza},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gerhat},
+         familyi={G\bibinitperiod},
+         given={Dora},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Handisurya},
+         familyi={H\bibinitperiod},
+         given={Ammon},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Stemer},
+         familyi={S\bibinitperiod},
+         given={Gunar},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={Stephen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Luger},
+         familyi={L\bibinitperiod},
+         given={Anton},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LGR}{%
+         family={Lemmens-Gruber},
+         familyi={L\bibinithyphendelim G\bibinitperiod},
+         given={Rosa},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{KWA+1}
+    \strng{fullhash}{KWAKMRGDHASGHSLALGR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{number}{6}
+    \field{pages}{571\bibrangedash 583}
+    \field{title}{Sex-specific differences in metabolic control, cardiovascular
+  risk, and interventions in patients with type 2 diabetes mellitus}
+    \field{volume}{7}
+    \field{journaltitle}{Gender medicine}
+    \field{year}{2010}
+  \endentry
+
+  \entry{NAT}{online}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={Nature},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{MIMIC-III, a freely accessible critical care database}
+    \verb{url}
+    \verb https://www.nature.com/articles/sdata201635/
+    \endverb
+    \field{year}{2016}
+    \field{urlday}{29}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{neill2013using}{article}{}
+    \name{author}{1}{}{%
+      {{hash=NDB}{%
+         family={Neill},
+         familyi={N\bibinitperiod},
+         given={Daniel\bibnamedelima B},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{NDB1}
+    \strng{fullhash}{NDB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{number}{2}
+    \field{pages}{92\bibrangedash 95}
+    \field{title}{Using artificial intelligence to improve hospital inpatient
+  care}
+    \field{volume}{28}
+    \field{journaltitle}{IEEE Intelligent Systems}
+    \field{year}{2013}
+  \endentry
+
+  \entry{ONC}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={ONC},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{{EMR vs EHR difference}, year = 2011, url =
+  {https://www.healthit.gov/buzz-blog/electronic-health-and-medical-records/emr-vs-ehr-difference},
+  urldate = {2020-01-26}}
+  \endentry
+
+  \entry{Orphanet}{online}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={Orphanet},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O2}
+    \strng{fullhash}{O2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{About Orphanet}
+    \verb{url}
+    \verb https://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=
+    \verb EN
+    \endverb
+    \field{year}{2019}
+    \field{urlday}{26}
+    \field{urlmonth}{01}
+    \field{urlyear}{2020}
+  \endentry
+
+  \entry{ubeyli2007implementing}{article}{}
+    \name{author}{1}{}{%
+      {{hash=UED}{%
+         family={{\"U}beyli},
+         familyi={{\"U}\bibinitperiod},
+         given={Elif\bibnamedelima Derya},
+         giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{UED1}
+    \strng{fullhash}{UED1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{number}{4}
+    \field{pages}{1054\bibrangedash 1062}
+    \field{title}{Implementing automated diagnostic systems for breast cancer
+  detection}
+    \field{volume}{33}
+    \field{journaltitle}{Expert systems with Applications}
+    \field{year}{2007}
+  \endentry
+\enddatalist
+\endinput

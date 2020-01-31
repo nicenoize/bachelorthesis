@@ -1,47 +1,72 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-I found no \bibdata command---while reading file main.aux
-I found no \bibstyle command---while reading file main.aux
-You've used 8 entries,
-            0 wiz_defined-function locations,
-            94 strings with 623 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: main-blx.bib
+Database file #2: library.bib
+I was expecting a `,' or a `}'---line 179 of file library.bib
+ : 
+ : @online{NAT,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "goodfellow2014generative"
+Warning--I didn't find a database entry for "HIMMS"
+Biblatex version: 3.11
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 18 entries,
+            6304 wiz_defined-function locations,
+            1307 strings with 14624 characters,
+and the built_in function-call counts, 163692 in all, are:
+= -- 12598
+> -- 3693
+< -- 661
++ -- 5538
+- -- 2167
+* -- 11806
+:= -- 19866
 add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+call.type$ -- 18
+change.case$ -- 336
+chr.to.int$ -- 178
+cite$ -- 34
+duplicate$ -- 16165
+empty$ -- 13963
+format.name$ -- 1480
+if$ -- 31289
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 47
 missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+newline$ -- 804
+num.names$ -- 899
+pop$ -- 6538
+preamble$ -- 1
+purify$ -- 490
 quote$ -- 0
-skip$ -- 0
+skip$ -- 3362
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
+substring$ -- 23936
+swap$ -- 3320
+text.length$ -- 542
+text.prefix$ -- 17
+top$ -- 1
+type$ -- 600
 warning$ -- 0
-while$ -- 0
+while$ -- 2556
 width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+write$ -- 787
+(There was 1 error message)
