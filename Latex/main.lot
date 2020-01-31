@@ -11,7 +11,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Top 10 of most occurring ICD9 codes in the dataset\relax }}{11}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Top 10 of most occurring ICD-9 codes in the dataset\relax }}{12}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Patients that have CAD and diabetes and patients, that have CAD and no diabetes\relax }}{13}% 
 \defcounter {refsection}{0}\relax 
@@ -21,15 +21,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {4.2}{\ignorespaces Training durations with 5 digit codes\relax }}{17}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Vector sizes for output data\relax }}{18}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.1}{\ignorespaces rare disease diagnoses in MIMICIII\relax }}{22}% 
+\contentsline {table}{\numberline {5.1}{\ignorespaces rare disease diagnoses in MIMIC-III\relax }}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.2}{\ignorespaces successfully generated samples with rare diseases\relax }}{22}% 
+\contentsline {table}{\numberline {5.2}{\ignorespaces successfully generated samples with rare diseases\relax }}{24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.3}{\ignorespaces Top 10 diagnoses for generated samples (both sexes).\relax }}{23}% 
+\contentsline {table}{\numberline {5.3}{\ignorespaces Top 10 diagnoses for generated samples (both sexes).\relax }}{25}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {5.4}{\ignorespaces Samples CAD diabetes / CAD no diabetes\relax }}{23}% 
+\contentsline {table}{\numberline {5.4}{\ignorespaces Samples CAD diabetes / CAD no diabetes\relax }}{25}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
