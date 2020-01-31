@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  30 JAN 2020 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  31 JAN 2020 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,8 +1184,32 @@ or  <return>  to continue without it.
 
 ]
 Chapter 1.
+
+LaTeX Warning: Citation 'jiang2017artificial' on page 3 undefined on input line
+ 227.
+
+
+LaTeX Warning: Citation 'neill2013using' on page 3 undefined on input line 227.
+
+
+
+LaTeX Warning: Citation 'ubeyli2007implementing' on page 3 undefined on input l
+ine 227.
+
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 235.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 228.
+
+LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 231.
+
+! Undefined control sequence.
+l.231 ...contrast to the model presented in \citep
+                                                  {Choi2017}, we additionall...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 
 LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 239.
 
@@ -1202,165 +1226,166 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--246
 
  []
 
+[3]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 257.
 
-LaTeX Warning: Citation 'johnson2016mimic' on page 3 undefined on input line 27
+
+LaTeX Warning: Citation 'johnson2016mimic' on page 4 undefined on input line 27
 7.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 278.
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 278.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 278.
+LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 278.
 
-[3]
 
 LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 280.
 
 
 LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 283.
 
-[4]
+[4] [5] [6
+
+]
 Chapter 2.
 
-LaTeX Warning: Citation 'goodfellow2014generative' on page 5 undefined on input
- line 297.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 7 undefined on input
+ line 295.
 
 
-LaTeX Warning: Citation 'goodfellow2014generative' on page 5 undefined on input
- line 300.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 7 undefined on input
+ line 298.
 
 
-LaTeX Warning: Citation 'Goodfellow2014' on page 5 undefined on input line 303.
+LaTeX Warning: Citation 'Goodfellow2014' on page 7 undefined on input line 301.
 
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 300--305
+Underfull \hbox (badness 2689) in paragraph at lines 298--303
 []\T1/ptm/m/n/10.95 In this game, G has the goal to max-i-mize the prob-a-bil-i
 ty of D mak-ing a mis-take.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--305
+Underfull \hbox (badness 10000) in paragraph at lines 298--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 305--307
 
  []
 
 
-LaTeX Warning: Citation 'goodfellow2014generative' on page 5 undefined on input
- line 311.
+LaTeX Warning: Citation 'goodfellow2014generative' on page 7 undefined on input
+ line 309.
 
-[5
+[7]
 
-]
-
-LaTeX Warning: Citation 'HIMMS' on page 6 undefined on input line 318.
+LaTeX Warning: Citation 'HIMMS' on page 8 undefined on input line 316.
 
 
-LaTeX Warning: Citation 'ONC' on page 6 undefined on input line 320.
+LaTeX Warning: Citation 'ONC' on page 8 undefined on input line 318.
 
 
-LaTeX Warning: Citation 'ONC' on page 6 undefined on input line 321.
+LaTeX Warning: Citation 'ONC' on page 8 undefined on input line 319.
 
 
-LaTeX Warning: Citation 'baggio2013gender' on page 6 undefined on input line 33
-0.
+LaTeX Warning: Citation 'baggio2013gender' on page 8 undefined on input line 32
+8.
 
 
-LaTeX Warning: Citation 'baggio2013gender' on page 6 undefined on input line 33
-1.
+LaTeX Warning: Citation 'baggio2013gender' on page 8 undefined on input line 32
+9.
 
 
-LaTeX Warning: Citation 'kautzky2010sex' on page 6 undefined on input line 332.
+LaTeX Warning: Citation 'kautzky2010sex' on page 8 undefined on input line 330.
 
 
 
-LaTeX Warning: Citation 'kautzky2010sex' on page 6 undefined on input line 332.
+LaTeX Warning: Citation 'kautzky2010sex' on page 8 undefined on input line 330.
 
 
 
-LaTeX Warning: Citation 'arain2009sex' on page 6 undefined on input line 335.
+LaTeX Warning: Citation 'arain2009sex' on page 8 undefined on input line 333.
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 330--337
+Underfull \hbox (badness 2478) in paragraph at lines 328--335
 \T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
 g that women are heav-ily
  []
 
 
-LaTeX Warning: Citation 'Orphanet' on page 6 undefined on input line 341.
+LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 339.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 6 undefined on input line 341.
+LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 339.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 6 undefined on input line 341.
+LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 339.
 
 
-LaTeX Warning: Citation 'Orphanet' on page 6 undefined on input line 342.
+LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 340.
 
-[6]
+[8]
 
-LaTeX Warning: Citation 'Choi2017' on page 7 undefined on input line 348.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 7 undefined on input line 350.
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 346.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 7 undefined on input line 351.
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 348.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 7 undefined on input line 351.
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 349.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 7 undefined on input line 352.
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 349.
 
-[7] [8
+
+LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 350.
+
+[9] [10
 
 ]
 Chapter 3.
-<img/mimicIII-schema.png, id=98, 878.28125pt x 627.34375pt>
+<img/mimicIII-schema.png, id=105, 878.28125pt x 627.34375pt>
 File: img/mimicIII-schema.png Graphic file (type png)
 <use img/mimicIII-schema.png>
-Package pdftex.def Info: img/mimicIII-schema.png  used on input line 364.
+Package pdftex.def Info: img/mimicIII-schema.png  used on input line 362.
 (pdftex.def)             Requested size: 426.79134pt x 304.85484pt.
 
-LaTeX Warning: Citation 'NAT' on page 9 undefined on input line 365.
+LaTeX Warning: Citation 'NAT' on page 11 undefined on input line 363.
 
 
-LaTeX Warning: Citation 'NAT' on page 9 undefined on input line 365.
+LaTeX Warning: Citation 'NAT' on page 11 undefined on input line 363.
 
 
-LaTeX Warning: Citation 'arya2019exploratory' on page 9 undefined on input line
- 369.
+LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
+e 367.
 
 
-Overfull \hbox (79.26382pt too wide) in paragraph at lines 375--389
+Overfull \hbox (79.26382pt too wide) in paragraph at lines 373--387
 [][] 
  []
 
-<img/correlation-heatmap.png, id=100, 1370.11874pt x 429.605pt>
+<img/correlation-heatmap.png, id=107, 1370.11874pt x 429.605pt>
 File: img/correlation-heatmap.png Graphic file (type png)
 <use img/correlation-heatmap.png>
-Package pdftex.def Info: img/correlation-heatmap.png  used on input line 397.
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 395.
 (pdftex.def)             Requested size: 426.79134pt x 133.81857pt.
 
-LaTeX Warning: Citation 'arya2019exploratory' on page 9 undefined on input line
- 398.
+LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
+e 396.
 
 
-LaTeX Warning: Citation 'arya2019exploratory' on page 9 undefined on input line
- 398.
+LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
+e 396.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1369,7 +1394,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.405 \\
+l.403 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1382,7 +1407,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406 N
+l.404 N
        ext, we have a look at the correlation heatmap (\textbf{Figure 3.1}) ...
 
 Your command was ignored.
@@ -1390,50 +1415,50 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation 'arya2019exploratory' on page 9 undefined on input line
- 406.
+LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
+e 404.
 
 
-Underfull \hbox (badness 2726) in paragraph at lines 406--410
+Underfull \hbox (badness 2726) in paragraph at lines 404--408
 []\T1/ptm/m/n/10.95 Next, we have a look at the cor-re-la-tion heatmap (\T1/ptm
 /b/n/10.95 Figure 3.1\T1/ptm/m/n/10.95 ) that is in-tro-duced in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--410
+Underfull \hbox (badness 10000) in paragraph at lines 404--408
 
  []
 
-[9] [10 <./img/mimicIII-schema.png> <./img/correlation-heatmap.png>] [11]
-[12
+[11] [12 <./img/mimicIII-schema.png> <./img/correlation-heatmap.png>] [13]
+[14
 
 ]
 Chapter 4.
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 440.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 438.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 441.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 439.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 455.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 453.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 461.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 459.
 
-<img/ganVSmedgan.png, id=117, 764.8575pt x 346.29375pt>
+<img/ganVSmedgan.png, id=123, 764.8575pt x 346.29375pt>
 File: img/ganVSmedgan.png Graphic file (type png)
 <use img/ganVSmedgan.png>
-Package pdftex.def Info: img/ganVSmedgan.png  used on input line 464.
+Package pdftex.def Info: img/ganVSmedgan.png  used on input line 462.
 (pdftex.def)             Requested size: 426.79134pt x 193.23096pt.
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 465.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 463.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 465.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 463.
 
 ! Undefined control sequence.
-l.465 ...z)).  \cite{Choi2017}} Figure from \citep
+l.463 ...z)).  \cite{Choi2017}} Figure from \citep
                                                   {Baowaly2018}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1442,47 +1467,47 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--469
+Underfull \hbox (badness 10000) in paragraph at lines 453--467
 
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 455--469
+Underfull \hbox (badness 1048) in paragraph at lines 453--467
 \T1/ptm/m/n/10.95 An au-toen-coder con-sists of of two el-e-ments: The En-coder
  (\T1/ptm/m/it/10.95 Enc\T1/ptm/m/n/10.95 ) which com-presses the
  []
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 471.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 469.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 472.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 470.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 13 undefined on input line 473.
+LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 471.
 
-[13]
+[15]
 
-LaTeX Warning: Citation 'Baowaly2018' on page 14 undefined on input line 476.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 14 undefined on input line 479.
+LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 474.
 
 
-LaTeX Warning: Citation 'Baowaly2018' on page 14 undefined on input line 481.
+LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 477.
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 481--482
+LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 479.
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 479--480
 []\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
 reg-u-lar GAN as well, but this time with a
  []
 
-[14 <./img/ganVSmedgan.png>]
+[16 <./img/ganVSmedgan.png>]
 
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 488.
+LaTeX Warning: Citation 'Choi2017' on page 17 undefined on input line 486.
 
 
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 489.
+LaTeX Warning: Citation 'Choi2017' on page 17 undefined on input line 487.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1491,7 +1516,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.504 \\
+l.502 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1504,61 +1529,61 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.505 \begin
+l.503 \begin
             {table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15]
+[17]
 
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 538.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 546.
+LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 536.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
-
- []
+LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 544.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--549
+Underfull \hbox (badness 10000) in paragraph at lines 544--547
 
  []
 
-[16]
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--547
+
+ []
+
+[18]
 Chapter 5.
 
-LaTeX Warning: Citation 'Choi2017' on page 17 undefined on input line 576.
+LaTeX Warning: Citation 'Choi2017' on page 19 undefined on input line 574.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--580
+Underfull \hbox (badness 10000) in paragraph at lines 574--578
 
  []
 
-[17
+[19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 585--587
+Underfull \hbox (badness 10000) in paragraph at lines 583--585
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--595
+Underfull \hbox (badness 10000) in paragraph at lines 591--593
 
  []
 
 
-LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 596.
+LaTeX Warning: Citation 'Choi2017' on page 20 undefined on input line 594.
 
 ! Double subscript.
-l.596 ...ression classifiers to predict $\gamma_R_
+l.594 ...ression classifiers to predict $\gamma_R_
                                                   k$ and $\gamma_S_k$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.596 ...rs to predict $\gamma_R_k$ and $\gamma_S_
+l.594 ...rs to predict $\gamma_R_k$ and $\gamma_S_
                                                   k$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
@@ -1570,64 +1595,64 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.603 ...thesis with a low P-value (typically 􏰆
+l.601 ...thesis with a low P-value (typically 􏰆
                                                    0.05). More details of th...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--605
+Underfull \hbox (badness 10000) in paragraph at lines 594--603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--605
+Underfull \hbox (badness 10000) in paragraph at lines 594--603
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 596--605
+Underfull \hbox (badness 10000) in paragraph at lines 594--603
 
  []
 
-<img/plots/binary_3digit_mixed.pdf, id=137, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_mixed.pdf, id=143, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
-608.
+606.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_female.pdf, id=138, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_female.pdf, id=144, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
- 609.
+ 607.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_male.pdf, id=139, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_male.pdf, id=145, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_male.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 6
-10.
+08.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_mixed.pdf, id=140, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_mixed.pdf, id=146, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
-612.
+610.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_female.pdf, id=141, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_female.pdf, id=147, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
- 613.
+ 611.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_male.pdf, id=142, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_male.pdf, id=148, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_male.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 6
-14.
+12.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-[18]
+[20]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1635,7 +1660,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.634 \\
+l.632 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1648,59 +1673,59 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.635 \begin
+l.633 \begin
             {figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/plots/count_3digit_mixed.pdf, id=146, 433.62pt x 289.08pt>
+<img/plots/count_3digit_mixed.pdf, id=152, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_mixed.pdf>
 Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 6
-37.
+35.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_female.pdf, id=147, 433.62pt x 289.08pt>
+<img/plots/count_3digit_female.pdf, id=153, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_female.pdf>
 Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
-638.
+636.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_male.pdf, id=148, 433.62pt x 289.08pt>
+<img/plots/count_3digit_male.pdf, id=154, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_male.pdf>
 Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 63
-9.
+7.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_mixed.pdf, id=149, 433.62pt x 289.08pt>
+<img/plots/count_5digit_mixed.pdf, id=155, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_mixed.pdf>
 Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 6
-41.
+39.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_female.pdf, id=150, 433.62pt x 289.08pt>
+<img/plots/count_5digit_female.pdf, id=156, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_female.pdf>
 Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
-642.
+640.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_male.pdf, id=151, 433.62pt x 289.08pt>
+<img/plots/count_5digit_male.pdf, id=157, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_male.pdf>
 Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 64
-3.
+1.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--677
+Underfull \hbox (badness 10000) in paragraph at lines 653--675
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--677
+Underfull \hbox (badness 10000) in paragraph at lines 653--675
 
  []
 
-[19 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pdf
+[21 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pdf
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_3digit_fe
@@ -1755,12 +1780,12 @@ e
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 691--691
+Underfull \hbox (badness 10000) in paragraph at lines 689--689
 []|\T1/ptm/m/n/10.95 042 Hu-man im-mun-od-e-fi-ciency virus
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 691--691
+Underfull \hbox (badness 2635) in paragraph at lines 689--689
 []|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with
  []
 
@@ -1771,42 +1796,42 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.696 A
+l.694 A
        fter comparing the list of diagnoses of MIMICIII with the list of Orp...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20]
-
-LaTeX Warning: Citation 'Choi2017' on page 21 undefined on input line 727.
-
-
-LaTeX Warning: Citation 'juutilainen2004gender' on page 21 undefined on input l
-ine 733.
-
-[21]
-
-LaTeX Warning: Citation 'Choi2017' on page 22 undefined on input line 750.
-
 [22]
-Chapter 6.
-[23
 
-] [24]
-Appendix A.
+LaTeX Warning: Citation 'Choi2017' on page 23 undefined on input line 725.
+
+
+LaTeX Warning: Citation 'juutilainen2004gender' on page 23 undefined on input l
+ine 731.
+
+[23]
+
+LaTeX Warning: Citation 'Choi2017' on page 24 undefined on input line 748.
+
+[24]
+Chapter 6.
 [25
 
-] [26
+] [26]
+Appendix A.
+[27
+
+] [28
 
 ]
 Appendix B.
-[27] [28
+[29] [30
 
 ]
 Appendix C.
-[29]
+[31]
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 46.
 See the caption package documentation for explanation.
@@ -1830,7 +1855,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  16682 strings out of 492616
  277308 string characters out of 6129480
- 775510 words of memory out of 5000000
+ 775636 words of memory out of 5000000
  20256 multiletter control sequences out of 15000+600000
  48084 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1850,10 +1875,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (38 pages, 8196453 bytes).
+Output written on main.pdf (40 pages, 8198656 bytes).
 PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 328 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

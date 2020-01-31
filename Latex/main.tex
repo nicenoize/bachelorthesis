@@ -223,38 +223,40 @@ XXX
 \chapter{Introduction}
 % Am Anfang jedes Kapitels kurze Übersicht, was das Kapitel beinhaltet
 
-\section{Problem}
-Neural networks used everywhere. Usage in medical domain not so easy, because of limited data access for research due to privacy reasons.
-Different methods to generate data, but not useful enough for training.
-Especially patients with rare diseases -> nearly no data. 
-Generating it with GAN leads to realistic data.
+\section{Artificial intelligence in health care}
+Artificial intelligence (AI) tries to simulate human intelligence. Its applications are numerous and can also be found in the health care sector. A possible use case could be an assisting AI system, that provides up-to-date information about clinical practices to physicians and reduces errors, in therapeutic and diagnostic context. \cite{jiang2017artificial}. Electronic health records (EHR) are the digital version of a patient's medical healthcare information over a lifetime. AI can extract and analyze patient data from such records and give alerts for possible health risks and, e.g. make predictions about diagnoses and the possible length of stay in the hospital. \cite{neill2013using}. Practically such a system could analyze a patient's data already during reception and provide a first diagnosis. Another exemplary use case is the application of AI in diagnosis for breast cancer detection. \cite{ubeyli2007implementing} Despite the many use cases, publicly available EHR data for research is rare. This is mainly to protect each patient's privacy. However, this especially poses a problem to the availability of data about rare diseases, leading to a lack of information and slowing down research. \cite{bremond2015contribution}
+
+\subsection{Generative Aversarial Networks}
+Generative Adversrial 
+
 \section{Goal}
-The aim of this work is to generate electronic health records (EHRs). We want to investigate, whether the samples the medical Generative Adversarial Network (medGAN) generates will be more realistic, if we separate the input data by gender. Further, we want to investigate whether medGAN is able to generate realistic samples with rare diseases.
+The aim of this work is to generate EHRs. For generation we use a approach by \cite{Choi2017} which produces high-dimensional discrete variables (e.g., binary and count features) using an altered Generative Adversarial Network, called medical Generative Aversarial Network (medGAN). As input dataset we use an EHR dataset called MIMIC-III. In contrast to the model presented in \citep{Choi2017}, we additionally split the input dataset by gender.
+ We want to investigate, whether the samples the medical Generative Adversarial Network (medGAN) generates will be more realistic, by splitting the input data by gender. Further, we want to investigate whether medGAN is able to generate realistic samples with rare diseases.
+ 
 \section{Method}
 
-\subsection{Preliminary: GAN}
 
 
-\subsection{medGAN}
-A central aspect of this work will be the application of the medical Generative Adversarial Network (medGAN), that is proposed in \cite{Choi2017}.
-It is a GAN, able to generate realistic synthetic patient records, that achieve comparable results to real data when used for predictive modeling tasks. \cite{Choi2017} proofs in his work, that medGAN outperforms classical machine learning algorithms like Linear Regression, Random Forests and Support Vector Machine. 
-In Chapter 2, the motivation of creating medGAN will be explained. In Chapter 4, we will provide detailed information on the architecture of medGAN and give info on recent improvements on medGAN.
-\subsection{binary/count variables}
-For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD code occured or not, \textbf{Table 1.1} shows exemplary data. Records with count data will show how many times each ICD code occurred for each patient, as depicted in \textbf{Tablee 1.2}
+\subsection{MedGAN}
+A central aspect of this work will be the application of the medical Generative Adversarial Network (medGAN), that is proposed by \cite{Choi2017}.
+It is a GAN, able to generate realistic synthetic patient records, that achieve comparable results to real data when used for predictive modeling tasks. \cite{Choi2017} proof in their work, that medGAN outperforms classical machine learning algorithms like Linear Regression, Random Forests and Support Vector Machine. 
+In Chapter 2, the motivation of creating medGAN will be explained. In Chapter 4, we will provide detailed information on the architecture of medGAN and will elaborate on recent improvements on medGAN.
+\subsection{Generating binary and count features}
+For our experiments, we generated both, records with binary and count variables. Records with binary data will show whether an ICD-9 code occured or not, \textbf{Table 1.1} shows exemplary data. Records with count data will show how many times each ICD-9 code occurred for each patient, as depicted in \textbf{Table 1.2}
 \\
 \\
 
 \begin{table}
 \begin{center}
 \begin{tabular}{l*{3}{c}r }
-Patient ID & ICD CODE 1 & ICD CODE 2 & ICD CODE 3 \\
+Patient ID & 272 & 414 & 780 \\
 \hline
 A & 0 & 0 & 1 \\
 B & 1 & 1 & 0 \\
 C & 0 & 0 & 0 \\
 \hline
 \end{tabular}
-\caption{Example binary data entries}
+\caption{Example binary data entries with 3 digit ICD-9 codes}
 \end{center}
 \end{table}
 
@@ -262,31 +264,29 @@ C & 0 & 0 & 0 \\
 \begin{table}
 \begin{center}
 \begin{tabular}{l*{3}{c}r }
-Patient ID & ICD CODE 1 & ICD CODE 2 & ICD CODE 3 \\
+Patient ID & 488.11 & 516.30 & 996.49 \\
 \hline
 A & 0 & 5 & 0 \\
 B & 1 & 0 & 9 \\
 C & 0 & 2 & 0 \\
 \hline
 \end{tabular}
-\caption{Example count data entries}
+\caption{Example count data entries with 5 digit ICD-9 codes}
 \end{center}
 \end{table}
 
-\subsection{privacy risk}
+\subsection{Privacy Risk}
 The risk of hurting a patient's privacy is one of the main reasons why Electronic Health Data is not publicly available. A commonly used method for providing access to patient data for researchers is de-identification, used, for example, on the MIMIC-III dataset. In this process, data gets cleansed and shifted, meaning that names, telephone numbers, and other personal informations get removed and dates altered. \cite{johnson2016mimic}
-However, \cite{Choi2017} explains that de-identification does not eliminate the risk of harming a patient's privacy, because "in certain circumstances, re-identification of patients can be accomplished through residual distinguishable patterns in various features (e.g., demographics (Sweeney, 1997; El Emam et al., 2011a), diagnoses (Loukides et al., 2010), lab tests (Atreya et al., 2013), visits across healthcare providers (Malin and Sweeney, 2004), and genomic variants (Erlich and Narayanan, 2014)) \cite{Choi2017}
+However, \cite{Choi2017} explains that de-identification does not eliminate the risk of harming a patient's privacy, because identification of an individual is still possible, if an attacker has information about, e.g. diagnoses, lab tests, demographics, genomic variants or visits from other health care providers.
 
-On the contrary, as the synthetic data from medGAN is artificially created, there is no direct connection between the real and the synthetic samples. Therefore identifying patients from the original dataset should, intuitively, not be possible if the artificially created samples get compromised. In \cite{Choi2017} assesses the privacy risk for the case that the synthetic samples get compromised and comes to the conclusion that a potential attacker poses no risk of breaching privacy, except for when he already has significant knowledge about various features of the target patient.
+On the contrary, as the synthetic data from medGAN is artificially created, there is no direct connection between the real and the synthetic samples. Therefore identifying patients from the original dataset should, intuitively, not be possible if the artificially created samples get stolen because of a security breach or due to other reasons. In \cite{Choi2017} assesses the privacy risk for the case that the synthetic samples get compromised and comes to the conclusion that a potential attacker poses no risk of breaching privacy, except for when he already has significant knowledge about various features of the target patient.
+
 \section{Outline}
-This concludes Chapter 1. It explained the problem we are examining and the goal we are trying to reach.
-For giving an insight into our method, we first gave a quick insight into Generative Adversarial Networks and medGAN. Both will be explained more thoroughly in the following Chapter 2. This chapter also depicts two examples of the representation of the generated data. We also gave an outlook on \cite{Choi2017}'s work on investigating the privacy risk that synthetic samples pose.
-This work is divided into 6 chapters, starting with 'Introduction.'
-'Related Work'
-'Data Analysis'
-'Electronic Medical Record Generation'
-'Experimental Evaluation'
-'Conclusion and Outlook'
+This work is divided into 6 chapters, starting with 'Introduction.', where we learned about the application of AI in health care, Generative Adversarial Networks and the extended version, medGAN, that we will apply in our work. In the next chapter 'Related Work', we will dive deeper into the topic by explaining all the essential concepts that will be used in our research. In Chapter 3,  'Data Analysis', we will analyze the given MIMIC-III dataset. Subsequently, in Chapter 4, 'Electronic Medical Record Generation', we will perform our experiments and generate the EHR data. Afterwards, in 'Experimental Evaluation', we will assess the success of our experiments. Lastly, in Chapter 6 'Conclusion and Outlook', we will conclude whether our hypotheses held up during our experiments and will give an outlook on possible future work.
+
+\section{Summary}
+This chapter explained the motivation for using AI in the medical sector and reason for scarcity of data in this field. For giving an insight into our method, we first provided a short definition of Generative Adversarial Networks and medGAN. GANs will be more thoroughly explained in the following Chapter 2, medGAN in Chapter 4. This chapter also depicts two examples of the representation of the generated data. We also addressed \cite{Choi2017}'s work on investigating the privacy risk that synthetic samples pose.
+
 \chapter{Related Work}
 \section{Abstract}
 The following section will elaborate on the basic concepts that are needed to  generate synthetic electronic health record data.
@@ -295,9 +295,7 @@ First, we explain the concept of a Generative Adversarial Network. Further, we w
 \section{Basic Concepts}
 \subsection{Generative Adversarial Networks}
 In \cite{goodfellow2014generative} proposed a new framework for generative models, that learns the patterns in a given dataset and generates new data that plausibly could originate from the original dataset.
- The model Goodfellow proposes corresponds to a two-player minimax game: in which two independent neural networks train simultaneously. The generator \textbf{G} tries to learn the distribution of the given dataset and the discriminator \textbf{D} aims to distinguish between the data from the training set and from \textbf{G}. \textbf{G} generates the data from the learned distribution and takes random noise as input.
-
-In this game, G has the goal to maximize the probability of D making a mistake.  \cite{goodfellow2014generative}
+ The model \cite{Goodfellow2014} proposes corresponds to a two-player minimax game: in which two independent neural networks train simultaneously. The generator \textbf{G} tries to learn the distribution of the given dataset and the discriminator \textbf{D} aims to distinguish between the data from the training set and from \textbf{G}. \textbf{G} generates the data from the learned distribution and takes random noise as input. In this game, G has the goal to maximize the probability of D making a mistake.  
 \\
 \\
 The two-player minimax game, as shown in \cite{Goodfellow2014}, can be described by the following value function:
