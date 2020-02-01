@@ -579,7 +579,7 @@ Subsequently we will present our findings.
 In \textbf{Figure 5.1} we can see, after splitting up the dataset by gender, the performance decreased against our expectations for generating both, male and female samples, while male samples are not affected as heavily. In the best case scenario, all dots would accumulate along the regression line (red). However, we can see that the dots generated with the gender-specific models are more spread out than these for the model containing all data, meaning that the model did not learn the distribution as good as it did with the full input dataset.
 Because the plots are more spread, we see that especially for count data, the performance decreased, when using gender-based models in comparison to using the full dataset. This affects the model trained with female samples more heavily than the model trained with male samples.
 
-\subsubsection{The performance decreased slightly for binary data}
+\subsubsection{The performance of gender-based models decreased slightly for binary data}
 Second, we see that the performance loss for binary data is just slightly. The model trained with male samples performed better than the model trained with female samples. This seems to be due to the higher number of input data.
 
 
@@ -742,7 +742,7 @@ Looking at \textbf{Table 5.7} and \textbf{3.1} in comparison, we can see that th
 
 \subsection{Qualitative evaluation with a medical doctor}
 Last, we evaluate our measurements with the help of a medical doctor. Therefore we choose 40 samples, 20 from the original dataset and 20 from our generated count datasets. For evaluation, we choose samples from the count dataset that we trained with 5 digit codes as input, as these are they best performing models according to our quantitative evaluation. From the samples with rare diseases, we choose 5 samples from the original dataset and 5 samples from the generated mixed dataset, again because of its superior performance . For the rest of the samples we choose 5 samples each, male, female, and mixed from the count datasets.
-We ask the medical doctor to act as the discriminator for our samples, as already shown in \citep{Choi2017}. From the 40 presented, he rejected three.
+We ask the medical doctor to act as the discriminator for our samples, and either accept them or reject them, in contrast to the method presented  in \citep{Choi2017}. From the 40 presented, he rejected three.
 One of the female samples, because it contained a code for chronic kidney disease and only one diagnosis for acute kidney failure, which is unlikely. One from the rare diseases samples, because a hypotension and a hypertension occurred together, which is highly unlikely. Another from the rare disease samples, got rejected because it had female-related and male-related codes.
 Apart from these outliers, the samples are indistinguishable to a real record.
 
@@ -762,19 +762,22 @@ This thought us that, while the 3 digit code models performed best in our quanti
 \section{Goal}
 Our goal was to proof, that medGAN can generate realistic patients if it is trained with the MIMIC III dataset and that the model learns the distribution of ICD-9 codes. Further we tried to elaborate if by training the network with female and male patients separately, it is able to generate patients with gender-specific correlated diseases that seem realistic to a medical doctor. Also we wanted to find out whether the model is able to generate patients affected by orphan diseases that can not be distinguished to a non-synthetic patient by a medical doctor despite the rare occurrences in the dataset.
 \section{Results from Evaluation}
-Our model successfully generates realistic patient data that can not be distinguished to real data, this also includes samples with rare diseases. However, the performance of medGAN did not increase after separating the input data by gender.
-\section{Outlook}
+In our quantitative evaluations we found out that the performance of of gender-based models decreased in comparison to the models trained with the full dataset. This affects especially female models, because of the lowest data volume for these. Further, we showed  that if we train the models with generalized ICD9 codes their performance increases for all models, in contrast to training with full-length ICD-9 codes.
+In our qualitative evaluation however, we showed, that the samples with generalized ICD9 codes are not as realistic as these with full-length codes.
+
+Of our three hypotheses we could validate two. The first one being, that the model can generate realistic patients and learns the distribution of ICD-9 codes, if it is trained with the MIMIC III dataset. The second one, that if the network is trained with the MIMIC-III dataset, it is able to generate patients affected by orphan diseases that can not be distinguished to a non-synthetic patient by a medical doctor
+The hypotheses that we could not validate is that by training the network with female and male patients separately, its performance improves and it is able to generate patients with gender-specific correlated diseases that seem realistic to a medical doctor.
 
 \section{Future work and Outlook}
-Application to other MedGAN versions
-Generating diagnosis and medication codes is the first step to generate high-quality synthetic EHR data. 
-https://www.aclweb.org/anthology/W19-5026/
-Problem: Utility of the data -> making it useful
-Generating synthetic EHR data is the first step to replacing real training data. The next step  that would improve the utility of the samples could be the generation of clinical text with keyphrases. Our generated data could act as input data.
+%Application to other MedGAN versions
+%https://www.aclweb.org/anthology/W19-5026/
+%Problem: Utility of the data -> making it useful
+Generating diagnosis and medication codes for synthetic EHR data is the first step to replacing real training data. Like we already mentioned in our introduction the data could help to develop an assisting AI system that helps physicians in a therapeutic and diagnostic context. Such a system could lower the rate of human error. Another use case for this system would be in areas with scarce resources for health care. With the introduction of an AI system, treatment cost could sink significantly, and each physician could treat more patients while doing less errors. The next step in this direction, however, is increasing the quality and, therefore, usefulness of generated EHR data. In their research, \cite{wang-etal-2019-artificial} aim to generate clinical text for EHR data based on keyphrases. They also demonstrate that synthetic data can fully replace real training data. A future work could include generating clinical text, based on the diagnosis and medication codes generated by medGAN.
 
-\section{Summary}
+\section{Conclusion}
 % approx. 0.5 pages
 %wichtigste Punkte aus Discussion nochmal auflisten
+In this work, we attempted to propose an improved model for medGAN, that learns correlations between diseases better, if it is gender-based. We could not validate our hypotheses. However, we proofed, that medGAN is able to generate synthetic EHR data, that seems real to a medical doctor. Nevertheless, as already mentioned in our qualitative evaluation, rating a patient on realistic-ness based on diagnoses alone is a hard task, because diseases are not exclusive to each other and therefore a patient seems real in the majority of cases.
 
 
 \clearpage\newpage
@@ -786,23 +789,6 @@ Generating synthetic EHR data is the first step to replacing real training data.
 \newpage
 
 \section*{Acknowledgements}
-I would like to express gratitude to Prof. Dr. Alexander Löser for the insightful discussions and valuable comments as well as his support and supervision of this thesis. I also would would like to express my gratitude to my advisor Betty van Aken for her continuous guidance and supervision. Further I want to thank Dr. med. Sait Subasi for evaluating the generated data. Without their help, this thesis would not have been possible.
-
-
-\appendix
-\renewcommand\chaptername{Appendix}
-
-\chapter{Bibliography}
-
-\chapter{Listings}
-XXX
-
-\chapter{Results} 
-XXX
-
-
-
-
-
+I would like to express gratitude to Prof. Dr. Alexander Löser for the insightful discussions and valuable comments as well as his support and supervision of this thesis. I also would like to express my gratitude to my advisor Betty van Aken for her continuous guidance and supervision. Further I want to thank Dr. med. Sait Subasi for evaluating the generated data. Without their help, this thesis would not have been possible.
 
 \end{document}

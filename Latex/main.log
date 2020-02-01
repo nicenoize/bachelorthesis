@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 15:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1434,27 +1434,22 @@ pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [18] [19] [20]
 Chapter 6.
+
+Package natbib Warning: Citation `wang-etal-2019-artificial' on page 21 undefin
+ed on input line 775.
+
 [21
 
-] (./main.bbl) [22
+] [22] (./main.bbl) [23
 
 
-] [23]
-Appendix A.
-[24
-
-]
-Appendix B.
-[25
-
-]
-Appendix C.
-[26
-
-]
+] [24]
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 42.
 See the caption package documentation for explanation.
+
+
+Package natbib Warning: There were undefined citations.
 
 (./main.aux)
 
@@ -1464,7 +1459,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  9873 strings out of 492616
  144927 string characters out of 6129480
- 442796 words of memory out of 5000000
+ 442785 words of memory out of 5000000
  13505 multiletter control sequences out of 15000+600000
  58811 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1484,10 +1479,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (35 pages, 8199255 bytes).
+Output written on main.pdf (33 pages, 8200519 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 201 compressed objects within 3 object streams
+ 304 PDF objects out of 1000 (max. 8388607)
+ 197 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -40,7 +40,7 @@
 \contentsline {section}{\numberline {5.1}Abstract}{15}% 
 \contentsline {section}{\numberline {5.2}Quantitative Evaluation}{15}% 
 \contentsline {subsubsection}{The performance of gender-based models decreased strongly for count data}{16}% 
-\contentsline {subsubsection}{The performance decreased slightly for binary data}{16}% 
+\contentsline {subsubsection}{The performance of gender-based models decreased slightly for binary data}{16}% 
 \contentsline {subsection}{\numberline {5.2.1}Evaluation Orphan diseases}{16}% 
 \contentsline {section}{\numberline {5.3}Qualitative Evaluation}{18}% 
 \contentsline {subsection}{\numberline {5.3.1}Data analysis}{19}% 
@@ -51,10 +51,6 @@
 \contentsline {chapter}{\numberline {6}Conclusion and Outlook}{21}% 
 \contentsline {section}{\numberline {6.1}Goal}{21}% 
 \contentsline {section}{\numberline {6.2}Results from Evaluation}{21}% 
-\contentsline {section}{\numberline {6.3}Outlook}{21}% 
-\contentsline {section}{\numberline {6.4}Future work and Outlook}{21}% 
-\contentsline {section}{\numberline {6.5}Summary}{21}% 
-\contentsline {chapter}{References}{22}% 
-\contentsline {chapter}{\numberline {A}Bibliography}{24}% 
-\contentsline {chapter}{\numberline {B}Listings}{25}% 
-\contentsline {chapter}{\numberline {C}Results}{26}% 
+\contentsline {section}{\numberline {6.3}Future work and Outlook}{21}% 
+\contentsline {section}{\numberline {6.4}Conclusion}{22}% 
+\contentsline {chapter}{References}{23}% 
