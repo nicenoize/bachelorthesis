@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 11:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,7 +751,7 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 177.
  (./main.toc [3
 
 
@@ -760,7 +760,21 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [4] [4
+ [4] (./main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
+
+ [5
+
+]
+(./main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [6
+
+] [6
+
 
 ]
 Chapter 1.
@@ -769,117 +783,115 @@ Chapter 1.
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 200.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 210.
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--208
+Underfull \hbox (badness 10000) in paragraph at lines 215--218
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 219.
-[2] [3] [4
-
-]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 229.
+[2] [3]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--265
+Underfull \hbox (badness 10000) in paragraph at lines 269--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--265
+Underfull \hbox (badness 10000) in paragraph at lines 269--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
 
  []
 
-[5]
-Underfull \hbox (badness 2478) in paragraph at lines 285--292
+[4
+
+]
+Underfull \hbox (badness 2478) in paragraph at lines 295--302
 \T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
 g that women are heav-ily
  []
 
-[6] [7] [8
-
-]
+[5] [6]
 Chapter 3.
 <img/mimicIII-schema.png, id=93, 878.28125pt x 627.34375pt>
 File: img/mimicIII-schema.png Graphic file (type png)
 <use img/mimicIII-schema.png>
-Package pdftex.def Info: img/mimicIII-schema.png  used on input line 322.
+Package pdftex.def Info: img/mimicIII-schema.png  used on input line 332.
 (pdftex.def)             Requested size: 426.79134pt x 304.85484pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 ICD
  []
 
 
-Overfull \hbox (3.03073pt too wide) in paragraph at lines 348--348
+Overfull \hbox (3.03073pt too wide) in paragraph at lines 358--358
 \T1/ptm/m/n/10.95 Code| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 401.9| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 414.01| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 428.0| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 427.31| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 584.9| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 250.00| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 272.4| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 518.81| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 599.0| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
 []|\T1/ptm/m/n/10.95 530.81| 
  []
 
 <img/correlation-heatmap.png, id=95, 1370.11874pt x 429.605pt>
 File: img/correlation-heatmap.png Graphic file (type png)
 <use img/correlation-heatmap.png>
-Package pdftex.def Info: img/correlation-heatmap.png  used on input line 357.
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 367.
 (pdftex.def)             Requested size: 426.79134pt x 133.81857pt.
 
 ! LaTeX Error: There's no line here to end.
@@ -888,7 +900,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.365 \\
+l.375 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -901,7 +913,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.366 N
+l.376 N
        ext, we have a look at the correlation heatmap (\textbf{Figure 3.2}) ...
 
 Your command was ignored.
@@ -909,38 +921,234 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 366--368
+Underfull \hbox (badness 10000) in paragraph at lines 376--378
 
  []
 
-[9] [10 <./img/mimicIII-schema.png>] [11 <./img/correlation-heatmap.png>]
-[12
+[7
 
-]
+] [8 <./img/mimicIII-schema.png>] [9 <./img/correlation-heatmap.png>]
 Chapter 4.
-<img/ganVSmedgan.png, id=111, 764.8575pt x 346.29375pt>
+<img/ganVSmedgan.png, id=107, 764.8575pt x 346.29375pt>
 File: img/ganVSmedgan.png Graphic file (type png)
 <use img/ganVSmedgan.png>
-Package pdftex.def Info: img/ganVSmedgan.png  used on input line 423.
+Package pdftex.def Info: img/ganVSmedgan.png  used on input line 433.
 (pdftex.def)             Requested size: 426.79134pt x 193.23096pt.
+Runaway argument?
+{Architecture of traditional GAN \textbf {(a)} and medGAN \textbf {(b\ETC.
+! Paragraph ended before \caption@prepareanchor was complete.
+<to be read again> 
+                   \par 
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--428
+! Extra }, or forgotten \endgroup.
+\@caption ...\else \caption@prepareanchor {#1}{#2}
+                                                  \memcaptioninfo {#1}{\csna...
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Runaway argument?
+{\ignorespaces Architecture of traditional GAN \textbf {(a)} and medG\ETC.
+! Paragraph ended before \caption@@@addcontentsline was complete.
+<to be read again> 
+                   \par 
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Extra }, or forgotten \endgroup.
+\caption@@addcontentsline ...n@chkfloat {#1}{#2}}}
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\vadjust' in internal vertical mode.
+\ltx@end@float ...y \@floatpenalty \else \vadjust 
+                                                  {\penalty -\@Miv \vbox {}\...
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{center} on input line 432 ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten \endgroup.
+<argument> ...t \strutbox \fi }{}\captiontextend }
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{figure} on input line 431 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--439
 
  []
 
+[10
 
-Underfull \hbox (badness 1048) in paragraph at lines 414--428
-\T1/ptm/m/n/10.95 An au-toen-coder con-sists of of two el-e-ments: The En-coder
- (\T1/ptm/m/it/10.95 Enc\T1/ptm/m/n/10.95 ) which com-presses the
+]
+! Too many }'s.
+<argument> ...t \strutbox \fi }{}\captiontextend }
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \endgroup 
+                                     
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\@begin@tempboxa ...begingroup #2\color@endgroup }
+                                                  \def \width {\wd \@tempbox...
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\@iiiparbox ...f@pboxsw \m@th $\fi \@end@tempboxa 
+                                                  
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\caption@@make ...aption@@make@ {#1}{#2}\endgroup 
+                                                  \caption@@make@epilogue 
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+! Extra \endgroup.
+\caption@end ->\endgroup 
+                         
+l.439 ...etic output Dec(G(z)).  \citep{Choi2017}}
+                                                  
+Things are pretty mixed up, but I think the worst is over.
+
+[11 <./img/ganVSmedgan.png>]
+Underfull \hbox (badness 2865) in paragraph at lines 446--453
+\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the re
+g-u-lar GAN as well, but this time with a
  []
 
-[13]
-Underfull \hbox (badness 2865) in paragraph at lines 440--441
-[]\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
-reg-u-lar GAN as well, but this time with a
- []
-
-[14 <./img/ganVSmedgan.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -948,7 +1156,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.461 \\
+l.473 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -961,135 +1169,221 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.462 \begin
+l.474 \begin
             {table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15]
-Underfull \hbox (badness 2591) in paragraph at lines 492--493
+[12]
+Underfull \hbox (badness 2591) in paragraph at lines 502--503
 \T1/ptm/m/n/10.95 We ex-tracted the ICD-9 codes for fe-male and male pa-tients 
 from the dataset's ta-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
+Underfull \hbox (badness 10000) in paragraph at lines 520--523
 
  []
 
-[16] [17] [18
+[13] [14]
 
-]
-Chapter 5.
+! LaTeX Error: Float(s) lost.
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--534
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 539--541
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 547--549
-
- []
-
-! Double subscript.
-l.550 ...ression classifiers to predict $\gamma_R_
-                                                  k$ and $\gamma_S_k$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-! Double subscript.
-l.550 ...rs to predict $\gamma_R_k$ and $\gamma_S_
-                                                  k$
-I treat `x_1_2' essentially like `x_1{}_2'.
-
-
-! Package inputenc Error: Unicode character 􏰆 (U+10FC06)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
+See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 ...thesis with a low P-value (typically 􏰆
-                                                   0.05). More details of th...
+l.530 \chapter
+              {Experimental Evaluation}
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-You may provide a definition with
-\DeclareUnicodeCharacter 
+Chapter 5.
 
-
-Underfull \hbox (badness 1048) in paragraph at lines 550--559
-[]\T1/ptm/b/n/10.95 Dimension-wise pre-dic-tion\T1/ptm/m/n/10.95 : As stated in
- (Choi et al., 2018), to in-di-rectly mea-sure the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
+Underfull \hbox (badness 10000) in paragraph at lines 537--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
+Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 550--559
-\T1/ptm/b/n/10.95 Dimension-wise K^^US test\T1/ptm/m/n/10.95 : With the Kolmogo
-rov-Smirnov test, We per-formed the K^^US
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.557 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.558 F
+       or both, dimension-wise probability and dimension-wise average, we pr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--561
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--559
+Underfull \hbox (badness 10000) in paragraph at lines 558--561
 
  []
 
-[19]
-<img/plots/binary_3digit_mixed.pdf, id=137, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_mixed.pdf, id=127, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
-562.
+564.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_female.pdf, id=138, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_female.pdf, id=128, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
- 563.
+ 565.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_male.pdf, id=139, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_male.pdf, id=129, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_male.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 5
-64.
+66.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_mixed.pdf, id=140, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_mixed.pdf, id=130, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
-566.
+568.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_female.pdf, id=141, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_female.pdf, id=131, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
- 567.
+ 569.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_male.pdf, id=142, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_male.pdf, id=132, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_male.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 5
-68.
+70.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+[15
+
+]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.591 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.592 \begin
+            {figure}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<img/plots/count_3digit_mixed.pdf, id=136, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_mixed.pdf>
+Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 5
+94.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_3digit_female.pdf, id=137, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_female.pdf>
+Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
+595.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_3digit_male.pdf, id=138, 433.62pt x 289.08pt>
+File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
+<use img/plots/count_3digit_male.pdf>
+Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 59
+6.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_mixed.pdf, id=139, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_mixed.pdf>
+Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 5
+98.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_female.pdf, id=140, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_female.pdf>
+Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
+599.
+(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
+<img/plots/count_5digit_male.pdf, id=141, 433.62pt x 289.08pt>
+File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
+<use img/plots/count_5digit_male.pdf>
+Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 60
+0.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
-Underfull \vbox (badness 8170) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 612--634
 
- [20 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pd
-f
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--634
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/ptm/m/n/10.95 042 Hu-man im-mun-od-e-fi-ciency virus
+ []
+
+
+Underfull \hbox (badness 2635) in paragraph at lines 648--648
+[]|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652 A
+       fter comparing the list of diagnoses of MIMIC-III with the list of Or...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pdf
+
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_3digit_fe
 male.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
@@ -1114,104 +1408,8 @@ ge
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_5digit_ma
 le.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 
->]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.588 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.589 \begin
-            {figure}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<img/plots/count_3digit_mixed.pdf, id=190, 433.62pt x 289.08pt>
-File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
-<use img/plots/count_3digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 5
-91.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_female.pdf, id=191, 433.62pt x 289.08pt>
-File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
-<use img/plots/count_3digit_female.pdf>
-Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
-592.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_male.pdf, id=192, 433.62pt x 289.08pt>
-File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
-<use img/plots/count_3digit_male.pdf>
-Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 59
-3.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_mixed.pdf, id=193, 433.62pt x 289.08pt>
-File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
-<use img/plots/count_5digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 5
-95.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_female.pdf, id=194, 433.62pt x 289.08pt>
-File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
-<use img/plots/count_5digit_female.pdf>
-Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
-596.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_male.pdf, id=195, 433.62pt x 289.08pt>
-File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
-<use img/plots/count_5digit_male.pdf>
-Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 59
-7.
-(pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 609--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 609--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 645--645
-[]|\T1/ptm/m/n/10.95 042 Hu-man im-mun-od-e-fi-ciency virus
- []
-
-
-Underfull \hbox (badness 2635) in paragraph at lines 645--645
-[]|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.649 A
-       fter comparing the list of diagnoses of MIMIC-III with the list of Or...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[21 <./img/plots/count_3digit_mixed.pdf> <./img/plots/count_3digit_female.pdf
+>] [17 <./img/plots/count_3digit_mixed.pdf> <./img/plots/count_3digit_female.pd
+f
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_3digit_fem
 ale.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
@@ -1234,26 +1432,26 @@ e
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [22] [23] [24] [25] [26
-
-]
+>] [18] [19] [20]
 Chapter 6.
-[27] (./main.bbl [28
+[21
+
+] (./main.bbl) [22
 
 
-]) [29] [30]
+] [23]
 Appendix A.
-[31
-
-] [32
+[24
 
 ]
 Appendix B.
-[33] [34
+[25
 
 ]
 Appendix C.
-[35]
+[26
+
+]
 
 Package caption Warning: Unused \captionsetup[algorithm] on input line 42.
 See the caption package documentation for explanation.
@@ -1264,13 +1462,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 9866 strings out of 492616
- 144896 string characters out of 6129480
- 441830 words of memory out of 5000000
+ 9873 strings out of 492616
+ 144927 string characters out of 6129480
+ 442796 words of memory out of 5000000
  13505 multiletter control sequences out of 15000+600000
  58811 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,45p,1282b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,64p,1284b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1286,10 +1484,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (42 pages, 8203454 bytes).
+Output written on main.pdf (35 pages, 8199255 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
+ 311 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
