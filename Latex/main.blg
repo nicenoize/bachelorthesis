@@ -1,72 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2019)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: biblatex.bst
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: main-blx.bib
-Database file #2: library.bib
-I was expecting a `,' or a `}'---line 179 of file library.bib
- : 
- : @online{NAT,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "goodfellow2014generative"
-Warning--I didn't find a database entry for "HIMMS"
-Biblatex version: 3.11
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 18 entries,
-            6304 wiz_defined-function locations,
-            1307 strings with 14624 characters,
-and the built_in function-call counts, 163692 in all, are:
-= -- 12598
-> -- 3693
-< -- 661
-+ -- 5538
-- -- 2167
-* -- 11806
-:= -- 19866
-add.period$ -- 0
-call.type$ -- 18
-change.case$ -- 336
-chr.to.int$ -- 178
-cite$ -- 34
-duplicate$ -- 16165
-empty$ -- 13963
-format.name$ -- 1480
-if$ -- 31289
-int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 0
-newline$ -- 804
-num.names$ -- 899
-pop$ -- 6538
+The style file: apa.bst
+Database file #1: library.bib
+Warning--empty journal in arya2019exploratory
+Warning--empty journal in Choi2017
+Warning--empty journal in Goodfellow2014
+You've used 14 entries,
+            1940 wiz_defined-function locations,
+            568 strings with 6911 characters,
+and the built_in function-call counts, 6971 in all, are:
+= -- 652
+> -- 404
+< -- 4
++ -- 146
+- -- 146
+* -- 673
+:= -- 1211
+add.period$ -- 39
+call.type$ -- 14
+change.case$ -- 143
+chr.to.int$ -- 14
+cite$ -- 17
+duplicate$ -- 215
+empty$ -- 406
+format.name$ -- 160
+if$ -- 1313
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 14
+newline$ -- 70
+num.names$ -- 42
+pop$ -- 126
 preamble$ -- 1
-purify$ -- 490
+purify$ -- 143
 quote$ -- 0
-skip$ -- 3362
+skip$ -- 178
 stack$ -- 0
-substring$ -- 23936
-swap$ -- 3320
-text.length$ -- 542
-text.prefix$ -- 17
-top$ -- 1
-type$ -- 600
-warning$ -- 0
-while$ -- 2556
+substring$ -- 480
+swap$ -- 48
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 3
+while$ -- 48
 width$ -- 0
-write$ -- 787
-(There was 1 error message)
+write$ -- 175
+(There were 3 warnings)

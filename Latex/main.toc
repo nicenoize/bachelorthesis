@@ -1,121 +1,61 @@
-\contentsline {chapter}{References}{1}% 
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Artificial intelligence in health care}{3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}Generative Aversarial Networks}{3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Goal}{3}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Method}{4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}MedGAN}{4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Generating binary and count features}{4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Privacy Risk}{4}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Outline}{5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Summary}{5}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Related Work}{7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Abstract}{7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Basic Concepts}{7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Generative Adversarial Networks}{7}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Electronic Health Records}{8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Gender Medicine}{8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Rare diseases}{8}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}medGAN}{9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Summary}{9}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Dataset and Analysis}{11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.1}Abstract}{11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.2}Dataset}{11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.3}Analysis}{11}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Summary}{13}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Electronic Health Record Generation}{15}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Abstract}{15}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}medGAN}{15}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}SynthEHR (medBGAN, medWGAN)}{16}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Differentiation}{17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Process and Architecture}{17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Experimental Setup}{17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Hypotheses}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Data}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Models for Comparison}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}Measurements}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}EMR Generation}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.10}Rare diseases}{18}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.11}Summary}{19}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Experimental Evaluation}{21}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Abstract}{21}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Quantitative Evaluation}{21}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The performance of gender-based models decreased strongly for count data}{22}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The performance decreased slightly for binary data}{22}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Evaluation Orphan diseases}{23}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Qualitative Evaluation}{24}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data analysis}{24}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gender-specific}{26}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Qualitative evaluation with a medical doctor}{26}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Discussion}{26}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Summary}{27}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Goal}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Hypothesis proofed}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Outlook}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Future work}{29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Summary}{29}% 
-\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}% 
+\contentsline {section}{\numberline {1.1}Artificial intelligence in health care}{1}% 
+\contentsline {section}{\numberline {1.2}Generative Aversarial Networks}{1}% 
+\contentsline {section}{\numberline {1.3}Goal}{1}% 
+\contentsline {section}{\numberline {1.4}Method}{2}% 
+\contentsline {subsection}{\numberline {1.4.1}MedGAN}{2}% 
+\contentsline {subsection}{\numberline {1.4.2}Generating binary and count features}{2}% 
+\contentsline {subsection}{\numberline {1.4.3}Privacy Risk}{3}% 
+\contentsline {section}{\numberline {1.5}Outline}{3}% 
+\contentsline {section}{\numberline {1.6}Summary}{3}% 
+\contentsline {chapter}{\numberline {2}Related Work}{5}% 
+\contentsline {section}{\numberline {2.1}Abstract}{5}% 
+\contentsline {section}{\numberline {2.2}Basic Concepts}{5}% 
+\contentsline {subsection}{\numberline {2.2.1}Generative Adversarial Networks}{5}% 
+\contentsline {subsection}{\numberline {2.2.2}Electronic Health Records}{6}% 
+\contentsline {subsection}{\numberline {2.2.3}Gender Medicine}{6}% 
+\contentsline {subsection}{\numberline {2.2.4}Rare diseases}{6}% 
+\contentsline {subsection}{\numberline {2.2.5}medGAN}{7}% 
+\contentsline {section}{\numberline {2.3}Summary}{7}% 
+\contentsline {chapter}{\numberline {3}Dataset and Analysis}{9}% 
+\contentsline {section}{\numberline {3.1}Abstract}{9}% 
+\contentsline {section}{\numberline {3.2}Dataset}{9}% 
+\contentsline {section}{\numberline {3.3}Analysis}{9}% 
+\contentsline {section}{\numberline {3.4}Summary}{11}% 
+\contentsline {chapter}{\numberline {4}Electronic Health Record Generation}{13}% 
+\contentsline {section}{\numberline {4.1}Abstract}{13}% 
+\contentsline {section}{\numberline {4.2}medGAN}{13}% 
+\contentsline {subsection}{\numberline {4.2.1}SynthEHR (medBGAN, medWGAN)}{14}% 
+\contentsline {subsection}{\numberline {4.2.2}Differentiation}{15}% 
+\contentsline {section}{\numberline {4.3}Process and Architecture}{15}% 
+\contentsline {section}{\numberline {4.4}Experimental Setup}{15}% 
+\contentsline {section}{\numberline {4.5}Hypotheses}{16}% 
+\contentsline {section}{\numberline {4.6}Data}{16}% 
+\contentsline {section}{\numberline {4.7}Models for Comparison}{16}% 
+\contentsline {section}{\numberline {4.8}Measurements}{16}% 
+\contentsline {section}{\numberline {4.9}EMR Generation}{16}% 
+\contentsline {section}{\numberline {4.10}Rare diseases}{16}% 
+\contentsline {section}{\numberline {4.11}Summary}{17}% 
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{19}% 
+\contentsline {section}{\numberline {5.1}Abstract}{19}% 
+\contentsline {section}{\numberline {5.2}Quantitative Evaluation}{19}% 
+\contentsline {subsection}{\numberline {5.2.1}The performance of gender-based models decreased strongly for count data}{20}% 
+\contentsline {subsection}{\numberline {5.2.2}The performance decreased slightly for binary data}{21}% 
+\contentsline {subsection}{\numberline {5.2.3}Evaluation Orphan diseases}{21}% 
+\contentsline {section}{\numberline {5.3}Qualitative Evaluation}{22}% 
+\contentsline {subsection}{\numberline {5.3.1}Data analysis}{22}% 
+\contentsline {subsection}{\numberline {5.3.2}Gender-specific}{22}% 
+\contentsline {subsection}{\numberline {5.3.3}Qualitative evaluation with a medical doctor}{24}% 
+\contentsline {section}{\numberline {5.4}Discussion}{24}% 
+\contentsline {subsection}{\numberline {5.4.1}Summary}{25}% 
+\contentsline {chapter}{\numberline {6}Conclusion and Outlook}{27}% 
+\contentsline {section}{\numberline {6.1}Goal}{27}% 
+\contentsline {section}{\numberline {6.2}Hypothesis proofed}{27}% 
+\contentsline {section}{\numberline {6.3}Outlook}{27}% 
+\contentsline {section}{\numberline {6.4}Future work}{27}% 
+\contentsline {section}{\numberline {6.5}Summary}{27}% 
+\contentsline {chapter}{References}{28}% 
 \contentsline {chapter}{\numberline {A}Bibliography}{31}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Listings}{33}% 
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Results}{35}% 

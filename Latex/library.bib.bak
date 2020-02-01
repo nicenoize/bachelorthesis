@@ -1,68 +1,805 @@
 % Encoding: UTF-8
 
-@Article{Choi2017,
-  author        = {Edward Choi and Siddharth Biswal and Bradley Malin and Jon Duke and Walter F. Stewart and Jimeng Sun},
-  title         = {Generating Multi-label Discrete Patient Records using Generative Adversarial Networks},
-  __markedentry = {[nicenoize:6]},
-  abstract      = {Access to electronic health record (EHR) data has motivated computational advances in medical research. However, various concerns, particularly over privacy, can limit access to and collaborative use of EHR data. Sharing synthetic EHR data could mitigate risk. In this paper, we propose a new approach, medical Generative Adversarial Network (medGAN), to generate realistic synthetic patient records. Based on input real patient records, medGAN can generate high-dimensional discrete variables (e.g., binary and count features) via a combination of an autoencoder and generative adversarial networks. We also propose minibatch averaging to efficiently avoid mode collapse, and increase the learning efficiency with batch normalization and shortcut connections. To demonstrate feasibility, we showed that medGAN generates synthetic patient records that achieve comparable performance to real data on many experiments including distribution statistics, predictive modeling tasks and a medical expert review. We also empirically observe a limited privacy risk in both identity and attribute disclosure using medGAN.},
-  date          = {2017-03-19},
-  eprint        = {http://arxiv.org/abs/1703.06490v3},
-  eprintclass   = {cs.LG},
-  eprinttype    = {arXiv},
-  file          = {:http\://arxiv.org/pdf/1703.06490v3:PDF},
-  keywords      = {cs.LG, cs.NE},
+@InProceedings{Grave2017,
+  author    = {Edouard Grave and Tomas Mikolov and Armand Joulin and Piotr Bojanowski},
+  title     = {Bag of Tricks for Efficient Text Classification},
+  booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics, {EACL} 2017, Valencia, Spain, April 3-7, 2017, Volume 2: Short Papers},
+  year      = {2017},
+  pages     = {427--431},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/eacl/GraveMJB17},
+  crossref  = {DBLP:conf/eacl/2017-2},
+  file      = {:library/Grave2017 - Bag of Tricks for Efficient Text Classification.pdf:PDF},
+  timestamp = {Wed, 17 Jan 2018 15:46:15 +0100},
+  url       = {https://aclanthology.info/papers/E17-2068/e17-2068},
 }
 
-@Article{arya2019exploratory,
-  author = {Arya, Abhishek},
-  title  = {Exploratory Data Analysis of Intensive Care Unit Patients using MIMIC-III Database},
+@InProceedings{Jin2018,
+  author    = {Di Jin and Peter Szolovits},
+  booktitle = {Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, Brussels, Belgium, October 31 - November 4, 2018},
+  title     = {Hierarchical Neural Networks for Sequential Sentence Classification in Medical Scientific Abstracts},
+  year      = {2018},
+  pages     = {3100--3109},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/emnlp/JinS18},
+  crossref  = {DBLP:conf/emnlp/2018},
+  timestamp = {Sat, 27 Oct 2018 20:04:50 +0200},
+  url       = {https://aclanthology.info/papers/D18-1349/d18-1349},
+}
+
+@InProceedings{Schmidt2017,
+  author    = {Anna Schmidt and Michael Wiegand},
+  booktitle = {Proceedings of the Fifth International Workshop on Natural Language Processing for Social Media, SocialNLP@EACL 2017, Valencia, Spain, April 3, 2017},
+  title     = {A Survey on Hate Speech Detection using Natural Language Processing},
+  year      = {2017},
+  pages     = {1--10},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/acl-socialnlp/SchmidtW17},
+  crossref  = {DBLP:conf/acl-socialnlp/2017},
+  file      = {Schmidt2017.pdf:library/Schmidt2017 - A Survey on Hate Speech Detection Using Natural Language Processing.pdf:PDF},
+  timestamp = {Mon, 15 Jan 2018 14:54:38 +0100},
+  url       = {https://aclanthology.info/papers/W17-1101/w17-1101},
+}
+
+@InProceedings{Risch2018,
+  author    = {Julian Risch and Ralf Krestel},
+  title     = {Delete or not Delete? Semi-Automatic Comment Moderation for the Newsroom},
+  booktitle = {Proceedings of the First Workshop on Trolling, Aggression and Cyberbullying, TRAC@COLING 2018, Santa Fe, New Mexico, USA, August 25, 2018},
+  year      = {2018},
+  pages     = {166--176},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/coling/RischK18a},
+  crossref  = {DBLP:conf/coling/2018trac},
+  file      = {:library/Risch2018 - Delete or Not Delete_ Semi Automatic Comment Moderation for the Newsroom.pdf:PDF},
+  keywords  = {rank5},
+  timestamp = {Tue, 29 Jan 2019 16:25:14 +0100},
+  url       = {https://aclanthology.info/papers/W18-4420/w18-4420},
+}
+
+@InProceedings{Sap2019,
+  author    = {Maarten Sap and Dallas Card and Saadia Gabriel and Yejin Choi and Noah A. Smith},
+  booktitle = {Proceedings of the 57th Conference of the Association for Computational Linguistics, {ACL} 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers},
+  title     = {The Risk of Racial Bias in Hate Speech Detection},
+  year      = {2019},
+  pages     = {1668--1678},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/acl/SapCGCS19},
+  crossref  = {DBLP:conf/acl/2019-1},
+  file      = {:library/Sap2019 - The Risk of Racial Bias in Hate Speech Detection.pdf:PDF},
+  timestamp = {Fri, 13 Sep 2019 13:00:42 +0200},
+  url       = {https://www.aclweb.org/anthology/P19-1163/},
+}
+
+@InProceedings{Wu2019,
+  author    = {Tongshuang Wu and Marco T{\'{u}}lio Ribeiro and Jeffrey Heer and Daniel S. Weld},
+  booktitle = {Proceedings of the 57th Conference of the Association for Computational Linguistics, {ACL} 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers},
+  title     = {Errudite: Scalable, Reproducible, and Testable Error Analysis},
+  year      = {2019},
+  pages     = {747--763},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/acl/WuRHW19},
+  crossref  = {DBLP:conf/acl/2019-1},
+  file      = {:library/Wu2019 - Errudite_ Scalable, Reproducible, and Testable Error Analysis.pdf:PDF},
+  timestamp = {Fri, 13 Sep 2019 13:00:42 +0200},
+  url       = {https://www.aclweb.org/anthology/P19-1073/},
+}
+
+@InProceedings{Wang2012,
+  author    = {Sida I. Wang and Christopher D. Manning},
+  booktitle = {The 50th Annual Meeting of the Association for Computational Linguistics, Proceedings of the Conference, July 8-14, 2012, Jeju Island, Korea - Volume 2: Short Papers},
+  title     = {Baselines and Bigrams: Simple, Good Sentiment and Topic Classification},
+  year      = {2012},
+  pages     = {90--94},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/acl/WangM12},
+  crossref  = {DBLP:conf/acl/2012-2},
+  file      = {:library/Wang2012 - Baselines and Bigrams_ Simple, Good Sentiment and Topic Classification.pdf:PDF},
+  timestamp = {Fri, 13 Sep 2019 13:00:43 +0200},
+  url       = {https://www.aclweb.org/anthology/P12-2018/},
+}
+
+@InProceedings{Sun2019,
+  author    = {Chi Sun and Xipeng Qiu and Yige Xu and Xuanjing Huang},
+  booktitle = {Chinese Computational Linguistics - 18th China National Conference, {CCL} 2019, Kunming, China, October 18-20, 2019, Proceedings},
+  title     = {How to Fine-Tune {BERT} for Text Classification?},
+  year      = {2019},
+  pages     = {194--206},
+  doi       = {10.1007/978-3-030-32381-3\_16},
+  file      = {:library/Sun2019 - How to Fine Tune BERT for Text Classification_.pdf:PDF},
+  timestamp = {Wed, 16 Oct 2019 11:03:33 +0200},
+  url       = {https://doi.org/10.1007/978-3-030-32381-3\_16},
+}
+
+@InProceedings{Seganti2019,
+  author    = {Alessandro Seganti and Helena Sobol and Iryna Orlova and Hannam Kim and Jakub Staniszewski and Tymoteusz Krumholc and Krystian Koziel},
+  booktitle = {Proceedings of the 13th International Workshop on Semantic Evaluation, SemEval@NAACL-HLT 2019, Minneapolis, MN, USA, June 6-7, 2019},
+  title     = {NLPR@SRPOL at SemEval-2019 Task 6 and Task 5: Linguistically enhanced deep learning offensive sentence classifier},
+  year      = {2019},
+  pages     = {712--721},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/conf/semeval/SegantiSOKSKK19},
+  file      = {:library/Seganti2019 - NLPR@SRPOL at SemEval 2019 Task 6 and Task 5_ Linguistically Enhanced Deep Learning Offensive Sentence Classifier.pdf:PDF},
+  timestamp = {Mon, 16 Sep 2019 17:08:53 +0200},
+  url       = {https://www.aclweb.org/anthology/S19-2126/},
+}
+
+@Article{Aken2018,
+  author        = {Betty van Aken and Julian Risch and Ralf Krestel and Alexander L{\"{o}}ser},
+  journal       = {CoRR},
+  title         = {Challenges for Toxic Comment Classification: An In-Depth Error Analysis},
+  year          = {2018},
+  volume        = {abs/1809.07572},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1809-07572},
+  eprint        = {1809.07572},
+  file          = {:library/Aken2018 - Challenges for Toxic Comment Classification_ an in Depth Error Analysis.pdf:PDF},
+  timestamp     = {Fri, 05 Oct 2018 11:34:52 +0200},
+  url           = {http://arxiv.org/abs/1809.07572},
+}
+
+@Book{Brodnig2016,
+  Title                    = {Hass im Netz: Was wir gegen Hetze, Mobbing und L{\"u}gen tun k{\"o}nnen.},
+  Author                   = {Brodnig, Ingrid},
+  Publisher                = {Christian Brandst{\"a}tter Verlag},
+  Year                     = {2016}
+}
+
+@Article{Devlin2018,
+  author        = {Jacob Devlin and Ming{-}Wei Chang and Kenton Lee and Kristina Toutanova},
+  journal       = {CoRR},
+  title         = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  year          = {2018},
+  volume        = {abs/1810.04805},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1810-04805},
+  eprint        = {1810.04805},
+  file          = {Devlin2018.pdf:library/Devlin2018 - BERT_ Pre Training of Deep Bidirectional Transformers for Language Understanding.pdf:PDF},
+  timestamp     = {Tue, 30 Oct 2018 20:39:56 +0100},
+  url           = {http://arxiv.org/abs/1810.04805},
+}
+
+@Article{Haering2018,
+  Title                    = {Who is Addressed in this Comment? Automatically Classifying Meta-Comments
+ in News Comments},
+  Author                   = {Marlo Häring and
+ Wiebke Loosen and
+ Walid Maalej},
+  Journal                  = {CoRR},
+  Year                     = {2018},
+  Volume                   = {abs/1810.01114},
+
+  Archiveprefix            = {arXiv},
+  Bibsource                = {dblp computer science bibliography, https://dblp.org},
+  Biburl                   = {https://dblp.org/rec/bib/journals/corr/abs-1810-01114},
+  Eprint                   = {1810.01114},
+  Timestamp                = {Tue, 30 Oct 2018 10:49:09 +0100},
+  Url                      = {http://arxiv.org/abs/1810.01114}
+}
+
+@Article{Howard2018,
+  author        = {Jeremy Howard and Sebastian Ruder},
+  journal       = {CoRR},
+  title         = {Universal Language Model Fine-tuning for Text Classification},
+  year          = {2018},
+  volume        = {abs/1801.06146},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1801-06146},
+  eprint        = {1801.06146},
+  file          = {Howard2018.pdf:library/Howard2018 - Universal Language Model Fine Tuning for Text Classification.pdf:PDF},
+  timestamp     = {Mon, 13 Aug 2018 16:46:54 +0200},
+  url           = {http://arxiv.org/abs/1801.06146},
+}
+
+@Article{Loosen2017,
+  author    = {Loosen, Wiebke and Häring, Marlo and Kurtanović, Zijad and Merten, Lisa and Reimer, Julius and Roessel, Lies van and Maalej, Walid},
+  title     = {Making sense of user comments: Identifying journalists’ requirements for a comment analysis framework},
+  year      = {2017},
+  volume    = {6},
+  number    = {4},
+  pages     = {333--364},
+  issn      = {2192-4007},
+  abstract  = {Redaktionen suchen noch immer nach Wegen im Umgang mit Nutzerkommentaren - Gründe hierfür sind sowohl der Wunsch nach professioneller Distanz zum Publikum als auch fehlende Tools, welche die Analyse von Kommentaren unterstützen können. Der vorliegende Beitrag präsentiert Befunde einer explorativen, interdisziplinären Studie aus den Bereichen Journalismusforschung und Informatik, die sich mit der algorithmischen Klassifizierung und dem Clustern von Nutzerkommentaren beschäftigt. Im Gegensatz zu ähnlichen Vorhaben, die darauf abzielen, Spam- und Hasskommentare herauszufiltern, verfolgt das Projekt einen konstruktiveren Ansatz und fokussiert darauf, Kommentare von besonderem Nutzen oder hoher Qualität zu identifizieren, die für journalistische Zwecke genutzt werden können. Auf der Basis einer Literaturstudie sowie eigener empirischer Vorarbeiten zur Publikumsbeteiligung wurde ein Mock-up für ein Software-Framework entwickelt, das Journalisten bei der systematischen Analyse von Kommentaren unterstützen soll. Das Mock-up wurde in zwei Gruppendiskussionen mit Kommentarmoderatoren und Redakteuren aus verschiedenen Ressorts evaluiert. Funktionen, die als besonders nützlich erachtet wurden, umfassen u. a. die Klassifizierung von Nutzerkommentaren in Pro- und Contra-Argumente zu einem Artikelthema, die automatisierte Analyse ihrer Qualität sowie die Identifikation überraschender bzw. außergewöhnlicher Kommentare und solcher, die neue Fragen, Meinungen und Perspektiven enthalten.},
+  booktitle = {SCM Studies in Communication and Media},
+  groups    = {arndt:6},
+  url       = {https://doi.org/10.5771/2192-4007-2017-4-333},
+}
+
+@Article{Mueller2018,
+  Title                    = {Fanning the flames of hate: Social media and hate crime},
+  Author                   = {M{\"u}ller, Karsten and Schwarz, Carlo},
+  Journal                  = {Available at SSRN 3082972},
+  Year                     = {2018}
+}
+
+@Article{Peters2018,
+  author        = {Matthew E. Peters and Mark Neumann and Mohit Iyyer and Matt Gardner and Christopher Clark and Kenton Lee and Luke Zettlemoyer},
+  journal       = {CoRR},
+  title         = {Deep contextualized word representations},
+  year          = {2018},
+  volume        = {abs/1802.05365},
+  abstract      = {Embeddings from Language Models (ELMo)},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1802-05365},
+  eprint        = {1802.05365},
+  file          = {Peters2018.pdf:library/Peters2018 - Deep Contextualized Word Representations.pdf:PDF},
+  timestamp     = {Mon, 13 Aug 2018 16:48:54 +0200},
+  url           = {http://arxiv.org/abs/1802.05365},
+}
+
+@Misc{Ruder2018,
+  author       = {Sebastian Ruder},
+  howpublished = {\url{https://thegradient.pub/nlp-imagenet/}},
+  month        = {July},
+  note         = {Accessed November 2, 2019},
+  title        = {N{L}{P}'s {I}mage{N}et moment has arrived},
+  year         = {2018},
+}
+
+@InProceedings{Schabus2018,
+  Title                    = {Academic-Industrial Perspective on the Development and Deployment of a Moderation System for a Newspaper Website},
+  Author                   = {Dietmar Schabus and Marcin Skowron},
+  Booktitle                = {Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC)},
+  Year                     = {2018},
+
+  Address                  = {Miyazaki, Japan},
+  Month                    = may,
+  Pages                    = {1602-1605},
+
+  Abstract                 = {This paper describes an approach and our experiences from the development, deployment and usability testing of a Natural Language Processing (NLP) and Information Retrieval system that supports the moderation of user comments on a large newspaper website. We highlight some of the differences between industry-oriented and academic research settings and their influence on the decisions made in the data collection and annotation processes, selection of document representation and machine learning methods. We report on classification results, where the problems to solve and the data to work with come from a commercial enterprise. In this context typical for NLP research, we discuss relevant industrial aspects. We believe that the challenges faced as well as the solutions proposed for addressing them can provide insights to others working in a similar setting.},
+  Url                      = {http://www.lrec-conf.org/proceedings/lrec2018/summaries/8885.html}
+}
+
+@InProceedings{Schabus2017,
+  Title                    = {One Million Posts: A Data Set of German Online Discussions},
+  Author                   = {Dietmar Schabus and Marcin Skowron and Martin Trapp},
+  Booktitle                = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)},
+  Year                     = {2017},
+
+  Address                  = {Tokyo, Japan},
+  Month                    = aug,
+  Pages                    = {1241--1244},
+
+  Doi                      = {10.1145/3077136.3080711}
+}
+
+@Article{Vaswani2017,
+  author        = {Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
+  journal       = {CoRR},
+  title         = {Attention Is All You Need},
+  year          = {2017},
+  volume        = {abs/1706.03762},
+  abstract      = {Transformer},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/VaswaniSPUJGKP17},
+  eprint        = {1706.03762},
+  file          = {Vaswani2017.pdf:library/Vaswani2017 - Attention Is All You Need.pdf:PDF},
+  timestamp     = {Mon, 13 Aug 2018 16:48:37 +0200},
+  url           = {http://arxiv.org/abs/1706.03762},
+}
+
+@Misc{Wagner2018,
+  Title                    = {Neue Antworten auf Hate-Speech},
+
+  Author                   = {Ben Wagner and Marie Therese Sekwenz and Eliska Pirkova},
+  Year                     = {2018},
+
+  Url                      = {https://derstandard.at/2000090293041/Neue-Antworten-auf-Hate-Speech}
+}
+
+@Article{Xing2010,
+  Title                    = {A brief survey on sequence classification},
+  Author                   = {Zhengzheng Xing and
+ Jian Pei and
+ Eamonn J. Keogh},
+  Journal                  = {{SIGKDD} Explorations},
+  Year                     = {2010},
+  Number                   = {1},
+  Pages                    = {40--48},
+  Volume                   = {12},
+
+  Bibsource                = {dblp computer science bibliography, https://dblp.org},
+  Biburl                   = {https://dblp.org/rec/bib/journals/sigkdd/XingPK10},
+  Doi                      = {10.1145/1882471.1882478},
+  Timestamp                = {Tue, 06 Nov 2018 12:51:58 +0100},
+  Url                      = {https://doi.org/10.1145/1882471.1882478}
+}
+
+@Article{Zhang2018,
+  author        = {Ziqi Zhang and Lei Luo},
+  journal       = {CoRR},
+  title         = {Hate Speech Detection: A Solved Problem? The Challenging Case of Long Tail on Twitter},
+  year          = {2018},
+  volume        = {abs/1803.03662},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1803-03662},
+  eprint        = {1803.03662},
+  file          = {Zhang2018.pdf:library/Zhang2018 - Hate Speech Detection_ a Solved Problem_ the Challenging Case of Long Tail on Twitter.pdf:PDF},
+  timestamp     = {Mon, 13 Aug 2018 16:48:03 +0200},
+  url           = {http://arxiv.org/abs/1803.03662},
+}
+
+@InProceedings{Wiegand2018,
+  author    = {Josef Wiegand and Melanie Ruppendorfer and Michael Siegel},
+  title     = {Proceedings of the GermEval 2018 Workshop},
+  year      = {2018},
+  publisher = {Verlag der {\"O}sterreichischen Akademie der Wissenschaften},
+  file      = {:library/Wiegand2018 - Proceedings of the GermEval 2018 Workshop.pdf:PDF},
+}
+
+@Book{Ng2018,
+  author    = {Ng, Andrew},
+  publisher = {deeplearning.ai},
+  title     = {Machine Learning Yearning: Technical Strategy for AI Engineers, In the Era of Deep Learning},
+  year      = {2018},
+  file      = {:/home/arndt/Dropbox/DataScience/eBooks/Machine Learning Yearning (Andrew Ng).pdf:PDF},
+}
+
+@Article{Aken2019,
+  author        = {Betty van Aken and Benjamin Winter and Alexander L{\"{o}}ser and Felix A. Gers},
+  journal       = {CoRR},
+  title         = {How Does {BERT} Answer Questions? {A} Layer-Wise Analysis of Transformer Representations},
+  year          = {2019},
+  volume        = {abs/1909.04925},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1909-04925},
+  eprint        = {1909.04925},
+  file          = {:library/Aken2019 - How Does BERT Answer Questions_ a Layer Wise Analysis of Transformer Representations.pdf:PDF},
+  timestamp     = {Tue, 17 Sep 2019 11:23:44 +0200},
+  url           = {http://arxiv.org/abs/1909.04925},
+}
+
+@Article{Risch2019,
+  author = {Risch, Julian and Stoll, Anke and Ziegele, Marc and Krestel, Ralf},
+  title  = {Offensive Language Identification using a German BERT model},
   year   = {2019},
+  file   = {:library/Risch2019 - Offensive Language Identification Using a German BERT Model.pdf:PDF},
 }
 
-@InProceedings{goodfellow2014generative,
-  author    = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
-  title     = {Generative adversarial nets},
-  booktitle = {Advances in neural information processing systems},
-  year      = {2014},
-  pages     = {2672--2680},
+@PhdThesis{Ruder2019,
+  author  = {Ruder, Sebastian},
+  school  = {National University of Ireland, Galway},
+  title   = {Neural Transfer Learning for Natural Language Processing},
+  year    = {2019},
+  comment = {most relevant chapters: chapter 3 (transfer learning taxonomy), chapter 4 (domain adaption), chapter 7 (sequential transfer learning)},
+  file    = {:library/Ruder2019 - Neural Transfer Learning for Natural Language Processing.pdf:PDF},
 }
 
-@Article{camino2018generating,
-  author  = {Camino, Ramiro and Hammerschmidt, Christian and State, Radu},
-  title   = {Generating Multi-Categorical Samples with Generative Adversarial Networks},
-  journal = {arXiv preprint arXiv:1807.01202},
-  year    = {2018},
-}
-
-@Article{arain2009sex,
-  author    = {Arain, Faisal A and Kuniyoshi, Fatima H and Abdalrhim, Ahmed D and Miller, Virginia M},
-  title     = {Sex/Gender Medicine},
-  journal   = {Circulation Journal},
-  year      = {2009},
-  pages     = {0908260469--0908260469},
-  publisher = {The Japanese Circulation Society},
-}
-
-@Article{kautzky2010sex,
-  author    = {Kautzky-Willer, Alexandra and Kamyar, Majid Reza and Gerhat, Dora and Handisurya, Ammon and Stemer, Gunar and Hudson, Stephen and Luger, Anton and Lemmens-Gruber, Rosa},
-  title     = {Sex-specific differences in metabolic control, cardiovascular risk, and interventions in patients with type 2 diabetes mellitus},
-  journal   = {Gender medicine},
+@InCollection{Torrey2010,
+  author    = {Torrey, Lisa and Shavlik, Jude},
+  booktitle = {Handbook of research on machine learning applications and trends: algorithms, methods, and techniques},
+  publisher = {IGI Global},
+  title     = {Transfer learning},
   year      = {2010},
-  volume    = {7},
-  number    = {6},
-  pages     = {571--583},
+  pages     = {242--264},
+  file      = {:library/Torrey2010 - Transfer Learning.pdf:PDF},
+}
+
+@Misc{Anu2019,
+  author       = {Aggarwal, Anupama},
+  howpublished = {\url{http://precog.iiitd.edu.in/people/anupama}},
+  note         = {Accessed November 4, 2019},
+  title        = {This is how you cite a website in latex},
+  year         = {2019},
+}
+
+@Misc{Tagesschau2019,
+  author       = {Tagesschau},
+  howpublished = {\url{https://www.tagesschau.de/kuenast-105.html}},
+  month        = {September},
+  note         = {Accessed November 2, 2019},
+  title        = {Künast muss {B}eschimpfungen hinnehmen},
+  year         = {2019},
+}
+
+@Misc{Zeit2019,
+  author       = {Zeit{\ }Online},
+  howpublished = {\url{https://www.zeit.de/politik/deutschland/2019-09/hasskommentare-renate-kuenast-die-gruenen-gerichtsurteil-beleidigungen}},
+  month        = {September},
+  note         = {Accessed November 2, 2019},
+  title        = {Kritik am {G}erichtsurteil zu {H}assrede gegen {R}enate {K}ünast},
+  year         = {2019},
+}
+
+@Misc{Strippel2019,
+  author       = {Christian Strippel and Sünje Paasch-Colberg},
+  howpublished = {3. NOHATE-Workshop am Weizenbaum Institut, Berlin},
+  title        = {Was ist ein {H}asskommentar? {U}nd woran erkennt man ihn?},
+  year         = {2019},
+  institution  = {Freie Universität Berlin},
+}
+
+@Article{Winograd1972,
+  author    = {Winograd, Terry},
+  journal   = {Cognitive psychology},
+  title     = {Understanding natural language},
+  year      = {1972},
+  number    = {1},
+  pages     = {1--191},
+  volume    = {3},
   publisher = {Elsevier},
 }
 
-@Article{baggio2013gender,
-  author    = {Baggio, Giovannella and Corsini, Alberto and Floreani, Annarosa and Giannini, Sandro and Zagonel, Vittorina},
-  title     = {Gender medicine: a task for the third millennium},
-  journal   = {Clinical chemistry and laboratory medicine},
+@Book{Manning2001,
+  author    = {Christopher D. Manning and Hinrich Sch{\"{u}}tze},
+  publisher = {{MIT} Press},
+  title     = {Foundations of statistical natural language processing},
+  year      = {2001},
+  isbn      = {978-0-262-13360-9},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  biburl    = {https://dblp.org/rec/bib/books/daglib/0001548},
+  timestamp = {Mon, 05 Aug 2019 17:00:40 +0200},
+}
+
+@Misc{Goodfellow2016,
+  author    = {Goodfellow, Ian and Bengio, Yoshua and Courville, Aaron and Bengio, Yoshua},
+  title     = {Deep learning. vol. 1},
+  year      = {2016},
+  publisher = {MIT press Cambridge},
+}
+
+@Misc{Thomas2019,
+  author       = {Rachel Thomas},
+  howpublished = {\url{https://www.youtube.com/watch?v=cce8ntxP_XI\&list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9\&index=1}},
+  title        = {What is NLP? (NLP video 1)},
+  year         = {2019},
+  institution  = {fast.ai},
+}
+
+@InProceedings{Mikolov2013,
+  author    = {Tomas Mikolov and Ilya Sutskever and Kai Chen and Gregory S. Corrado and Jeffrey Dean},
+  booktitle = {Advances in Neural Information Processing Systems 26: 27th Annual Conference on Neural Information Processing Systems 2013. Proceedings of a meeting held December 5-8, 2013, Lake Tahoe, Nevada, United States.},
+  title     = {Distributed Representations of Words and Phrases and their Compositionality},
   year      = {2013},
-  volume    = {51},
+  pages     = {3111--3119},
+  timestamp = {Thu, 07 May 2015 20:02:01 +0200},
+  url       = {http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality},
+}
+
+@InProceedings{Wang2015,
+  author    = {Dong Wang and Thomas Fang Zheng},
+  booktitle = {Asia-Pacific Signal and Information Processing Association Annual Summit and Conference, {APSIPA} 2015, Hong Kong, December 16-19, 2015},
+  title     = {Transfer learning for speech and language processing},
+  year      = {2015},
+  pages     = {1225--1237},
+  doi       = {10.1109/APSIPA.2015.7415532},
+  timestamp = {Wed, 16 Oct 2019 14:14:55 +0200},
+  url       = {https://doi.org/10.1109/APSIPA.2015.7415532},
+}
+
+@Misc{Devlin2018a,
+  author       = {Jacob Devlin and Ming-Wei Chang},
+  howpublished = {\url{https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html}},
+  month        = {November},
+  note         = {Accessed November 8, 2019},
+  title        = {Open {S}ourcing {BERT}: {S}tate-of-the-{A}rt {P}re-training for {N}atural {L}anguage {P}rocessing},
+  year         = {2018},
+  institution  = {Google AI Language},
+}
+
+@InProceedings{Koehn2003,
+  author    = {Philipp Koehn and Franz Josef Och and Daniel Marcu},
+  booktitle = {Human Language Technology Conference of the North American Chapter of the Association for Computational Linguistics, {HLT-NAACL} 2003, Edmonton, Canada, May 27 - June 1, 2003},
+  title     = {Statistical Phrase-Based Translation},
+  year      = {2003},
+  timestamp = {Mon, 16 Sep 2019 13:46:41 +0200},
+  url       = {https://www.aclweb.org/anthology/N03-1017/},
+}
+
+@InProceedings{Turian2010,
+  author    = {Joseph P. Turian and Lev{-}Arie Ratinov and Yoshua Bengio},
+  booktitle = {{ACL} 2010, Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics, July 11-16, 2010, Uppsala, Sweden},
+  title     = {Word Representations: {A} Simple and General Method for Semi-Supervised Learning},
+  year      = {2010},
+  pages     = {384--394},
+  timestamp = {Fri, 13 Sep 2019 13:00:43 +0200},
+  url       = {https://www.aclweb.org/anthology/P10-1040/},
+}
+
+@InProceedings{Klementiev2012,
+  author    = {Alexandre Klementiev and Ivan Titov and Binod Bhattarai},
+  booktitle = {{COLING} 2012, 24th International Conference on Computational Linguistics, Proceedings of the Conference: Technical Papers, 8-15 December 2012, Mumbai, India},
+  title     = {Inducing Crosslingual Distributed Representations of Words},
+  year      = {2012},
+  pages     = {1459--1474},
+  timestamp = {Mon, 16 Sep 2019 17:08:53 +0200},
+  url       = {https://www.aclweb.org/anthology/C12-1089/},
+}
+
+@InProceedings{Voorhees1999,
+  author    = {Ellen M. Voorhees and Dawn M. Tice},
+  booktitle = {Proceedings of The Eighth Text REtrieval Conference, {TREC} 1999, Gaithersburg, Maryland, USA, November 17-19, 1999},
+  title     = {The {TREC-8} Question Answering Track Evaluation},
+  year      = {1999},
+  timestamp = {Tue, 07 Apr 2015 13:04:05 +0200},
+  url       = {http://trec.nist.gov/pubs/trec8/papers/qa8.pdf},
+}
+
+@InProceedings{Maas2011,
+  author    = {Andrew L. Maas and Raymond E. Daly and Peter T. Pham and Dan Huang and Andrew Y. Ng and Christopher Potts},
+  booktitle = {The 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies, Proceedings of the Conference, 19-24 June, 2011, Portland, Oregon, {USA}},
+  title     = {Learning Word Vectors for Sentiment Analysis},
+  year      = {2011},
+  pages     = {142--150},
+  timestamp = {Fri, 13 Sep 2019 13:00:43 +0200},
+  url       = {https://www.aclweb.org/anthology/P11-1015/},
+}
+
+@InProceedings{Zhang2015,
+  author    = {Xiang Zhang and Junbo Jake Zhao and Yann LeCun},
+  booktitle = {Advances in Neural Information Processing Systems 28: Annual Conference on Neural Information Processing Systems 2015, December 7-12, 2015, Montreal, Quebec, Canada},
+  title     = {Character-level Convolutional Networks for Text Classification},
+  year      = {2015},
+  pages     = {649--657},
+  timestamp = {Fri, 16 Dec 2016 19:42:05 +0100},
+  url       = {http://papers.nips.cc/paper/5782-character-level-convolutional-networks-for-text-classification},
+}
+
+@Article{Harris1954,
+  author    = {Harris, Zellig S},
+  journal   = {Word},
+  title     = {Distributional structure},
+  year      = {1954},
+  number    = {2-3},
+  pages     = {146--162},
+  volume    = {10},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{Firth1957,
+  author    = {Firth, John R},
+  journal   = {Studies in linguistic analysis},
+  title     = {A synopsis of linguistic theory, 1930-1955},
+  year      = {1957},
+  publisher = {Basil Blackwell},
+}
+
+@Misc{Potts2013,
+  author       = {Chris Potts},
+  howpublished = {\url{https://web.stanford.edu/class/linguist236/materials/ling236-handout-05-09-vsm.pdf}},
+  title        = {Distributional approaches to word meanings},
+  year         = {2013},
+  institution  = {Standford University},
+}
+
+@InProceedings{Blei2001,
+  author    = {David M. Blei and Andrew Y. Ng and Michael I. Jordan},
+  booktitle = {Advances in Neural Information Processing Systems 14 [Neural Information Processing Systems: Natural and Synthetic, {NIPS} 2001, December 3-8, 2001, Vancouver, British Columbia, Canada]},
+  title     = {Latent Dirichlet Allocation},
+  year      = {2001},
+  pages     = {601--608},
+  timestamp = {Thu, 11 Dec 2014 17:34:08 +0100},
+  url       = {http://papers.nips.cc/paper/2070-latent-dirichlet-allocation},
+}
+
+@Article{Deerwester1990,
+  author    = {Scott C. Deerwester and Susan T. Dumais and Thomas K. Landauer and George W. Furnas and Richard A. Harshman},
+  journal   = {{JASIS}},
+  title     = {Indexing by Latent Semantic Analysis},
+  year      = {1990},
+  number    = {6},
+  pages     = {391--407},
+  volume    = {41},
+  doi       = {10.1002/(SICI)1097-4571(199009)41:6\<391::AID-ASI1\>3.0.CO;2-9},
+  timestamp = {Sun, 28 May 2017 13:22:58 +0200},
+  url       = {https://doi.org/10.1002/(SICI)1097-4571(199009)41:6\<391::AID-ASI1\>3.0.CO;2-9},
+}
+
+@Article{SpaerckJones1972,
+  author    = {Spärck Jones, Karen},
+  journal   = {Journal of documentation},
+  title     = {A statistical interpretation of term specificity and its application in retrieval},
+  year      = {1972},
+  number    = {1},
+  pages     = {11--21},
+  volume    = {28},
+  publisher = {MCB UP Ltd},
+}
+
+@Article{SpaerckJones1973,
+  author    = {Spärck Jones, Karen},
+  journal   = {Information storage and retrieval},
+  title     = {Index term weighting},
+  year      = {1973},
+  number    = {11},
+  pages     = {619--633},
+  volume    = {9},
+  publisher = {Elsevier},
+}
+
+@Article{Linzen2016,
+  author    = {Tal Linzen and Emmanuel Dupoux and Yoav Goldberg},
+  journal   = {{TACL}},
+  title     = {Assessing the Ability of LSTMs to Learn Syntax-Sensitive Dependencies},
+  year      = {2016},
+  pages     = {521--535},
+  volume    = {4},
+  timestamp = {Mon, 19 Dec 2016 12:07:11 +0100},
+  url       = {https://transacl.org/ojs/index.php/tacl/article/view/972},
+}
+
+@InProceedings{Gulordava2018,
+  author    = {Kristina Gulordava and Piotr Bojanowski and Edouard Grave and Tal Linzen and Marco Baroni},
+  booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, {NAACL-HLT} 2018, New Orleans, Louisiana, USA, June 1-6, 2018, Volume 1 (Long Papers)},
+  title     = {Colorless Green Recurrent Networks Dream Hierarchically},
+  year      = {2018},
+  pages     = {1195--1205},
+  timestamp = {Mon, 16 Sep 2019 17:08:53 +0200},
+  url       = {https://www.aclweb.org/anthology/N18-1108/},
+}
+
+@Article{Radford2017,
+  author        = {Alec Radford and Rafal J{\'{o}}zefowicz and Ilya Sutskever},
+  journal       = {CoRR},
+  title         = {Learning to Generate Reviews and Discovering Sentiment},
+  year          = {2017},
+  volume        = {abs/1704.01444},
+  archiveprefix = {arXiv},
+  eprint        = {1704.01444},
+  timestamp     = {Mon, 13 Aug 2018 16:47:25 +0200},
+  url           = {http://arxiv.org/abs/1704.01444},
+}
+
+@Misc{Bloem2019,
+  author       = {Peter Bloem},
+  howpublished = {\url{http://www.peterbloem.nl/blog/transformers}},
+  note         = {Accessed November 14, 2019},
+  title        = {Transformers from scratch},
+  year         = {2019},
+}
+
+@InProceedings{Vig2019,
+  author    = {Jesse Vig},
+  booktitle = {Proceedings of the 57th Conference of the Association for Computational Linguistics, {ACL} 2019, Florence, Italy, July 28 - August 2, 2019, Volume 3: System Demonstrations},
+  title     = {A Multiscale Visualization of Attention in the Transformer Model},
+  year      = {2019},
+  pages     = {37--42},
+  file      = {:library/Vig2019 - A Multiscale Visualization of Attention in the Transformer Model.pdf:PDF},
+  timestamp = {Fri, 13 Sep 2019 13:00:42 +0200},
+  url       = {https://www.aclweb.org/anthology/P19-3007/},
+}
+
+@InProceedings{Ruder2019a,
+  author    = {Ruder, Sebastian and Peters, Matthew E and Swayamdipta, Swabha and Wolf, Thomas},
+  booktitle = {Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Tutorials},
+  title     = {Transfer Learning in Natural Language Processing},
+  year      = {2019},
+  pages     = {15--18},
+  comment   = {See also: https://ruder.io/state-of-transfer-learning-in-nlp/},
+}
+
+@Article{Sanh2019,
+  author        = {Victor Sanh and Lysandre Debut and Julien Chaumond and Thomas Wolf},
+  journal       = {CoRR},
+  title         = {DistilBERT, a distilled version of {BERT:} smaller, faster, cheaper and lighter},
+  year          = {2019},
+  volume        = {abs/1910.01108},
+  archiveprefix = {arXiv},
+  eprint        = {1910.01108},
+  file          = {:library/Sanh2019 - DistilBERT, a Distilled Version of BERT_ Smaller, Faster, Cheaper and Lighter.pdf:PDF},
+  timestamp     = {Fri, 04 Oct 2019 12:28:06 +0200},
+  url           = {http://arxiv.org/abs/1910.01108},
+}
+
+@Misc{Alammar2019,
+  author       = {Jay Alammar},
+  howpublished = {\url{http://jalammar.github.io/illustrated-transformer/}},
+  note         = {Accessed November 14, 2019},
+  title        = {The Illustrated Transformer},
+  year         = {2019},
+}
+
+@Misc{Alammar2019a,
+  author       = {Jay Alammar},
+  howpublished = {\url{http://jalammar.github.io/illustrated-bert/}},
+  note         = {Accessed November 14, 2019},
+  title        = {The Illustrated {BERT}, {ELM}o, and co. (How {NLP} Cracked Transfer Learning)},
+  year         = {2019},
+}
+
+@InProceedings{Strubell2019,
+  author    = {Emma Strubell and Ananya Ganesh and Andrew McCallum},
+  booktitle = {Proceedings of the 57th Conference of the Association for Computational Linguistics, {ACL} 2019, Florence, Italy, July 28- August 2, 2019, Volume 1: Long Papers},
+  title     = {Energy and Policy Considerations for Deep Learning in {NLP}},
+  year      = {2019},
+  pages     = {3645--3650},
+  file      = {:library/Strubell2019 - Energy and Policy Considerations for Deep Learning in NLP.pdf:PDF},
+  timestamp = {Fri, 13 Sep 2019 13:00:42 +0200},
+  url       = {https://www.aclweb.org/anthology/P19-1355/},
+}
+
+@Article{Taylor1953,
+  author    = {Taylor, Wilson L},
+  journal   = {Journalism Bulletin},
+  title     = {“Cloze procedure”: A new tool for measuring readability},
+  year      = {1953},
   number    = {4},
-  pages     = {713--727},
-  publisher = {De Gruyter},
+  pages     = {415--433},
+  volume    = {30},
+  publisher = {SAGE Publications Sage CA: Los Angeles, CA},
+}
+
+@Article{Dai2015,
+  author        = {Andrew M. Dai and Quoc V. Le},
+  journal       = {CoRR},
+  title         = {Semi-supervised Sequence Learning},
+  year          = {2015},
+  volume        = {abs/1511.01432},
+  archiveprefix = {arXiv},
+  eprint        = {1511.01432},
+  timestamp     = {Mon, 13 Aug 2018 16:49:17 +0200},
+  url           = {http://arxiv.org/abs/1511.01432},
+}
+
+@Article{Radford2016,
+  author  = {Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya},
+  journal = {URL https://s3-us-west-2. amazonaws. com/openai-assets/research-covers/language-unsupervised/language\_understanding\_paper. pdf},
+  title   = {Improving language understanding by generative pre-training. 2018},
+  year    = {2016},
+  file    = {:library/Radford2016 - Improving Language Understanding by Generative Pre Training. 2018.pdf:PDF},
+}
+
+@Misc{Horev2019,
+  author       = {Rani Horev},
+  howpublished = {\url{https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270}},
+  note         = {Accessed November 16, 2019},
+  title        = {{BERT} Explained: State of the art language model for {NLP}},
+  year         = {2019},
+}
+
+@Misc{Ruder2019b,
+  author       = {Sebastian Ruder},
+  howpublished = {\url{https://bit.ly/2QAZpa3}},
+  month        = {September},
+  note         = {Accessed November 19, 2019},
+  title        = {Experimental results and error reporting, Ethics and {NLP}, Distillation vol. 2, {S}em{E}val 2020},
+  year         = {2019},
+}
+
+@Misc{Karpathy2019,
+  author       = {Karpathy, Andrej},
+  howpublished = {\url{http://karpathy.github.io/2019/04/25/recipe/}},
+  note         = {Accessed November 21, 2019},
+  title        = {A Recipe for Training Neural Networks},
+  year         = {2019},
+}
+
+@Article{Liu2019,
+  author        = {Yinhan Liu and Myle Ott and Naman Goyal and Jingfei Du and Mandar Joshi and Danqi Chen and Omer Levy and Mike Lewis and Luke Zettlemoyer and Veselin Stoyanov},
+  journal       = {CoRR},
+  title         = {RoBERTa: {A} Robustly Optimized {BERT} Pretraining Approach},
+  year          = {2019},
+  volume        = {abs/1907.11692},
+  archiveprefix = {arXiv},
+  bibsource     = {dblp computer science bibliography, https://dblp.org},
+  biburl        = {https://dblp.org/rec/bib/journals/corr/abs-1907-11692},
+  eprint        = {1907.11692},
+  file          = {:library/Liu2019 - RoBERTa_ a Robustly Optimized BERT Pretraining Approach.pdf:PDF},
+  timestamp     = {Thu, 01 Aug 2019 08:59:33 +0200},
+  url           = {http://arxiv.org/abs/1907.11692},
+}
+
+@Misc{Rogers2019,
+  author       = {Rogers, Anna},
+  howpublished = {\url{https://hackingsemantics.xyz/2019/leaderboards/}},
+  month        = {Jun},
+  note         = {Accessed November 23, 2019},
+  title        = {How the Transformers broke NLP leaderboards},
+  year         = {2019},
+  day          = {30},
+  journal      = {Hacking Semantics},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Markings\;2\;1\;\;\;\;;
+2 StaticGroup:arndt:6\;2\;1\;\;\;\;;
+}

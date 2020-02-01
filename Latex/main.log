@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 00:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  1 FEB 2020 11:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -542,59 +542,6 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/svg/svg.sty
-Package: svg 2018/11/12 v2.02b (include SVG pictures)
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
-))
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/shellesc.sty
-Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 69.
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
-Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
-)
-\svg@box=\box73
-\c@svg@param@lastpage=\count177
-\c@svg@param@currpage=\count178
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/transparent.sty
-Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
-
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -613,315 +560,44 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang3.sty
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip94
+\bibsep=\skip95
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count177
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/trsym.sty
 Package: trsym 2000/06/25v1.0transformation symbol font
 \symtransfsymbol=\mathgroup7
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/bytefield/bytefield.sty
 Package: bytefield 2017/09/15 v2.4 Network protocol diagrams
-\bytefield@height=\skip94
-\bytefield@height@increment=\skip95
-\entire@bytefield@picture=\box74
-\bf@bitwidth=\skip96
-\bf@bitheight=\skip97
-\units@wide=\skip98
-\units@tall=\skip99
-\units@high=\skip100
-\header@xpos=\skip101
-\c@header@val=\count179
-\c@max@header@val=\count180
-\curly@box=\box75
-\wordlabelr@start=\skip102
-\wordlabelr@end=\skip103
-\wordlabell@start=\skip104
-\wordlabell@end=\skip105
-\total@lbox@width=\skip106
-\label@box@width=\skip107
-\label@box@height=\skip108
-\word@label@box=\box76
+\bytefield@height=\skip96
+\bytefield@height@increment=\skip97
+\entire@bytefield@picture=\box73
+\bf@bitwidth=\skip98
+\bf@bitheight=\skip99
+\units@wide=\skip100
+\units@tall=\skip101
+\units@high=\skip102
+\header@xpos=\skip103
+\c@header@val=\count178
+\c@max@header@val=\count179
+\curly@box=\box74
+\wordlabelr@start=\skip104
+\wordlabelr@end=\skip105
+\wordlabell@start=\skip106
+\wordlabell@end=\skip107
+\total@lbox@width=\skip108
+\label@box@width=\skip109
+\label@box@height=\skip110
+\word@label@box=\box75
 )
 (./personalMacros.tex)
 -----------------------------------------------------------
 ----> main.tex ---- Zentrales Dokument---------------------
 -----------------------------------------------------------
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count181
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-)))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count182
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count183
-\c@listtotal=\count184
-\c@listcount=\count185
-\c@liststart=\count186
-\c@liststop=\count187
-\c@citecount=\count188
-\c@citetotal=\count189
-\c@multicitecount=\count190
-\c@multicitetotal=\count191
-\c@instcount=\count192
-\c@maxnames=\count193
-\c@minnames=\count194
-\c@maxitems=\count195
-\c@minitems=\count196
-\c@citecounter=\count197
-\c@maxcitecounter=\count198
-\c@savedcitecounter=\count199
-\c@uniquelist=\count266
-\c@uniquename=\count267
-\c@refsection=\count268
-\c@refsegment=\count269
-\c@maxextratitle=\count270
-\c@maxextratitleyear=\count271
-\c@maxextraname=\count272
-\c@maxextradate=\count273
-\c@maxextraalpha=\count274
-\c@abbrvpenalty=\count275
-\c@highnamepenalty=\count276
-\c@lownamepenalty=\count277
-\c@maxparens=\count278
-\c@parenlevel=\count279
-\blx@tempcnta=\count280
-\blx@tempcntb=\count281
-\blx@tempcntc=\count282
-\blx@maxsection=\count283
-\blx@maxsegment@0=\count284
-\blx@notetype=\count285
-\blx@parenlevel@text=\count286
-\blx@parenlevel@foot=\count287
-\blx@sectionciteorder@0=\count288
-\blx@entrysetcounter=\count289
-\labelnumberwidth=\skip109
-\labelalphawidth=\skip110
-\biblabelsep=\skip111
-\bibitemsep=\skip112
-\bibnamesep=\skip113
-\bibinitsep=\skip114
-\bibparsep=\skip115
-\bibhang=\skip116
-\blx@bcfin=\read3
-\blx@bcfout=\write5
-\c@mincomprange=\count290
-\c@maxcomprange=\count291
-\c@mincompwidth=\count292
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
-File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'apa.dbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-apa/apa.dbx
-File: apa.dbx 2018/04/02 v7.7 APA biblatex style data model
-)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count293
-\c@savedafterword=\count294
-\c@annotator=\count295
-\c@savedannotator=\count296
-\c@author=\count297
-\c@savedauthor=\count298
-\c@bookauthor=\count299
-\c@savedbookauthor=\count300
-\c@commentator=\count301
-\c@savedcommentator=\count302
-\c@editor=\count303
-\c@savededitor=\count304
-\c@editora=\count305
-\c@savededitora=\count306
-\c@editorb=\count307
-\c@savededitorb=\count308
-\c@editorc=\count309
-\c@savededitorc=\count310
-\c@foreword=\count311
-\c@savedforeword=\count312
-\c@holder=\count313
-\c@savedholder=\count314
-\c@introduction=\count315
-\c@savedintroduction=\count316
-\c@namea=\count317
-\c@savednamea=\count318
-\c@nameb=\count319
-\c@savednameb=\count320
-\c@namec=\count321
-\c@savednamec=\count322
-\c@translator=\count323
-\c@savedtranslator=\count324
-\c@shortauthor=\count325
-\c@savedshortauthor=\count326
-\c@shorteditor=\count327
-\c@savedshorteditor=\count328
-\c@with=\count329
-\c@savedwith=\count330
-\c@writer=\count331
-\c@savedwriter=\count332
-\c@producer=\count333
-\c@savedproducer=\count334
-\c@execproducer=\count335
-\c@savedexecproducer=\count336
-\c@director=\count337
-\c@saveddirector=\count338
-\c@labelname=\count339
-\c@savedlabelname=\count340
-\c@institution=\count341
-\c@savedinstitution=\count342
-\c@lista=\count343
-\c@savedlista=\count344
-\c@listb=\count345
-\c@savedlistb=\count346
-\c@listc=\count347
-\c@savedlistc=\count348
-\c@listd=\count349
-\c@savedlistd=\count350
-\c@liste=\count351
-\c@savedliste=\count352
-\c@listf=\count353
-\c@savedlistf=\count354
-\c@location=\count355
-\c@savedlocation=\count356
-\c@organization=\count357
-\c@savedorganization=\count358
-\c@origlocation=\count359
-\c@savedoriglocation=\count360
-\c@origpublisher=\count361
-\c@savedorigpublisher=\count362
-\c@publisher=\count363
-\c@savedpublisher=\count364
-\c@language=\count365
-\c@savedlanguage=\count366
-\c@origlanguage=\count367
-\c@savedoriglanguage=\count368
-\c@pageref=\count369
-\c@savedpageref=\count370
-\shorthandwidth=\skip117
-\shortjournalwidth=\skip118
-\shortserieswidth=\skip119
-\shorttitlewidth=\skip120
-\shortauthorwidth=\skip121
-\shorteditorwidth=\skip122
-\locallabelnumberwidth=\skip123
-\locallabelalphawidth=\skip124
-\localshorthandwidth=\skip125
-\localshortjournalwidth=\skip126
-\localshortserieswidth=\skip127
-\localshorttitlewidth=\skip128
-\localshortauthorwidth=\skip129
-\localshorteditorwidth=\skip130
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count371
-\c@textcitetotal=\count372
-\c@textcitemaxnames=\count373
-\c@biburlnumpenalty=\count374
-\c@biburlucpenalty=\count375
-\c@biburllcpenalty=\count376
-\c@smartand=\count377
-)
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-apa/apa.bbx
-File: apa.bbx 2018/04/02 v7.7 APA biblatex references style
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count378
-\c@bbx:relatedtotal=\count379
-))
-Package biblatex Info: Trying to load citation style 'apa'...
-Package biblatex Info: ... file 'apa.cbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-apa/apa.cbx
-File: apa.cbx 2018/04/02 v7.7 APA biblatex citation style
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'textcite' already 
-defined, overwriting.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
-, overwriting.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\citeyear'.
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\citeauthor'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
-Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
-Package biblatex Info: ... file 'english-apa.lbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-apa/english-apa.lbx
-File: english-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex-apa/american-apa.lbx
-File: american-apa.lbx 2018/04/02 v7.7 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/american.lbx
-File: american.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
-))))
-
-Package biblatex Warning: Patching footnotes failed.
-(biblatex)                Footnote detection will not work.
-
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count380
-\@quotereset=\count381
 (./main.aux
 
 LaTeX Warning: Label `fig:figure3' multiply defined.
@@ -935,44 +611,75 @@ LaTeX Warning: Label `tab:top10-icd-mixed' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 149.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count382
+\scratchcounter=\count180
 \scratchdimen=\dimen179
-\scratchbox=\box77
-\nofMPsegments=\count383
-\nofMParguments=\count384
+\scratchbox=\box76
+\nofMPsegments=\count181
+\nofMParguments=\count182
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count385
+\MPscratchCnt=\count183
 \MPscratchDim=\dimen180
-\MPnumerator=\count386
-\makeMPintoPDFobject=\count387
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
 \everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
@@ -992,544 +699,188 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count388
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `main.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
-
-(./main.bbl
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Choi2017':
-(biblatex)                - Can't use 'date' + 'year'.
-
-
-Package biblatex Warning: Biber reported the following issues
-(biblatex)                with 'Goodfellow2014':
-(biblatex)                - Can't use 'date' + 'year'.
-
-)
-Package biblatex Info: Reference section=0 on input line 165.
-Package biblatex Info: Reference segment=0 on input line 165.
+\c@lstlisting=\count186
 <img/BHT-Logo-Basis.pdf, id=1, 303.39667pt x 99.95987pt>
 File: img/BHT-Logo-Basis.pdf Graphic file (type pdf)
 <use img/BHT-Logo-Basis.pdf>
-Package pdftex.def Info: img/BHT-Logo-Basis.pdf  used on input line 175.
+Package pdftex.def Info: img/BHT-Logo-Basis.pdf  used on input line 159.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 [][]
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 175.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 159.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 175.
-LaTeX Font Info:    Try loading font information for U+msa on input line 175.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 159.
+LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 175.
+LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 175.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 159.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for U+trsy on input line 175.
+LaTeX Font Info:    Try loading font information for U+trsy on input line 159.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/trsym/utrsy.fd
 File: utrsy.fd 2000/06/25v1.0transformation symbol font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 [1
-
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/B
 HT-Logo-Basis.pdf>] [1
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 180.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 164.
  [2
 
 ] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 194.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 173.
  (./main.toc [3
 
 
 
 ])
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
- [4] (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
-
- [5
-
-]
-[6
-
-] (./main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
- [7]
-
-! LaTeX Error: Environment abbreviations undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.205 \begin{abbreviations}
-                           {ll} % Include a list of abbreviations (a table o...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Misplaced alignment tab character &.
-l.207 \textbf{GAN} &
-                     \textbf{G}enerative \textbf{A}dversarial \textbf{N}etwo...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.208 \textbf{medGAN} &
-                        \textbf{med}ical \textbf{G}enerative \textbf{A}dvers...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.209 \textbf{G} &
-                   \textbf{G}enerator}\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Extra }, or forgotten \endgroup.
-l.209 \textbf{G} & \textbf{G}enerator}
-                                      \\
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Misplaced alignment tab character &.
-l.210 \textbf{D} &
-                   \textbf{D}iscriminator\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.211 \textbf{CAD} &
-                     \textbf{C}oronary & \textbf{A}rtery & \textbf{D}isease\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.211 \textbf{CAD} & \textbf{C}oronary &
-                                         \textbf{A}rtery & \textbf{D}isease\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.211 ...} & \textbf{C}oronary & \textbf{A}rtery &
-                                                   \textbf{D}isease\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.212 \textbf{CVD} &
-                     \textbf{C}ardio\textbf{v}ascular & \textbf{D}isease\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.212 ...CVD} & \textbf{C}ardio\textbf{v}ascular &
-                                                   \textbf{D}isease\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.213 \textbf{DM} &
-                    \textbf{D}iabetes & \textbf{M}ellitus
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-l.213 \textbf{DM} & \textbf{D}iabetes &
-                                        \textbf{M}ellitus
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-! LaTeX Error: \begin{document} ended by \end{abbreviations}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.214 \end{abbreviations}
-                         
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-
-] [2
+ [4] [4
 
 ]
 Chapter 1.
-
-LaTeX Warning: Citation 'jiang2017artificial' on page 3 undefined on input line
- 228.
+[1
 
 
-LaTeX Warning: Citation 'neill2013using' on page 3 undefined on input line 228.
-
-
-
-LaTeX Warning: Citation 'ubeyli2007implementing' on page 3 undefined on input l
-ine 228.
-
-
-LaTeX Warning: Citation 'bremond2015contribution' on page 3 undefined on input 
-line 228.
-
+]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 230.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 200.
 
-LaTeX Warning: Citation 'Goodfellow2014' on page 3 undefined on input line 231.
-
-
-
-LaTeX Warning: Citation 'frid2018gan' on page 3 undefined on input line 231.
-
-! Undefined control sequence.
-l.231 ...s, both networks train each other. \citep
-                                                  {Goodfellow2014} Its funct...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 234.
-
-! Undefined control sequence.
-l.234 ...contrast to the model presented in \citep
-                                                  {Choi2017}, we additionall...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 3 undefined on input line 238.
-
-[3]
-
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 241.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 242.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--248
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 259.
-
-LaTeX Warning: Citation 'johnson2016mimic' on page 4 undefined on input line 28
-1.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 4 undefined on input line 282.
-
-[4]
-
-LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 284.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 5 undefined on input line 290.
-
-[5] [6
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 219.
+[2] [3] [4
 
 ]
 Chapter 2.
 
-LaTeX Warning: Citation 'goodfellow2014generative' on page 7 undefined on input
- line 299.
-
-
-LaTeX Warning: Citation 'Goodfellow2014' on page 7 undefined on input line 300.
-
-
-
-LaTeX Warning: Citation 'Goodfellow2014' on page 7 undefined on input line 303.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--305
+Underfull \hbox (badness 10000) in paragraph at lines 259--265
 
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 299--305
-\T1/ptm/m/n/10.95 The two-player min-i-max game, as shown in [], can be de-scri
-bed by the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--305
+Underfull \hbox (badness 10000) in paragraph at lines 259--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--309
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
-
-LaTeX Warning: Citation 'goodfellow2014generative' on page 7 undefined on input
- line 311.
-
-
-LaTeX Warning: Citation 'HIMMS' on page 7 undefined on input line 318.
-
-
-LaTeX Warning: Citation 'ONC' on page 7 undefined on input line 320.
-
-
-LaTeX Warning: Citation 'ONC' on page 7 undefined on input line 321.
-
-
-LaTeX Warning: Citation 'johnson2016mimic' on page 7 undefined on input line 32
-1.
-
-[7]
-
-LaTeX Warning: Citation 'baggio2013gender' on page 8 undefined on input line 32
-5.
-
-
-LaTeX Warning: Citation 'baggio2013gender' on page 8 undefined on input line 32
-6.
-
-
-LaTeX Warning: Citation 'kautzky2010sex' on page 8 undefined on input line 327.
-
-
-
-LaTeX Warning: Citation 'kautzky2010sex' on page 8 undefined on input line 327.
-
-
-
-LaTeX Warning: Citation 'arain2009sex' on page 8 undefined on input line 330.
-
-
-Underfull \hbox (badness 2478) in paragraph at lines 325--332
+[5]
+Underfull \hbox (badness 2478) in paragraph at lines 285--292
 \T1/ptm/m/n/10.95 Medical re-search is dom-i-nated by the male gen-der, mean-in
 g that women are heav-ily
  []
 
-
-LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 336.
-
-
-LaTeX Warning: Citation 'Orphanet' on page 8 undefined on input line 337.
-
-[8]
-
-LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 343.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 345.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 345.
-
-! Undefined control sequence.
-l.345 ..., 2010; Lombardo and Moniz, 2008)" \citep
-                                                  {Choi2017}, also does not ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 9 undefined on input line 346.
-
-[9] [10
+[6] [7] [8
 
 ]
 Chapter 3.
-<img/mimicIII-schema.png, id=106, 878.28125pt x 627.34375pt>
+<img/mimicIII-schema.png, id=93, 878.28125pt x 627.34375pt>
 File: img/mimicIII-schema.png Graphic file (type png)
 <use img/mimicIII-schema.png>
-Package pdftex.def Info: img/mimicIII-schema.png  used on input line 362.
+Package pdftex.def Info: img/mimicIII-schema.png  used on input line 322.
 (pdftex.def)             Requested size: 426.79134pt x 304.85484pt.
 
-LaTeX Warning: Citation 'NAT' on page 11 undefined on input line 363.
-
-
-LaTeX Warning: Citation 'NAT' on page 11 undefined on input line 363.
-
-
-LaTeX Warning: Citation 'johnson2016mimic' on page 11 undefined on input line 3
-68.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 ICD
  []
 
 
-Overfull \hbox (3.03073pt too wide) in paragraph at lines 388--388
+Overfull \hbox (3.03073pt too wide) in paragraph at lines 348--348
 \T1/ptm/m/n/10.95 Code| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 388--388
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 401.9| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 414.01| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 388--388
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 428.0| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 427.31| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 388--388
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 584.9| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 250.00| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 388--388
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 272.4| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 518.81| 
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 388--388
+Overfull \hbox (4.55292pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 599.0| 
  []
 
 
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.02791pt too wide) in paragraph at lines 348--348
 []|\T1/ptm/m/n/10.95 530.81| 
  []
 
-<img/correlation-heatmap.png, id=108, 1370.11874pt x 429.605pt>
+<img/correlation-heatmap.png, id=95, 1370.11874pt x 429.605pt>
 File: img/correlation-heatmap.png Graphic file (type png)
 <use img/correlation-heatmap.png>
-Package pdftex.def Info: img/correlation-heatmap.png  used on input line 397.
+Package pdftex.def Info: img/correlation-heatmap.png  used on input line 357.
 (pdftex.def)             Requested size: 426.79134pt x 133.81857pt.
-
-LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
-e 398.
-
-
-LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
-e 398.
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1537,7 +888,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.405 \\
+l.365 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1550,7 +901,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406 N
+l.366 N
        ext, we have a look at the correlation heatmap (\textbf{Figure 3.2}) ...
 
 Your command was ignored.
@@ -1558,100 +909,38 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation 'arya2019exploratory' on page 11 undefined on input lin
-e 406.
-
-
-Underfull \hbox (badness 2726) in paragraph at lines 406--408
-[]\T1/ptm/m/n/10.95 Next, we have a look at the cor-re-la-tion heatmap (\T1/ptm
-/b/n/10.95 Figure 3.2\T1/ptm/m/n/10.95 ) that is in-tro-duced in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--408
+Underfull \hbox (badness 10000) in paragraph at lines 366--368
 
  []
 
-[11] [12 <./img/mimicIII-schema.png>] [13 <./img/correlation-heatmap.png>]
-[14
+[9] [10 <./img/mimicIII-schema.png>] [11 <./img/correlation-heatmap.png>]
+[12
 
 ]
 Chapter 4.
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 439.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 440.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 454.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 460.
-
-<img/ganVSmedgan.png, id=123, 764.8575pt x 346.29375pt>
+<img/ganVSmedgan.png, id=111, 764.8575pt x 346.29375pt>
 File: img/ganVSmedgan.png Graphic file (type png)
 <use img/ganVSmedgan.png>
-Package pdftex.def Info: img/ganVSmedgan.png  used on input line 463.
+Package pdftex.def Info: img/ganVSmedgan.png  used on input line 423.
 (pdftex.def)             Requested size: 426.79134pt x 193.23096pt.
 
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 464.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 15 undefined on input line 464.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 15 undefined on input line 464.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--468
+Underfull \hbox (badness 10000) in paragraph at lines 414--428
 
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 454--468
+Underfull \hbox (badness 1048) in paragraph at lines 414--428
 \T1/ptm/m/n/10.95 An au-toen-coder con-sists of of two el-e-ments: The En-coder
  (\T1/ptm/m/it/10.95 Enc\T1/ptm/m/n/10.95 ) which com-presses the
  []
 
-[15]
-
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 470.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 471.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 16 undefined on input line 472.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 475.
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 478.
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 475--479
-\T1/ptm/m/n/10.95 Recently, [] pro-posed two al-tered ver-sions of medGAN that 
-out-per-form their
- []
-
-
-LaTeX Warning: Citation 'Baowaly2018' on page 16 undefined on input line 480.
-
-
-Underfull \hbox (badness 2865) in paragraph at lines 480--481
+[13]
+Underfull \hbox (badness 2865) in paragraph at lines 440--441
 []\T1/ptm/b/n/10.95 medBGAN\T1/ptm/m/n/10.95 : This ver-sion sub-sti-tutes the 
 reg-u-lar GAN as well, but this time with a
  []
 
-[16 <./img/ganVSmedgan.png>]
-
-LaTeX Warning: Citation 'Choi2017' on page 17 undefined on input line 485.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 17 undefined on input line 486.
-
+[14 <./img/ganVSmedgan.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1659,7 +948,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.501 \\
+l.461 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1672,61 +961,49 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.502 \begin
+l.462 \begin
             {table}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[17]
-Underfull \hbox (badness 2591) in paragraph at lines 532--533
+[15]
+Underfull \hbox (badness 2591) in paragraph at lines 492--493
 \T1/ptm/m/n/10.95 We ex-tracted the ICD-9 codes for fe-male and male pa-tients 
 from the dataset's ta-ble
  []
 
 
-LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 547.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 18 undefined on input line 553.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 553--556
+Underfull \hbox (badness 10000) in paragraph at lines 513--516
 
  []
 
-[18] [19] [20
+[16] [17] [18
 
 ]
 Chapter 5.
 
-LaTeX Warning: Citation 'Choi2017' on page 21 undefined on input line 570.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 570--574
+Underfull \hbox (badness 10000) in paragraph at lines 530--534
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--581
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 587--589
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 
  []
-
-
-LaTeX Warning: Citation 'Choi2017' on page 21 undefined on input line 590.
 
 ! Double subscript.
-l.590 ...ression classifiers to predict $\gamma_R_
+l.550 ...ression classifiers to predict $\gamma_R_
                                                   k$ and $\gamma_S_k$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
 ! Double subscript.
-l.590 ...rs to predict $\gamma_R_k$ and $\gamma_S_
+l.550 ...rs to predict $\gamma_R_k$ and $\gamma_S_
                                                   k$
 I treat `x_1_2' essentially like `x_1{}_2'.
 
@@ -1738,71 +1015,80 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.597 ...thesis with a low P-value (typically 􏰆
+l.557 ...thesis with a low P-value (typically 􏰆
                                                    0.05). More details of th...
 
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--599
+Underfull \hbox (badness 1048) in paragraph at lines 550--559
+[]\T1/ptm/b/n/10.95 Dimension-wise pre-dic-tion\T1/ptm/m/n/10.95 : As stated in
+ (Choi et al., 2018), to in-di-rectly mea-sure the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--559
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--599
+Underfull \hbox (badness 10000) in paragraph at lines 550--559
 
  []
 
 
-Underfull \hbox (badness 1297) in paragraph at lines 590--599
+Underfull \hbox (badness 1297) in paragraph at lines 550--559
 \T1/ptm/b/n/10.95 Dimension-wise K^^US test\T1/ptm/m/n/10.95 : With the Kolmogo
 rov-Smirnov test, We per-formed the K^^US
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 590--599
+Underfull \hbox (badness 10000) in paragraph at lines 550--559
 
  []
 
-[21]
-<img/plots/binary_3digit_mixed.pdf, id=149, 433.62pt x 289.08pt>
+[19]
+<img/plots/binary_3digit_mixed.pdf, id=137, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_mixed.pdf  used on input line 
-602.
+562.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_female.pdf, id=150, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_female.pdf, id=138, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_3digit_female.pdf  used on input line
- 603.
+ 563.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_3digit_male.pdf, id=151, 433.62pt x 289.08pt>
+<img/plots/binary_3digit_male.pdf, id=139, 433.62pt x 289.08pt>
 File: img/plots/binary_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_3digit_male.pdf>
-Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 6
-04.
+Package pdftex.def Info: img/plots/binary_3digit_male.pdf  used on input line 5
+64.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_mixed.pdf, id=152, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_mixed.pdf, id=140, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_mixed.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_mixed.pdf  used on input line 
-606.
+566.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_female.pdf, id=153, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_female.pdf, id=141, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_female.pdf>
 Package pdftex.def Info: img/plots/binary_5digit_female.pdf  used on input line
- 607.
+ 567.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/binary_5digit_male.pdf, id=154, 433.62pt x 289.08pt>
+<img/plots/binary_5digit_male.pdf, id=142, 433.62pt x 289.08pt>
 File: img/plots/binary_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/binary_5digit_male.pdf>
-Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 6
-08.
+Package pdftex.def Info: img/plots/binary_5digit_male.pdf  used on input line 5
+68.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
- [22 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pd
+
+Underfull \vbox (badness 8170) has occurred while \output is active []
+
+ [20 <./img/plots/binary_3digit_mixed.pdf> <./img/plots/binary_3digit_female.pd
 f
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/binary_3digit_fe
@@ -1836,7 +1122,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.628 \\
+l.588 \\
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1849,65 +1135,65 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.629 \begin
+l.589 \begin
             {figure}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/plots/count_3digit_mixed.pdf, id=203, 433.62pt x 289.08pt>
+<img/plots/count_3digit_mixed.pdf, id=190, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 6
-31.
+Package pdftex.def Info: img/plots/count_3digit_mixed.pdf  used on input line 5
+91.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_female.pdf, id=204, 433.62pt x 289.08pt>
+<img/plots/count_3digit_female.pdf, id=191, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_female.pdf>
 Package pdftex.def Info: img/plots/count_3digit_female.pdf  used on input line 
-632.
+592.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_3digit_male.pdf, id=205, 433.62pt x 289.08pt>
+<img/plots/count_3digit_male.pdf, id=192, 433.62pt x 289.08pt>
 File: img/plots/count_3digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_3digit_male.pdf>
-Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 63
+Package pdftex.def Info: img/plots/count_3digit_male.pdf  used on input line 59
 3.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_mixed.pdf, id=206, 433.62pt x 289.08pt>
+<img/plots/count_5digit_mixed.pdf, id=193, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_mixed.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_mixed.pdf>
-Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 6
-35.
+Package pdftex.def Info: img/plots/count_5digit_mixed.pdf  used on input line 5
+95.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_female.pdf, id=207, 433.62pt x 289.08pt>
+<img/plots/count_5digit_female.pdf, id=194, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_female.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_female.pdf>
 Package pdftex.def Info: img/plots/count_5digit_female.pdf  used on input line 
-636.
+596.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
-<img/plots/count_5digit_male.pdf, id=208, 433.62pt x 289.08pt>
+<img/plots/count_5digit_male.pdf, id=195, 433.62pt x 289.08pt>
 File: img/plots/count_5digit_male.pdf Graphic file (type pdf)
 <use img/plots/count_5digit_male.pdf>
-Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 63
+Package pdftex.def Info: img/plots/count_5digit_male.pdf  used on input line 59
 7.
 (pdftex.def)             Requested size: 128.0387pt x 85.35725pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 649--671
+Underfull \hbox (badness 10000) in paragraph at lines 609--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 649--671
+Underfull \hbox (badness 10000) in paragraph at lines 609--631
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 685--685
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []|\T1/ptm/m/n/10.95 042 Hu-man im-mun-od-e-fi-ciency virus
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 685--685
+Underfull \hbox (badness 2635) in paragraph at lines 645--645
 []|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with
  []
 
@@ -1918,23 +1204,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.689 A
+l.649 A
        fter comparing the list of diagnoses of MIMIC-III with the list of Or...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.689 ...uccessfully generates samples with \texti
-                                                  {Infectious mononucleosis}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[23 <./img/plots/count_3digit_mixed.pdf> <./img/plots/count_3digit_female.pdf
+[21 <./img/plots/count_3digit_mixed.pdf> <./img/plots/count_3digit_female.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_3digit_fem
 ale.pdf): PDF inclusion: multiple pdfs with page group included in a single pag
@@ -1957,26 +1234,14 @@ e
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./img/plots/count_5digit_mal
 e.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Citation 'Choi2017' on page 24 undefined on input line 756.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 24 undefined on input line 756.
-
-[24] [25]
-
-LaTeX Warning: Citation 'juutilainen2004gender' on page 26 undefined on input l
-ine 762.
-
-
-LaTeX Warning: Citation 'Choi2017' on page 26 undefined on input line 779.
-
-[26] [27] [28
+>] [22] [23] [24] [25] [26
 
 ]
 Chapter 6.
-[29] [30]
+[27] (./main.bbl [28
+
+
+]) [29] [30]
 Appendix A.
 [31
 
@@ -1990,33 +1255,22 @@ Appendix B.
 Appendix C.
 [35]
 
-Package caption Warning: Unused \captionsetup[algorithm] on input line 44.
+Package caption Warning: Unused \captionsetup[algorithm] on input line 42.
 See the caption package documentation for explanation.
 
 (./main.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17111 strings out of 492616
- 286775 string characters out of 6129480
- 831820 words of memory out of 5000000
- 20662 multiletter control sequences out of 15000+600000
+ 9866 strings out of 492616
+ 144896 string characters out of 6129480
+ 441830 words of memory out of 5000000
+ 13505 multiletter control sequences out of 15000+600000
  58811 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 52i,12n,56p,1313b,3863s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,1282b,420s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -2032,10 +1286,10 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (44 pages, 8202656 bytes).
+Output written on main.pdf (42 pages, 8203454 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 223 compressed objects within 3 object streams
+ 335 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
