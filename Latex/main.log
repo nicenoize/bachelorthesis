@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  3 FEB 2020 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.24)  3 FEB 2020 13:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -830,62 +830,17 @@ Package pdftex.def Info: img/mimicIII-schema.png  used on input line 332.
 (pdftex.def)             Requested size: 426.79134pt x 304.85484pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 ICD
+[]|\T1/ptm/m/n/10.95 414.01 Coro-nary
  []
 
 
-Overfull \hbox (3.03073pt too wide) in paragraph at lines 358--358
-\T1/ptm/m/n/10.95 Code| 
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\T1/ptm/m/n/10.95 272.4 Un-spec-i-fied
  []
 
 
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 401.9| 
- []
-
-
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 414.01| 
- []
-
-
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 428.0| 
- []
-
-
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 427.31| 
- []
-
-
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 584.9| 
- []
-
-
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 250.00| 
- []
-
-
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 272.4| 
- []
-
-
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 518.81| 
- []
-
-
-Overfull \hbox (4.55292pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 599.0| 
- []
-
-
-Overfull \hbox (10.02791pt too wide) in paragraph at lines 358--358
-[]|\T1/ptm/m/n/10.95 530.81| 
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]|\T1/ptm/m/n/10.95 518.81 Acute res-pi-ra-tory
  []
 
 <img/correlation-heatmap.png, id=95, 1370.11874pt x 429.605pt>
@@ -1154,13 +1109,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 611--633
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--647
+Underfull \hbox (badness 2495) in paragraph at lines 647--647
 []|\T1/ptm/m/n/10.95 042 Hu-man im-mun-od-e-fi-ciency virus
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 647--647
-[]|\T1/ptm/m/n/10.95 8832 Open wound of fin-ger(s), with
+Underfull \hbox (badness 2600) in paragraph at lines 647--647
+[]|\T1/ptm/m/n/10.95 193 Ma-lig-nant neo-plasm of thy-roid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--647
+[]|\T1/ptm/m/n/10.95 515 Postin-flam-ma-tory pul-monary
  []
 
 
@@ -1267,7 +1227,7 @@ exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (34 pages, 8201070 bytes).
+Output written on main.pdf (34 pages, 8202462 bytes).
 PDF statistics:
  307 PDF objects out of 1000 (max. 8388607)
  199 compressed objects within 2 object streams

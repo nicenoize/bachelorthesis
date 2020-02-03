@@ -342,19 +342,19 @@ Before conducting our research, we performed an exploratory data analysis on the
 
 
 \begin{table}
-\begin{tabularx}{\textwidth}{X|l|r|r|r}
-ICD Code & Diagnosis & Frequency & Patients affected & \% of associated patients \\
+\begin{tabularx}{\textwidth}{X|l|r|r}
+\textbf{ICD Code } & \textbf{Frequency} & \textbf{Patients affected} & \textbf{\% of associated patients} \\
 \hline
-401.9 & Essential hypertension & 20703 & 17613 & 37.86\\
-414.01 &  Coronary atherosclerosis & 15229 & 13480 & 28.98 \\
-428.0 & Congestive heart failure &   13111 & 9843 &21.16\\
-427.31 & Atrial fibrillation&    12891 & 10271 &  22.08\\
-584.9 &  Acute kidney failure &  9119 & 7687& 16.52\\
-250.00 & Diabetes mellitus &  9058 & 7370 & 15.82\\
-272.4 & Unspecified hyperlipidemia & 8690 & 7465 & 16.05 \\
-518.81 &  Acute respiratory failure & 7497 & 6719 & 14.04 \\
-599.0 &   Urinary tract infection &  6555 & 5779 & 12.42 \\
-530.81 & Esophageal reflux &  6326 & 5272 & 11.33\\
+401.9 Essential hypertension & 20703 & 17613 & 37.86\\
+414.01 Coronary atherosclerosis & 15229 & 13480 & 28.98 \\
+428.0 Congestive heart failure &   13111 & 9843 &21.16\\
+427.31 Atrial fibrillation&    12891 & 10271 &  22.08\\
+584.9 Acute kidney failure &  9119 & 7687& 16.52\\
+250.00 Diabetes mellitus &  9058 & 7370 & 15.82\\
+272.4 Unspecified hyperlipidemia & 8690 & 7465 & 16.05 \\
+518.81 Acute respiratory failure & 7497 & 6719 & 14.04 \\
+599.0 Urinary tract infection &  6555 & 5779 & 12.42 \\
+530.81 Esophageal reflux &  6326 & 5272 & 11.33\\
 \end{tabularx}
 \caption{\label{tab:top10-codes-dataset}Top 10 of most occurring ICD-9 codes in the dataset}
 \end{table}
@@ -383,7 +383,7 @@ For coronary artery disease, 3660 female and 9820 male patients are affected.
 \begin{table}
 \begin{center}
 \begin{tabularx}{\textwidth}{X|r|r|r|r}
-Gender & diabetes & no diabetes & Total & Percentage\\
+\textbf{Gender} & \textbf{Affected by DM} & \textbf{Not affected by DM} & \textbf{Total} & \textbf{Percentage}\\
 \hline
 Female & 1518 & 2142 & 3660 & 41.48\%/58.42\%\\
 Male 	& 2705 & 7115 & 9820 & 27.55\%/72.45\%\\
@@ -460,7 +460,7 @@ The machine is equipped with a Tesla T4 GPU from NVIDIA.
 \begin{table}
 \begin{center}
 \begin{tabularx}{\textwidth}{X|r|r|r}
-Input Variable & Female & Male & Mixed \\
+\textbf{Input Variable} & \textbf{Female} & \textbf{Male} & \textbf{Mixed} \\
 \hline
 binary & 22min 53s & 26min 49s & 43min 29s\\
 count & 22min 21s & 28min 8s & 43min 12s\\
@@ -473,7 +473,7 @@ count & 22min 21s & 28min 8s & 43min 12s\\
 \begin{table}
 \begin{center}
 \begin{tabularx}{\textwidth}{X|r|r|r}
-Input Variable & Female & Male & Mixed \\
+\textbf{Input Variable} & \textbf{Female} & \textbf{Male} & \textbf{Mixed} \\
 \hline
 binary & 39min 42s & 48min 12s & 1h 26min 23s\\
 count & 39min 53s & 48min 1s & 1h 27min 43s\\
@@ -503,7 +503,7 @@ We extracted the ICD-9 codes for female and male patients from the dataset's tab
 
 \begin{table}
 \begin{tabularx}{\textwidth}{X|l|r|r}
-Code length & female & male & mixed\\
+\textbf{Code length} & \textbf{Female} & \textbf{Male} & \textbf{Mixed}\\
 \hline
 3 digits  & 987 & 966 & 1071\\
 5 digits & 5650 & 5853 & 6985\\
@@ -615,7 +615,7 @@ For this case, the qualitative evaluation is of higher importance, since we have
 \begin{table}
 \begin{center}
 \begin{tabularx}{\textwidth}{X|r}
-ICD-9 Code & No. of diagnoses\\
+\textbf{ICD-9 Code} & \textbf{No. of diagnoses}\\
 \hline
 042 Human immunodeficiency virus [HIV] disease & 538\\
 075 Infectious mononucleosis & 11\\
@@ -633,7 +633,7 @@ ICD-9 Code & No. of diagnoses\\
 
 \begin{table}
 \begin{tabularx}{\textwidth}{X|r|r}
-ICD-9 Code & No. of diagnoses binary & No. of diagnoses count\\
+\textbf{ICD-9 Code} & \textbf{No. of diagnoses binary} & \textbf{No. of diagnoses count}\\
 \hline
 042 Human immunodeficiency virus [HIV] disease	& 373 & 265\\
 075 Infectious mononucleosis & 0 & 0\\
@@ -729,7 +729,7 @@ In our generated data 728 female patients, 907 male patients and 569 mixed patie
 
 \begin{table}
 \begin{tabularx}{\textwidth}{X|r|r|r|r}
-Gender & Affected by DM & Not affected by DM & Total & Percentage\\
+\textbf{Gender} & \textbf{Affected by DM} & \textbf{Not affected by DM} & \textbf{Total} & \textbf{Percentage}\\
 \hline
 Male 	& 2508 & 4973 & 7481 & 33.52/66.48\\
 Female & 1143 & 1868 & 3011 & 37.96/62.04\\
