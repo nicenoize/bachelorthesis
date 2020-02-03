@@ -3,7 +3,7 @@
 \bibitem[\protect\astroncite{Arain et~al.}{2009}]{arain2009sex}
 Arain, F.~A., Kuniyoshi, F.~H., Abdalrhim, A.~D., and Miller, V.~M. (2009).
 \newblock Sex/gender medicine.
-\newblock {\em Circulation Journal}, pages 0908260469--0908260469.
+\newblock {\em Circulation Journal}.
 
 \bibitem[\protect\astroncite{Arya}{2019}]{arya2019exploratory}
 Arya, A. (2019).
@@ -82,5 +82,11 @@ Neill, D.~B. (2013).
 \newblock Implementing automated diagnostic systems for breast cancer
   detection.
 \newblock {\em Expert systems with Applications}, 33(4):1054--1062.
+
+\bibitem[\protect\astroncite{Wang et~al.}{2019}]{wang}
+Wang, Z., Ive, J., Velupillai, S., and Specia, L. (2019).
+\newblock Is artificial data useful for biomedical natural language processing
+  algorithms?
+\newblock pages 240--249.
 
 \end{thebibliography}

@@ -7,8 +7,9 @@
 \contentsline {table}{\numberline {3.1}{\ignorespaces Top 10 of most occurring ICD-9 codes in the dataset\relax }}{8}% 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Patients that have CAD and diabetes and patients, that have CAD and no diabetes\relax }}{9}% 
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Training durations with 3 digit codes\relax }}{13}% 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Training durations with 5 digit codes\relax }}{13}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Training durations with 3 digit codes\relax }}{12}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces Training durations with 5 digit codes\relax }}{12}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Vector sizes for output data\relax }}{13}% 
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces rare disease diagnoses in MIMIC-III\relax }}{17}% 
 \contentsline {table}{\numberline {5.2}{\ignorespaces successfully generated samples with rare diseases\relax }}{17}% 
